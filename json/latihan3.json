@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Daerah atau ruang di sekitar muatan listrik yang masih dipengaruhi oleh gaya listrik dari muatan tersebut disebut ...",
+        "a": "a. Medan listrik",
+        "b": "b. Kuat arus listrik",
+        "c": "c. Energi listrik",
+        "d": "d. Beda potensial listrik",
+        "benar": "a"
+    }
+},{
+    "soal1": {
+        "soal":"Sebuah bola bermuatan listrik 10 C, kuat medan listrik pada jarak 3 meter dari pusat bola adalah ....",
+        "a": "a. \\(1 \\times 10^9\\) N/C",
+        "b": "b. \\(1 \\times 10^{10}\\) N/C",
+        "c": "c. \\(9 \\times 10^9\\) N/C",
+        "d": "d. \\(9 \\times 10^{10}\\) N/C",
+        "benar": "b"        
+    }        
+},{
+    "soal2": {
+        "soal": "Suatu daerah dekat M muatan 60 C mengalami gaya tarikan sebesar 240 N, maka besar medan listrik di daerah tersebut adalah ...",
+        "a": "a. 3 N/C",
+        "b": "b. 4 N/C",
+        "c": "c. 5 N/C",
+        "d": "d. 6 N/C",
+        "benar": "b"
+    }
+},{
+    "soal3": {
+        "soal": "Gaya coulomb yang dialami oleh muatan A dan B adalah \\(7 \\times 10^{-4}\\) N. Jika besar muatan B adalah \\(2 \\times 10^{-6}\\) C, maka besar kuat medan listrik yang dirasakan oleh muatan B adalah ....",
+        "a": "a. 0,35 N/C",
+        "b": "b. 3,5 N/C",
+        "c": "c. 35 N/C",
+        "d": "d. 350 N/C",
+        "benar": "d"
+    }
+},{
+    "soal4": {
+        "soal": "Gaya Coulomb yang dialami kedua muatan A dan B adalah sebesar \\(3 \\times 10^{–4}\\) N. Jika besar muatan A dan B masing-masing sebesar \\(2 \\times 10^{–6}\\) C dan \\(1,5 \\times 10^{–6}\\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B ....",
+        "a": "a. 150 N/C",
+        "b": "b. 15 N/C",
+        "c": "c. 1,50 N/C",
+        "d": "d. 155 N/C",
+        "benar": "a"
+    }
+},{    
+    "soal5": {
+        "soal": "Suatu daerah di dekat Q muatan 15 C mengalami gaya tarik sebesar 300 N, maka besar medan listrik di daerah tersebut adalah ...",
+        "a": "a. 5 N/C",
+        "b": "b. 10 N/C",
+        "c": "c. 15 N/C",
+        "d": "d. 20 N/C",
+        "benar": "d"
+    }
+},{ 
+    "soal6": {
+        "soal": "Suatu titik dekat muatan 10<sup>-5</sup> C memiliki kuat medan listrik 600 N/C. Gaya coulomb yang ada pada titik tersebut adalah ...",
+        "a": "a. \\(6 \\times 10^{-3}\\) N",
+        "b": "b. \\(3 \\times 10^{-3}\\) N",
+        "c": "c. \\(5 \\times 10^{-3}\\) N",
+        "d": "d. \\(8 \\times 10^{-3}\\) N",
+        "benar": "a"
+    }
+},{ 
+    "soal7": {
+        "soal": "Perhatikan gambar di bawah ini! <br> <img src='../../img/medansoal8.png' style='width: 45%'><br> Berapakah kuat medan listrik di titik P yang memiliki jarak sebesar 3 cm dan muatan q yang bernilai \\(8 \\times 10^{-9}\\) C ....",
+        "a": "a. \\(36 \\times 10^4\\) N/C",
+        "b": "b. \\(24 \\times 10^4\\) N/C",
+        "c": "c. \\(12 \\times 10^4\\) N/C",
+        "d": "d. \\(8 \\times 10^4\\) N/C",
+        "benar": "d"
+    }
+},{ 
+    "soal8": {
+        "soal": "Jarak titik P dengan benda bermuatan \\(5 \\times 10^{-6}\\) C adalah 3 cm. Tentukan kuat medan listrik yang dialami titik P ...",
+        "a": "a. \\(5 \\times 10^7\\) N/C",
+        "b": "b. \\(7,5 \\times 10^7\\) N/C",
+        "c": "c. \\(15 \\times 10^7\\) N/C",
+        "d": "d. \\(22,5 \\times 10^7\\) N/C",
+        "benar": "a"
+    }
+},{
+    "soal9": {
+        "soal": "Titik A berada pada jarak 6 cm dari suatu muatan listrik. Jika muatan itu memberikan kuat medan listrik sebesar 10<sup>6</sup> N/C, berapa besar muatan listrik tersebut ...",
+        "a": "a. \\(2 \\times 10^{-7}\\) C",
+        "b": "b. \\(4 \\times 10^{-7}\\) C",
+        "c": "c. \\(20 \\times 10^{-7}\\) C",
+        "d": "d. \\(14 \\times 10^{-7}\\) C",
+        "benar": "b"
+    }
+}]

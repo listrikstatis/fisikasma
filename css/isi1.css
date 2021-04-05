@@ -1,0 +1,737 @@
+.masuk {
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+mjx-container {
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg_nav {
+    width: 99%;
+    background-color: #46B29E;
+}
+
+.bg_full {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+    color: white;
+}
+
+.bg_soal {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #46B29E;
+
+}
+
+.soal_nav {
+    width: 10%;
+    height: 20%;
+    padding: 2px;
+    text-align: center;
+    border: 2px solid rgb(9, 64, 82);
+    border-radius: 5px;
+    float: left;
+    margin-left: 8.5%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.soal_nav:hover {
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+.bg_soal span {
+    padding: 2px;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.belum {
+    background-color: white;
+}
+
+.sudah {
+    background-color: lightgreen;
+}
+
+.fontbesar {
+    font-size: 23px;
+}
+
+.fontsedang {
+    font-size: 20px;
+}
+
+.ket {
+    width: 100%;
+    margin-left: 8.5%;
+    margin-top: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.selesai {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    background-color: #46B29E;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 10px;
+    line-height: 30px;
+    margin-left: 10%;
+    border: 2px solid black;
+    color: white;
+}
+
+.selesai:hover {
+    background-color: rgb(40, 119, 143);
+}
+
+.hasil {
+    background-color: #46B29E;
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.skor {
+    font-size: 50px;
+    float: left;
+    border: 3px solid rgb(9, 64, 82);
+    padding: 15px 15px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.bnr_slh {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.bnr_slh span {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.hasil a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #46B29E;
+    border: 2px solid rgb(9, 64, 82);
+    padding: 2px 10px;
+    border-radius: 5px;
+}
+
+.hasil a:hover {
+    background-color: rgb(9, 64, 82);
+}
+
+.jrk {
+    margin-top: 12px;
+}
+
+
+.bg_pertanyaan {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.no {
+    background-color: #46B29E;
+    padding: 10px 0;
+    border-radius: 10px 10px 0 0;
+    border: 2px solid rgb(9, 64, 82);
+}
+
+.no p {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.inti_pertanyaan {
+    border-left: 2px solid rgb(9, 64, 82);
+    border-bottom: 2px solid rgb(9, 64, 82);
+    border-right: 2px solid rgb(9, 64, 82);
+    box-sizing: border-box;
+    padding: 10px 20px;
+}
+
+.pertanyaannya {
+    font-size: 18px;
+}
+
+.batas {
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(131, 176, 190);
+}
+
+/* radio button */
+
+.bg_pilihan,
+.checkbox {
+    position: relative;
+    margin: 20px 0;
+    display: block;
+    font-size: 16px;
+}
+
+.bg_pilihan :hover,
+.checkbox:hover {
+    cursor: pointer;
+}
+
+
+.checkbox {
+    display: block;
+}
+
+.bg_pilihan input,
+.checkbox input {
+    position: absolute;
+    margin: 5px;
+    padding: 0;
+    visibility: hidden;
+}
+
+.bg_pilihan .textnya,
+.checkbox .textnya {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+
+.nav_pilihan,
+.fake-checkbox {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(9, 64, 82);
+    
+}
+
+.nav_pilihan:after,
+.fake-checkbox:after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    background: #46B29E;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.nav_pilihan {
+    border-radius: 50%;
+}
+
+.nav_pilihan:after {
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked+span .nav_pilihan:after {
+    display: block;
+}
+
+span {
+    display: inline-block;
+}
+
+
+/* akhir button */
+
+
+.nav_sebelum {
+    background-color: #46B29E;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(9, 64, 82);
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+    color: white;
+}
+
+.nav_sebelum:hover {
+    background-color: rgb(9, 64, 82);
+}
+
+.nav_sebelum p {
+    font-size: 11px;
+}
+
+.nav_selanjut {
+    background-color: #46B29E;
+    width: 24%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(9, 64, 82);
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 3%;
+    color: white;
+}
+
+.nav_selanjut:hover {
+    background-color: rgb(9, 64, 82);
+}
+
+.nav_selanjut p {
+    font-size: 11px;
+}
+
+.hilang {
+    display: none;
+}
+
+.disable {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.disablee {
+    background-color: rgb(133, 133, 133) !important;
+    color: rgb(37, 37, 37);
+    cursor: default !important;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.tt_salah {
+    border: 2px solid red;
+}
+
+.petunjuk {
+    display: inline-block;
+    background-color: #46B29E;
+    width: 80%;
+    padding: 3px 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 3px;
+    border: 2px solid rgb(1, 59, 78);
+    /* height: 30px; */
+    color: white;
+}
+
+.petunjuk:hover {
+    cursor: pointer;
+}
+
+.isinya {
+    padding: 3px 10px;
+    border: 2px solid rgb(1, 59, 78);
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 3px;
+    margin-top: -11px;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin-right: 2px;
+}
+
+.tmbl:hover{
+    background-color: #0d7260;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+.data {
+    min-height: 670px;
+    height: 670x;
+    background-color: white;
+}
+
+.dataaa {
+    min-height: 670px;
+    height: 670px;
+    background-color: white;
+}
+
+.data_diri {
+    /* margin-top: 10px; */
+    margin-left: 0px;
+    font-size: 23px;
+    box-sizing: border-box;
+    border: 2px solid rgb(9, 64, 82);
+    padding-top: 10px 0px;
+    height: 670px !important;
+}
+
+label {
+    width: 300px;
+    display: inline-block;
+    margin-left: 5%;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.mundur {
+    display: block;
+    width: 280px;
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.aaa {
+    display: block;
+    width: 280px;
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.maju {
+    display: block;
+    width: 280px;
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+
+.tmbl {
+    display: inline-block;
+    width: auto;
+    font-family: Georgia,
+    'Times New Roman',
+    Times,
+    serif;
+    color: white;
+    padding: 5px 5px;
+    background-color: #46B29E;
+    border: 2px solid rgb(9, 64, 82);
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.lanjut {
+    width: 150px;
+    padding: 5px 5px;
+    background-color: #46B29E;
+    border: 2px solid rgb(9, 64, 82);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 27%;
+    font-size: 19px;
+}
+
+.lanjut:hover {
+    background-color: #19222a;
+    cursor: pointer;
+}
+
+.t_hasil {
+    text-align: center;
+    border: 4px solid #46B29E;
+    border-radius: 5px;
+    padding: 5px;
+    max-width: 312px;
+    width: 312px;
+    
+}
+
+td {
+    padding: 5px 0px;
+}
+
+.ket_hasil {
+    width: auto;
+    font-size: 15px;
+    padding: 5px !important;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.pad{
+    padding: 0 10px;
+    padding-top: 15px;
+}
+
+h3{
+    line-height: 2.5;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+@media (min-width : 992px) {
+    .tmbl {
+        display: inline-block;
+        width: auto;
+        font-family: Georgia,
+            'Times New Roman',
+            Times,
+            serif;
+        color: white;
+        padding: 5px 5px;
+        background-color: #46B29E;
+        border: 2px solid rgb(9, 64, 82);
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 19px;
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 10px 15px;
+        text-decoration: none;
+    }
+
+    .t_hasil {        
+        border: 5px solid #46B29E;
+        border-radius: 5px;
+        padding: 20px;
+        max-width: 530px;
+        width: 530px;
+    }
+
+    td {
+        padding: 10px 0px;
+    }
+
+    .ket_hasilnya{
+        padding-left: 5%;
+        float: left;
+    }
+
+    .ket_hasil {
+        width: auto;
+        font-size: 1.4vw !important;
+        float: left;
+    }
+
+    .skornya {
+        /* margin-top: 10px; */
+        margin-left: 0px;
+        font-size: 1.6vw;
+        box-sizing: border-box;
+        border: 2px solid rgb(9, 64, 82);
+        min-height: auto;
+        /* padding-bottom: 30px; */
+    }
+
+    ol {
+        margin-left: 30px;
+    }
+
+    .petunjuk {
+        width: 50%;
+        font-size: 1.6vw;
+    }
+
+    .isinya {
+        font-size: 1.6vw;
+        margin-right: 5px;
+    }
+
+    .data_diri {
+        margin-top: 10px;
+        margin-left: 0px;
+        font-size: 1.6vw;
+        box-sizing: border-box;
+        border: 2px solid rgb(9, 64, 82);
+        padding-top: 10px 0px;
+        height: 77vh !important;
+    }
+
+    label {
+        width: 500px;
+        display: list-item;
+        margin-left: 26%;
+        font-size: 1.6vw;
+        margin-top: 10px;
+
+    }
+
+    .mundur {
+        margin-left: 10px !important;
+        display: inline-block;
+    }
+
+    .maju {
+        display: inline-block;
+        width: 300px;
+        padding: 5px 5px;
+    }
+
+    .aaa {
+        width: 300px;
+        margin-left: 32px !important;
+    }
+
+    #nama,
+    #sekolah {
+        width: 300px;
+        font-size: 1.6vw;
+        margin-left: 30px;
+        padding: 0px 10px;
+    }
+    #kelas {
+        width: 300px;
+        font-size: 1.6vw;
+        margin-left: 30px;
+        padding: 0px 10px;
+    }
+
+    .lanjut {
+        display: inline-block;
+        width: 200px;
+        padding: 5px 5px;
+        background-color: #46B29E;
+        color: white;
+        border-radius: 5px;
+        border: 2px solid rgb(9, 64, 82);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-left: 40%;
+        font-size: 1.6vw !important;
+    }
+
+    .lanjut:hover {
+        background-color: #19222a;
+        cursor: pointer;
+    }
+
+
+    .masuk {
+        font-size: 1.6vw;
+    }
+
+    .soal_nav {
+        width: 14%;
+        height: 18%;
+        margin-left: 8.5%;
+    }
+
+    .hasil {
+        padding: 10px;
+        margin-top: 8px;
+    }
+
+    .skor {
+        font-size: 1.8vw;
+        padding: 15px 15px;
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .bnr_slh {
+        font-size: 1.4vw;
+        margin-top: 2px;
+    }
+
+
+    .jrk {
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .pertanyaannya {
+        font-size: 1.6vw;
+    }
+
+    .no p {
+        margin-left: 1.6vw !important;
+    }
+
+    .nav_sebelum {
+        width: 26%;
+    }
+
+    .nav_sebelum p {
+        font-size: 1.6vw;
+    }
+
+    .nav_selanjut {
+        width: 26%;
+        /* float: right; */
+    }
+
+    .nav_selanjut p {
+        font-size: 1.6vw;
+    }
+    
+    .bg_pilihan,
+    .checkbox {
+        font-size: 1.6vw;
+        width: auto;
+    }
+
+    .dataaa {
+        min-height: auto;
+        background-color: white;
+        height: auto;
+    }
+
+    .data {
+        min-height: auto;
+        height: auto;
+        background-color: white;
+    }
+
+    .bg_soal span {
+        padding: 2px;
+        display: inline-block;
+        width: 60px;
+        margin-bottom: 5px;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .fontsedang {
+        font-size: 1.3vw;
+    }
+}

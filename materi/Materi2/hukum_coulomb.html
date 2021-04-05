@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coulomb</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimg" src="../../img/coulomb.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/coulomb.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn">1. Muatan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi1/muatan_listrik.html#muatanlistrik">1.1 Materi</a>     
+     <a href="../Materi1/latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="hukum_coulomb.html#hukumcoulomb" class="active">2.1 Materi</a>
+     <a href="latihan2.html#hukumcoulomb">2.2 Kuis 2</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi3()">3.1 Materi</a>
+     <a onclick="kuis3()">3.2 Kuis 3</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi4()">4.2 Materi</a>
+     <a onclick="kuis4()">4.2 Kuis 4</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
+     <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
+     <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
+     <a onclick="kuis5()">5.4 Kuis 5</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+    <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi">
+  <h4 class="tampil" onclick="petunjukk()"><i class="far fa-check-square"></i>&nbsp; Tujuan (klik saya)</h4> 
+    <div class="dalam">
+        <p>•&nbsp;&nbsp;Siswa dapat menjelaskan faktor yang mempengaruhi besar gaya coulomb dua muatan listrik.</p>
+    </div>
+<hr>
+  <!-- <h4><i class="fas fa-book-open"></i>&nbsp; Hukum Coulomb</h4>
+  <div class="garis">
+    <p class="prgraf">Ketika dua buah muatan sejenis didekatkan satu sama lain, terdapat sebuah gaya yang saling tolak-menolak. Sebaliknya, jika dua buah muatan yang berlainan jenis didekatkan, akan timbul gaya tarik-menarik menarik. Gaya tolak-menolak dan tarik-menarik ini disebut gaya elektrostatik (gaya listrik).</p>
+    <p class="prgraf">Hukum Coloumb adalah aturan yang mengemukakan tentang hubungan antara gaya listrik dan besar masing-masing muatan listrik. Nama Coulomb diambil dari nama ﬁsikawan yang pertama kali mengamati gaya tarik-menarik atau tolak-menolak benda bermuatan listrik, yaitu Charles Augustin de Coulomb (1736-1804). Dalam pengamatannya, ia melakukan percobaan menggunakan alat yang bernama neraca puntir.</p>
+  </div> -->
+
+  <h4><i class="fas fa-chalkboard-teacher"></i>&nbsp; Ayo Mengamati</h4>
+  <div class="garis">
+    <p class="prgraf">Masih ingatkah kamu bahwa muatan listrik dapat saling menarik atau saling menolak, lalu bagaimana hubungan antara jarak dua benda yang bermuatan listrik terhadap gaya tolak menolak atau gaya tarik menarik antar kedua benda?
+      Ilmuan prancis, Charles Augustin de Coulomb menyelidiki hubungan gaya tolak-menolak atau gaya tarik-menarik dua benda bermuatan listrik terhadap besar muatan listrik dan jaraknya menggunakan alat neraca puntir. 
+      Pada materi ini kamu tidak perlu melakukan penyelidikan tersebut dengan menggunakan neraca puntir, cukup perhatikan video 3 berikut.</p>
+    <br><br>
+    <video class="vidmat" id="videooo" controls><source src="../../video/percobaanke2.mp4" type="video/mp4"></video>
+      <center>
+        <button class="btnvid" onclick="alat2()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Alat dan bahan</button>
+        <button class="btnvid" onclick="coba1()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 1</button>
+        <button class="btnvid" onclick="coba2()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 2</button>
+        <button class="btnvid" onclick="coba3()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 3</button>
+        <button class="btnvid" onclick="coba4()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 4</button>
+      </center>
+      <p class="caption">Video 3 Interaksi dua benda bermuatan terhadap jaraknya</p>
+
+  </div>
+
+      <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4>              
+        <div class="garis"> 
+            <div class="first">
+              <p>Tonton video terlebih dahulu!</p>
+            </div>  
+          <div class="kolom">
+              <p>Setelah menyaksikan percobaan di atas dapat disimpulkan bahwa:</p>
+                <ol>
+                  <li class="nomor">Semakin besar jarak dua benda yang bermuatan, gaya tolak menolak atau gaya tarik menariknya semakin kecil. 
+                  Sebaliknya, semakin kecil jarak dua benda yang bermuatan, gaya tolak menolak atau gaya tarik menariknya semakin besar.</li>
+                  <li class="nomor">Semakin besar muatan yang dimiliki suatu benda, gaya tolak-menolak atau gaya tarik menariknya semakin besar. 
+                  Sebaliknya, semakin kecil muatan yang dimiliki suatu benda, gaya tolak menolak atau gaya tarik menariknya juga semakin kecil.</li>
+                </ol><br>
+              <p class="prgraf">Sejenis seperti hasil percobaan di atas, berdasarkan percobaan dengan menggunakan neraca puntir, Coulomb menyimpulkan bahwa “besarnya gaya tarik-menarik atau tolak-menolak antara dua benda bermuatan listrik berbanding lurus dengan besar kedua muatan benda dan berbanding terbalik dengan kuadrat jarak antara kedua muatan benda”. Itulah yang dinamakan Hukum Coulomb.</p>
+          </div>
+      </div>
+      
+<!-- pertanyaan -->
+  <div class="tanya">
+    <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
+        <div class="garis">
+          <div class="slideshow">
+            <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Soal berupa pilihan ganda.</li>
+                      <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"</li>
+                      <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>"</li>  
+                    </ol>
+                  </div>
+                  <!-- soal 1 -->
+                  <div class="soalnya fade"> 
+                    <hr class="grs">
+                    <ol class="s">
+                      <li>1.&nbsp;Dua balon yang telah digosok pada wol semakin besar jarak kedua balon maka gaya tolaknya akan ...</li>
+                    </ol>
+                        <p><label class="rad"><input type="radio" name="coba" onchange="benar()"/>&nbsp;a. Semakin kecil</label></p>
+                        <p><label class="rad"><input type="radio" name="coba" onchange="salah()"/>&nbsp;b. Semakin besar</label></p>
+                        <p><label class="rad"><input type="radio" name="coba" onchange="salah()"/>&nbsp;c. Tidak ada</label></p>
+                        <p><label class="rad"><input type="radio" name="coba" onchange="salah()"/>&nbsp;d. Tetap</label></p>
+
+                        <div class="s1" id="s1" style="display:none">Salah</div>
+                        <div class="b1" id="b1" style="display:none"><b>Benar</b><br>
+                              <p><b style="text-decoration: underline;">Pembahasan :</b><p> 
+                                <p>karena hal ini dibuktikan dengan simpangan kedua balon kecil. Sebaliknya, semakin kecil jarak kedua balon, maka gaya tolaknya semakin besar, hal ini dibuktikan dengan simpangan kedua balon besar.</p>
+                        </div>
+                  </div>                 
+
+                  <!-- soal 2 -->
+                  <div class="soalnya fade">
+                    <hr class="grs">
+                    <ol start="2" class="s">
+                        <li>2.&nbsp;Apakah waktu yang digunakan untuk menggosok balon akan mempengaruhi besarnya muatan listrik ...</li>
+                    </ol>
+                          <p><label class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;a. Tidak pasti</label></p>
+                          <p><label class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;b. Tidak</label></p>
+                          <p><label class="rad"><input type="radio" name="coba2" onchange="benar2()"/>&nbsp;c. Ya</label></p>
+                          <p><label class="rad"><input type="radio" name="coba2" onchange="salah2()"/>&nbsp;d. Mungkin</label></p>
+
+                          <div class="s2" id="s2" style="display:none">Salah</div>
+                          <div class="b2" id="b2" style="display:none"><b>Benar</b>
+                                <p><b style="text-decoration: underline;">Pembahasan :</b></p>
+                                <p>karena semakin lama waktu yang digunakan untuk menggosok balon, maka akan memengaruhi besarnya gaya tolak kedua balon yang ditunjukkan dengan besarnya simpangan kedua balon saat didekatkan.</p>
+                          
+                  </div>
+                  
+                  <!-- soal 3 -->
+                  <!-- <div class="soalnya fade">                
+                    <div class="notext">Soal 3</div>
+                  </div> -->
+                  
+
+          </div>
+                    
+        </div>
+
+                <div class="haltengah">
+                  <!-- <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span> -->
+                  <span style="font-weight: bold;">Nomor Soal : </span>
+                  <span class="dot" onclick="currentSlide(1)">1</span> 
+                  <span class="dot" onclick="currentSlide(2)">2</span> 
+                  <!-- <span class="dot" onclick="currentSlide(3)">3</span>                 -->
+                  <!-- <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span> -->
+                </div>
+  </div>
+
+</div>
+
+</div>
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <!-- <a href="../Materi1/latihan1.html#muatanlistrik" class="disable">Sebelumnya</a> -->
+  <a href="#hukumcoulomb" class="disable">Sebelumnya</a>
+  <a href="hukum_coulomb.html#hukumcoulomb" class="active">1</a>
+  <a href="coulomb2.html#hukumcoulomb">2</a>
+  <a href="coulomb3.html#hukumcoulomb">3</a>
+  <a href="coulomb4.html#hukumcoulomb">4</a>
+  <a href="coulomb2.html#hukumcoulomb">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi2.js"></script>
+<script>
+  var vid2 = document.getElementById("videooo");
+
+function alat2() { 
+  vid2.currentTime=6.8;
+  vid2.play();
+} 
+
+function coba1() { 
+  vid2.currentTime=20.3;
+  vid2.play();
+}
+
+function coba2() { 
+  vid2.currentTime=41.3;
+  vid2.play();
+}
+
+function coba3() { 
+  vid2.currentTime=61.8;
+  vid2.play();
+}
+
+function coba4() { 
+  vid2.currentTime=82.1;
+  vid2.play();
+}
+</script>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medan Listrik</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimgmedan" src="../../img/medan.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/medan.png">
+</div>
+
+<div class="sidebar">
+  <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn">1. Muatan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi1/muatan_listrik.html#muatanlistrik">1.1 Materi</a>     
+     <a href="../Materi1/latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">     
+      <a href="../Materi2/hukum_coulomb.html#hukumcoulomb">2.1 Materi</a>
+      <a href="../Materi2/latihan2.html#hukumcoulomb">2.2 Kuis 2</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="medanlistrik.html#medanlistrik" class="active">3.1 Materi</a>
+     <a href="latihan3.html#medanlistrik">3.2 Kuis 3</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi4()">4.1 Materi</a>
+     <a onclick="kuis4()">4.2 Kuis 4</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
+     <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
+     <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
+     <a onclick="kuis5()">5.4 Kuis 5</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+      <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+  </div>
+</div>
+
+<div class="isi"><!--ISI NYA-->
+<h4><i class="fas fa-question-circle"></i>&nbsp;Soal latihan</h4>
+    <div class="garis"> 
+
+          <div class="slideshow">
+
+                  <!-- soal 1 -->
+                  <div class="soalnya fade"> 
+                    <!-- <div class="notext">Soal 1</div> -->
+                    <div class="petunjuk">
+                      <p><u><b>Petunjuk : </b></u></p>
+                        <ol>
+                          <li class="nomor">Jawablah soal berikut ini dengan mengisi titik-titik di bawah.</li>
+                          <li class="nomor">Setelah selesai mengisi jawaban, tekan tombol "Cek Jawaban".</li>
+                          <li class="nomor">Jika jawaban kamu benar akan berwarna "<font style="color:green;font-weight: bold">hijau</font>".</li>
+                          <li class="nomor">Jika jawaban kamu salah akan berwarna "<font style="color:red;font-weight: bold">merah</font>".</li>
+                        </ol>
+                    </div>
+                    <hr class="grs">
+                    <ol class="s">
+                      <li class="nomor">Titik P berjarak 30 cm dari sebuah muatan Q yang muatannya 2,5 × 10<sup>-5</sup> C, hitunglah besar medan listrik di titik P?</li>
+                    </ol>
+                      <div class="geser">
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                              <p>$E = \large k \frac{Q}{r^2}$</p>
+                              <table>
+                                <tr>
+                                  <td rowspan="2">$E = 9 \times 10^9$</td>
+                                  <td class="tablebot">(<input type="text" class="md" size="1" id="mi1" placeholder="..." onchange="cek31()"> $\times$
+                                    <input type="text" class="md" size="1" id="mi2" placeholder="..." onchange="cek32()"> 
+                                    <sup><input type="text" class="md" size="1" id="mi3" placeholder="..." style="width:24px;font-size:1em;height:15px" onchange="cek33()"></sup>)</td>
+                                </tr>
+                                <tr>
+                                  <td style="text-indent: 35px;">(<input type="text" class="md" size="1" id="mi4" placeholder="..." onchange="cek34()">)
+                                  <sup><input type="text" class="md" size="1" id="mi5" placeholder="..." style="width:24px;font-size:1em;height:15px" onchange="cek35()"></sup></td>
+                                </tr>
+                              </table>
+                                <br>
+                                  <p>$\;\; = $<input type="text" class="md" id="mi6" size="1" placeholder="..." onchange="cek36()"> $\times$
+                                  <input type="text" class="md" size="1" id="mi7" placeholder="..." onchange="cek37()"> 
+                                  <sup><input type="text" class="md" id="mi8" size="1" placeholder="..." style="width:24px;font-size:1em;height:15px" onchange="cek38()"></sup></p>
+                  <br>        
+                        <input class="cek3" type="submit" onclick="cek3()" value="Cek Jawaban">
+                        <p class="m3"><b>Jawaban Benar</b><br>
+                            Jadi, kuat medan listriknya adalah \(2,5 \times 10^6\; N/C\)</p>
+                        <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                  </div>
+                  
+                  <!-- soal 2 -->
+                  <div class="soalnya fade">                
+                     <div class="petunjuk">
+                        <p><u><b>Petunjuk : </b></u></p>
+                          <ol>
+                            <li class="nomor">Soal berupa pilihan ganda.</li>
+                            <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"</li>
+                            <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>"</li>  
+                          </ol>
+                    </div>
+                    <!-- <div class="notext">Soal 2</div> -->
+                    <hr class="grs">
+                    <ol start="2" class="s">
+                      <li class="nomor">Gaya coulomb yang dialami kedua muatan A dan B adalah sebesar \(3 \times 10^{-4}\) N. Jika besar muatan A dan B sebesar \(2 \times 10^{-6}\) C dan \(1,5 \times 10^{-6}\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B?</li>
+                    </ol>
+                      <label class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;a. $15 $ N/C</label><br>
+                        <label class="rad"><input type="radio" name="coba" onchange="benarr()"/>&nbsp;b. $150 $ N/C</label><br>
+                        <label class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;c. $1,5$ N/C</label><br>
+                        <label class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;d. $1500$ N/C</label><br>
+                          <br>
+                          <div class="b1" id="b1" style="display:none">Benar, kuat medan listriknya adalah 150 N/C</div>
+                          <div class="s1" id="s1" style="display:none"><b style="color: red;">Jawaban salah</b><br>
+                            <b style="text-decoration: underline;">Pembahasan :</b></br>
+                            <p class="math">
+                            $E = \frac{F}{Q}$<br>
+                            $E = \frac{3 \;\times 10^{-4}}{2 \;\times 10^{-6}}$<br>
+                            $E = 150$</p>
+                          </div>
+                          
+                  </div>
+                  
+                  <!-- soal 3 -->
+                  <div class="soalnya fade">
+                    <div class="petunjuk">
+                      <p><u><b>Petunjuk : </b></u></p>
+                        <ol>
+                          <li class="nomor">Jawablah soal berikut ini dengan mengisi titik-titik di bawah.</li>
+                          <li class="nomor">Setelah selesai mengisi jawaban, tekan tombol "Cek Jawaban".</li>
+                          <li class="nomor">Jika jawaban kamu benar akan berwarna "<font style="color:green;font-weight: bold">hijau</font>".</li>
+                          <li class="nomor">Jika jawaban kamu salah akan berwarna "<font style="color:red;font-weight: bold">merah</font>".</li>
+                        </ol>
+                    </div>
+                    <!-- <div class="notext">Soal 3</div> -->
+                    <hr class="grs">
+                    <ol start="3" class="s">
+                        <li class="nomor">Gaya coulomb yang dialami muatan B adalah sebesar \(8 \times 10^{-4}\) N. Jika besar muatan B sebesar \(4 \times 10^{-6}\) C, berapakah besar medan listrik yang ditimbulkan?<p>
+                    </ol>
+                      <div class="geser">
+                          <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          
+                            <p>$E\;\; = $<input type="text" class="md" size="3" id="mn3" placeholder="....."></p>
+                                
+                              <br>
+                                <input class="cek2" type="submit" onclick="cekno3()" value="Cek Jawaban"><br>  
+                                <p class="m2"><b>Jawaban Benar</b><br>
+                            Jadi, medan listrik muatan B adalah 200 N/C</p>
+                              <p class="none2 math"><b style="color: red;">Jawaban salah</b>
+                              <br><b style="text-decoration: underline;">Pembahasan :</b></br>
+                                $E = \frac{F}{Q}$<br>
+                                $E = \frac{8 \;\times 10^{-4}}{4 \;\times 10^{-6}}$<br>
+                                $E = 200$
+                        </p>
+                      </div>
+                  </div>
+                  
+
+          </div>
+
+              <div class="haltengah">
+                <!-- <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span> -->
+                <span  style="font-weight: bold;">Nomor Soal : </span>
+                <span class="dot" onclick="currentSlide(1)">1</span> 
+                <span class="dot" onclick="currentSlide(2)">2</span> 
+                <span class="dot" onclick="currentSlide(3)">3</span>               
+                <!-- <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span> -->
+              </div>
+
+    </div><!--garissoal-->
+
+</div>
+
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="medanlistrik2.html#medanlistrik">Sebelumnya</a>
+  <a href="medanlistrik.html#medanlistrik">1</a>
+  <a href="medanlistrik2.html#medanlistrik">2</a>
+  <a href="medanlistrik3.html#medanlistrik" class="active">3</a>
+  <a href="latihan3.html#medanlistrik">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi3.js"></script>
+</html>

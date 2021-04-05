@@ -1,0 +1,109 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+	<title>Jawaban Siswa</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png"> 
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+	<script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>	
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<style>
+    /* label, button{
+        margin-right: 0.5%;
+    } */
+    
+.table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+.tulis{
+    font-weight: bold;
+}
+.benar{
+    background-color: #00FF00 !important;
+}
+.salah{
+    background-color: red !important;
+}
+    @media(max-width: 1000px) {
+    .card{
+        width: fit-content;
+    }
+    
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    
+    <div class="card-header text-center" style="background-color: #46B29E;">
+        <img class="logo" src="../img/logo.png">
+        </div>
+    <br>
+    
+    <div class="card-body">
+        <div class="card-title-md">
+            <center> 
+            <label for="nama">Kuis : 
+                <select id="kuis" name="kuis" class="mundur">
+                    <option value="kuis1/" selected="selected">KUIS 1</option>
+                    <option value="kuis2/">KUIS 2</option>
+                    <option value="kuis3/">KUIS 3</option>
+                    <option value="kuis3/">KUIS 4</option>
+                    <option value="kuis3/">KUIS 5</option>
+                    <option value="evaluasi/">EVALUASI</option>
+                </select>
+            </label>
+            <label for="nama">Kelas : 
+            <select id="kelas" name="kelas" class="mundur" aria-placeholder="-PILIH SEKOLAH-">
+                <option value="0" selected="selected">-- PILIH KELAS --</option>
+                <option value="1">IX A</option>
+                <option value="2">IX B</option>
+                <option value="3">IX C</option>
+                <option value="4">IX D</option>
+                <option value="5">IX E</option>
+                <option value="6">IX F</option>
+            </select>
+            </label>
+            <button type="button" class="cari btn btn-primary" onclick="readlah()">Cari</button>
+            <button type="button" class="cari btn btn-primary download" >Download</button>
+        </div>
+    <br>
+
+        <table id='table_wrapper' class="table table-light">
+            <thead>
+                <tr>
+                    <th class="ukr1" colspan="" rowspan="2">Nama</th>
+                    <th class="ukr3" colspan="" rowspan="2">Skor</th>
+                    <th class="ukr0" colspan="10">Jawaban</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                </tr>
+            </thead>
+            <tbody class="disini"></tbody>
+        </table>
+    
+        <center class="ha">
+    <div class=" clear"></div>
+    </div>
+
+</div>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+
+<script src="../js/jawaban.js"></script>
+</body>
+</html> 

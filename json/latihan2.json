@@ -1,0 +1,91 @@
+[{
+    "soal0": {
+        "soal": "Besarnya gaya tolak atau gaya tarik antara dua muatan listrik adalah ...",
+        "a": "a. Berbanding terbalik dengan muatan-muatannya",
+        "b": "b. Berbanding lurus dengan besar muatan-muatannya",
+        "c": "c. Berbanding terbalik dengan dengan jarak antara kedua muatan",
+        "d": "d. Berbanding lurus kuadrat jarak antara kedua muatan",
+        "benar": "b"
+    }
+},{
+    "soal1": {
+        "soal": "Dua benda masing-masing bermuatan listrik sebesar \\(4 \\times 10^{-9}\\) C dan \\(9 \\times 10^{-9}\\) C. Pada jarak 2 cm, jika nilai k = \\(9 \\times 10^9\\; Nm^2/C^2\\), gaya tolak antara kedua benda sama dengan ...",
+        "a": "a. \\(8,1 \\times 10^{-6}\\) N",
+        "b": "b. \\(8,1 \\times 10^{-5}\\) N",
+        "c": "c. \\(8,1 \\times 10^{-4}\\) N",
+        "d": "d. \\(8,1 \\times 10^{-3}\\) N",
+        "benar": "c"       
+    }        
+},{
+    "soal2": {
+        "soal": "Dua benda bermuatan listrik masing-masing bermuatan 10 C dan 20 C berjarak 0,2 m di udara (k = \\(9 \\times 10^9\\; Nm^2/C^2\\)). Gaya tolak-menolak antara kedua muatan tersebut sebesar ...",
+        "a": "a. \\(54 \\times 10^9\\) N",
+        "b": "b. \\(36 \\times 10^{10}\\) N",
+        "c": "c. \\(9 \\times 10^{12}\\) N",
+        "d": "d. \\(4,5 \\times 10^{13}\\) N",
+        "benar": "d"
+    }
+},{
+    "soal3": {
+        "soal": "Dua muatan yang sama besar berjarak 3 cm terjadi gaya tolak sebesar \\(10^{-19}\\) N. Besar muatan tersebut adalah ....",
+        "a": "a. \\(10^{-10}\\) C",
+        "b": "b. \\(10^{-24}\\) C",
+        "c": "c. \\(10^{-16}\\) C",
+        "d": "d. \\(10^{-32}\\) C",
+        "benar": "c"
+    }
+},{
+    "soal4": {
+        "soal": "Jika gaya tolak kedua benda bermuatan listrik masing-masing 2 C dan 4 C sebesar \\(7,2 \\times 10^{12}\\) N, jarak kedua benda tersebut adalah ...",
+        "a": "a. 100 m",
+        "b": "b. 10 m",
+        "c": "c. 100 cm",
+        "d": "d. 10 cm",
+        "benar": "d"
+    }
+},{    
+    "soal5": {
+        "soal": "Dua muatan \\(Q_A\\) dan \\(Q_B\\) berjarak r, gaya tolak antara kedua muatan adalah F. Jika jarak antara muatan, dijadikan ½ r, gaya tolaknya menjadi ...",
+        "a": "a. ¼ F",
+        "b": "b. ½ F",
+        "c": "c. 2 F",
+        "d": "d. 4 F",
+        "benar": "d"
+    }
+},{ 
+    "soal6": {
+        "soal": "Dua muatan listrik masing-masing 6 C dan 2 C, jarak antara kedua muatan adalah 3 m. Besar gaya tolak-menolaknya (k = \\(9 \\times 10^9\\; Nm^2/C^2\\)) adalah ...",
+        "a": "a. \\(12 \\times 10^8\\) N",
+        "b": "b. \\(12 \\times 10^9\\) N",
+        "c": "c. \\(12 \\times 10^{10}\\) N",
+        "d": "d. \\(16 \\times 10^{10}\\) N",
+        "benar": "b"
+    }
+},{ 
+    "soal7": {
+        "soal": "Bola konduktor bermuatan  4 C didekatkan dengan bola konduktor bermuatan 6 C dengan jarak 2 m. Besar gaya yang terjadi antara dua muatan tersebut adalah ...",
+        "a": "a. \\(40 \\times 10^9\\) N",
+        "b": "b. \\(62 \\times 10^9\\) N",
+        "c": "c. \\(45 \\times 10^9\\) N",
+        "d": "d. \\(54 \\times 10^9\\) N",
+        "benar": "d"
+    }
+},{ 
+    "soal8": {
+        "soal": "Dua buah benda A dan B masing-masing bermuatan \\(5 \\times 10^{-7}\\) C dan \\(-10 \\times 10^{-8}\\) C terpisah dengan jarak 0.04 m. Besar gaya tarik kedua muatan tersebut adalah ...",
+        "a": "a. 0,26 N",
+        "b": "b. 0,28 N",
+        "c": "c. 26 N",
+        "d": "d. 28 N",
+        "benar": "b"
+    }
+},{
+    "soal9": {
+        "soal": "Dua buah benda A dan B masing-masing bermuatan 20 C dan 30 C. Jika jarak antara kedua benda adalah 5 m, maka besar gaya tolak-menolak adalah ... (k = \\(9 \\times 10^9\\; Nm^2/C^2\\))",
+        "a": "a. \\(216 \\times 10^9\\) N",
+        "b": "b. \\(2,16 \\times 10^9\\) N",
+        "c": "c. \\(21,6 \\times 10^9\\) N",
+        "d": "d. \\(2160 \\times 10^9\\) N",
+        "benar": "a"
+    }
+}]

@@ -1,0 +1,92 @@
+[{
+    "soal0": {
+        "soal": "Untuk memindahkan muatan sebesar 10 C dari P ke Q diperlukan usaha sebesar 500 Joule maka potensial P ke Q adalah ….",
+        "a": "a. 50 V",
+        "b": "b. 500 V",
+        "c": "c. 5000 V",
+        "d": "d. 0,5 V",
+        "benar": "a"
+    }
+},{
+    "soal1": {
+        "soal":"Untuk memindahkan 2,5 C muatan listrik diperlukan energi 12,5 J. Maka beda potensial sumber tegangan adalah ...",
+        "a": "a. 0,2 V",
+        "b": "b. 5,0 V",
+        "c": "c. 10,0 V",
+        "d": "d. 15,0 V",
+        "benar": "b"        
+    }        
+},{
+    "soal2": {
+        "soal": "Beda potensial antara dua titik pada kawat penghantar sebesar 6 V. Berapakah energi yang diperlukan untuk memindahkan muatan 25 C antara dua titik tersebut ...",
+        "a": "a. 120 J",
+        "b": "b. 130 J",
+        "c": "c. 140 J",
+        "d": "d. 150 J",
+        "benar": "d"
+    }
+},{
+    "soal3": {
+        "soal": "Dalam memindahkan muatan sebesar 50 C diperlukan energi sebesar 10 Joule. Energi potensialnya adalah ….",
+        "a": "a. 500 V",
+        "b": "b. 60 V",
+        "c": "c. 0,5 V",
+        "d": "d. 0,2 V",
+        "benar": "d"
+    }
+},{
+    "soal4": {
+        "soal": "Potensial titik A dan B adalah 7 V menghabiskan energi 140 J. Muatan listrik yang dipindahkannya sebesar ….",
+        "a": "a. 20 C",
+        "b": "b. 200 C",
+        "c": "c. 400 C",
+        "d": "d. 980 C",
+        "benar": "a"
+    }
+},{    
+    "soal5": {
+        "soal": "Berapakah beda potensial kutub-kutub baterai sebuah rangkaian jika baterai tersebut membutuhkan energi sebesar 60 J untuk memindahkan muatan sebesar 20 C ...",
+        "a": "a. 0,33 V",
+        "b": "b. 3 V",
+        "c": "c. 80 V",
+        "d": "d. 1200 V",
+        "benar": "b"
+    }
+},{ 
+    "soal6": {
+        "soal": "Muatan A dan muatan B mempunyai beda potensial listrik sebesar 15 volt. Berapa energi yang diperlukan untuk memindahkan muatan sebesar 8 x 10⁻³ C dari A ke B ...",
+        "a": "a. 0,12 J",
+        "b": "b. 0,19 J",
+        "c": "c. 1,2 J",
+        "d": "d. 1,9 J",
+        "benar": "a"
+    }
+},{ 
+    "soal7": {
+        "soal": "Sebuah sumber muatan listrik mengeluarkan energi 2.400 joule dapat mengalirkan muatan listrik 600 coulomb. Beda potensialnya ....",
+        "a": "a. 144 V",
+        "b": "b. 40 V",
+        "c": "c. 4 V",
+        "d": "d. 1 V",
+        "benar": "c"
+    }
+},{ 
+    "soal8": {
+        "soal": "Sebuah konduktor dipasang pada tegangan 12 volt. Jika energi yang dikeluarkan 1.200 joule, muatan listrik yang mengalir pada konduktor itu adalah ….",
+        "a": "a. 144.000 C",
+        "b": "b. 144 C",
+        "c": "c. 100 C",
+        "d": "d. 10 C",
+        "benar": "c"
+    }
+},{
+    "soal9": {
+        "soal": "Energi potensial listrik yang diperlukan untuk memindahkan muatan listrik sebesar 10 C dari titik A ke titik B apabila potensial listriknya 2 volt adalah ....",
+        "a": "a. 12 J",
+        "b": "b. 20 J",
+        "c": "c. 8 J",
+        "d": "d. 5 J",
+        "benar": "b"
+    }
+}
+]

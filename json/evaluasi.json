@@ -1,0 +1,181 @@
+[{
+    "soal0": {
+        "soal": "Sebuah muatan Q yang muatannya \\(7 \\times 10^9\\) C pada jarak 7 cm. Maka kuat medan listrik muatan tersebut adalah ... ",
+        "a": "a. \\(1,30 \\times 10^4\\) N/C",
+        "b": "b. \\(1,29 \\times 10^5\\) N/C",
+        "c": "c. \\(1,29 \\times 10^4\\) N/C",
+        "d": "d. \\(12,9 \\times 10^5\\) N/C",
+        "benar": "c"
+    }
+},{
+    "soal1": {
+        "soal": "Perhatikan lima buah benda bermuatan listrik berikut!<br><img class='gmb' src='../../img/eva2.PNG'><br>Benda $q_1$ dan $q_2$ bermuatan negatif sedangkan tiga benda lainnya belum diketahui muatannya. Ketika $q_1$ didekatkan $q_3$ terjadi tarik menarik, $q_5$ didekatkan $q_3$ tarik menarik, $q_2$ didekatkan $q_4$ tolak menolak. Kesimpulan muatan listrik $q_3$, $q_4$, $q_5$ adalah .... ",
+        "a": "a. positif, positif, positif",
+        "b": "b. positif, negatif, negatif",
+        "c": "c. negatif, negatif, negatif",
+        "d": "d. negatif, positif, negatif",
+        "benar": "b"        
+    }        
+},{
+    "soal2": {
+        "soal": "Perhatikan pernyataan berikut.<br>1) Menggosokkan penggaris plastik dengan kain wol<br>2) Menggosokkan kaca dengan kain sutra<br>3) Menggosokkan ebonit dengan kain wol<br>4) Menggosokkan kawat ke listrik<br>Pernyataan yang benar tentang cara memberi muatan listrik adalah ...",
+        "a": "a. 1 dan 2",
+        "b": "b. 1 dan 4",
+        "c": "c. 2 dan 4",
+        "d": "d. 3 dan 4",
+        "benar": "a"
+    }
+},{
+    "soal3": {
+        "soal": "Suatu percobaan muatan listrik statis menggunakan alat dan bahan seperti pada gambar berikut:<br><img class='gmb' src='../../img/eva1.jpg'><br>Setelah digosok berulang kali dengan kain (gambar I), penggaris plastik dapat menarik serpihan kertas kecil seperti pada gambar II. Hal ini membuktikan bahwa penggaris tersebut bermuatan listrik ...",
+        "a": "a. positif, karena telah melepaskan sebagian dari elektronnya",
+        "b": "b. positif, karena jumlah proton pada penggaris bertambah",
+        "c": "c. negatif, karena telah menerima beberapa elektron dari kain",
+        "d": "d. negatif, karena elektron dari penggaris pindah ke kain",
+        "benar": "b"
+    }
+},{
+   "soal4": {
+        "soal": "Menurut deret tribolistrik, jika emas (Au) digosok dengan kain wol, maka emas akan ....",
+        "a": "a. bermuatan positif",
+        "b": "b. bermuatan negatif",
+        "c": "c. netral",
+        "d": "d. mungkin positif, mungkin negatif",
+        "benar": "b"
+    }
+},{    
+    "soal5": {
+        "soal": "Dua keping logam bermuatan yang terpisah sejauh 50 cm saling tarik-menarik dengan gaya 12 Newton.  Jika jarak kedua muatan diperbesar menjadi dua kali semula, gaya tarik-menarik antar logam tersebut adalah  ....",
+        "a": "a. 3 N",
+        "b": "b. 6 N",
+        "c": "c. 12 N",
+        "d": "d. 24 N",
+        "benar": "a"
+    }
+},{ 
+    "soal6": {
+        "soal": "Dua buah benda masing-masing bermuatan listrik sebesar \\(–4 \\times 10^{–10}\\) C dan \\(6 \\times 10^{–6}\\) C terpisah sejauh 2 cm. Apabila k = \\(9 \\times 10^9\\; Nm^2/C^2\\), besarnya gaya tarik-menarik kedua benda adalah ....",
+        "a": "a. \\(5,4 \\times 10^{–5}\\) N",
+        "b": "b. \\(5,4 \\times 10^{–4}\\) N",
+        "c": "c. \\(5,4 \\times 10^5\\) N",
+        "d": "d. \\(5,4 \\times 10^{–2}\\) N",
+        "benar": "d"
+    }
+},{ 
+    "soal7": {
+        "soal": "Dua benda P dan Q masing-masing bermuatan \\(6 \\times 10^{-7}\\) C dan \\(-4 \\times 10^{-8}\\) C, dipisahkan pada jarak 0,02 m. Jika k = \\(9 \\times 10^9\\; Nm^2/C^2\\) gaya tarik-menarik antara kedua benda itu adalah ....",
+        "a": "a. 0,054 N",
+        "b": "b. 0,54 N ",
+        "c": "c. 5,4 N",
+        "d": "d. 54 N",
+        "benar": "b"
+    }
+},{ 
+    "soal8": {
+        "soal": "Benda A menarik benda B, benda B menolak benda C, dan benda C menarik benda D. Jika A bermuatan listrik negatif, muatan benda D adalah ....",
+        "a": "a. negatif",
+        "b": "b. positif",
+        "c": "c. netral",
+        "d": "d. bisa positif atau negatif",
+        "benar": "a"
+    }
+},{
+    "soal9": {
+        "soal": "Diketahui dua buah muatan listrik masing-masing bermuatan \\(+5 \\times 10^{-9}\\) C dipisahkan oleh jarak 0,5 cm. Gaya tolak menolak kedua muatan tersebut adalah ...",
+        "a": "a. \\(9 \\times 10^{–1}\\) N",
+        "b": "b. \\(9 \\times 10^{–2}\\) N",
+        "c": "c. \\(9 \\times 10^{–3}\\) N",
+        "d": "d. \\(9 \\times 10^{–4}\\) N",
+        "benar": "c"
+    }
+},{
+    "soal10": {
+        "soal": "Beda potensial antara titik A ke titik B sebesar 20 V, besar energi yang diperlukan untuk memindahkan muatan 4 C antara dua titik tersebut adalah ...",
+        "a": "a. 0,2 V",
+        "b": "b. 5 V",
+        "c": "c. 40 V",
+        "d": "d. 80 J",
+        "benar": "d"
+    }
+},{
+    "soal11": {
+        "soal": "Hewan yang memiliki kemampuan menghasilkan muatan listrik umumnya memiliki sistem khusus pada tubuhnya yang disebut sebagai ...",
+        "a": "a. Elektrisitas",
+        "b": "b. Elektroplaks",
+        "c": "c. Elektroreseptor",
+        "d": "d. Neurotransmitter",
+        "benar": "c"
+    }
+},{
+    "soal12": {
+        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J, beda potensial antara titik A dan titik B adalah....",
+        "a": "a. 5 V",
+        "b": "b. 20 V",
+        "c": "c. 10 V",
+        "d": "d. 30 V",
+        "benar": "a"
+    }
+},{
+    "soal13": {
+        "soal": "Untuk memindahkan 24 coulomb muatan listrik dari A ke B diperlukan energi 120 joule, maka beda potensial antara A dan B adalah ....",
+        "a": "a. 2 V",
+        "b": "b. 5 V",
+        "c": "c. 0,2 V",
+        "d": "d. 0,5 V",
+        "benar": "b"
+    }
+},{
+    "soal14": {
+        "soal": "Benda pada gambar berikut ini bermuatan ...<br><img src='../../img/eva3.png'>",
+        "a": "a. Negatif",
+        "b": "b. Positif",
+        "c": "c. Netral",
+        "d": "d. Proton",
+        "benar": "a"
+    }
+},{
+    "soal15": {
+        "soal": "Diketahui besar muatan q = \\(4 \\times 10^{–9}\\) C mempunyai gaya coulomb 400 N, maka kuat medan listrik muatan tersebut adalah ...",
+        "a": "a. \\(0,1 \\times 10^{10}\\) N/C",
+        "b": "b. \\(1 \\times 10^{-11}\\) N/C",
+        "c": "c. \\(1 \\times 10^{10}\\) N/C",
+        "d": "d. \\(0,1 \\times 10^{-11}\\) N/C",
+        "benar": "b"
+    }
+},{
+    "soal16": {
+        "soal": "Akson atau neurit berfungsi untuk ...",
+        "a": "a. Mempercepat jalannya impuls saraf",
+        "b": "b. Meneruskan impuls dari dendrit ke akson",
+        "c": "c. Meneruskan impuls dari badan sel saraf ke sel saraf lain",
+        "d": "d. Menerima impuls dari sel lain dan meneruskannya ke badan sel",
+        "benar": "C"
+    }
+},{
+    "soal17": {
+        "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain, besar medan listrik pada muatan 200 coulomb tersebut adalah ...",
+        "a": "a. \\(1,8 \\times 10^8\\) N/C",
+        "b": "b. \\(1,8 \\times 10^{-8}\\) N/C",
+        "c": "c. \\(1,8 \\times 10^9\\) N/C",
+        "d": "d. \\(1,8 \\times 10^{-9}\\) N/C",
+        "benar": "c"
+    }
+},{
+    "soal18": {
+        "soal": "Prinsip kerja penangkal petir adalah ...",
+        "a": "a. mencegah arus listrik dari awan",
+        "b": "b. menetralkan muatan listrik pada awan",
+        "c": "c. mengalihkan aliran arus listrik dari awan ke tempat lain",
+        "d": "d. menyalurkan arus listrik dari awan ke bumi",
+        "benar": "d"
+    }
+},{
+    "soal19": {
+        "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
+        "a": "a. Berteduh di bawah pohon besar",
+        "b": "b. Berlari ke lapangan yang luas",
+        "c": "c. Memakai topi dari baja",
+        "d": "d. Berteduh ke rumah yang ada penangkal petirnya",
+        "benar": "d"
+    }
+}]

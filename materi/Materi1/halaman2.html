@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muatan Listrik</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimg" src="../../img/muatan.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/muatan.png">
+</div>
+
+<div class="sidebar">
+  <div class="menu">
+
+    <li class="sub">
+      <span class="tulis">Listrik Statis</span>
+    </li> 
+
+    <li class="sub" id="home">
+      <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+    </li> 
+    
+    <li class="sub" id="muatanlistrik">
+      <a href="#muatanlistrik" class="btn">1. Muatan Listrik  <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a href="#muatanlistrik" class="active">1.1 Materi</a>
+      <a href="latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+      </div>
+    </li>
+      
+    <li class="sub" id="hukumcoulomb">
+      <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb  <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi2()">2.1 Materi</a>
+      <a onclick="kuis2()">2.2 Kuis 2</a>
+      </div>
+    </li>
+      
+    <li class="sub" id="medanlistrik">
+      <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi3()">3.1 Materi</a>
+      <a onclick="kuis3()">3.2 Kuis 3</a>
+      </div>
+    </li>
+
+    <li class="sub" id="bedapotensial">
+      <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi4()">4.2 Materi</a>
+      <a onclick="kuis4()">4.2 Kuis 4</a>
+      </div>
+    </li>
+
+    <li class="sub" id="penerapan">
+      <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
+      <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
+      <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
+      <a onclick="kuis5()">5.4 Kuis 5</a>
+      </div>
+    </li>
+
+    <li class="sub" id="evaluasi">
+      <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+    </li>
+            
+  </div>
+</div>
+
+<div class="isi">
+  <h4 class="tampil" onclick="petunjukk()"><i class="far fa-check-square"></i>&nbsp; Tujuan (klik saya)</h4> 
+    <div class="dalam">
+        <p>•&nbsp;&nbsp;Siswa dapat mengidentifikasi jenis-jenis muatan listrik.</p>
+    </div>
+
+  <hr>
+
+  <h4><i class="fas fa-chalkboard-teacher"></i>&nbsp; Ayo Mengamati</h4>
+    <div class="garis">
+      <p class="prgraf">Pada umumnya jumlah elektron dan proton pada atom sebuah benda adalah sama, 
+        sehingga atom-atom pada benda tidak bermuatan atau netral. Jika benda tersebut netral, 
+        maka benda tersebut dapat diubah menjadi bermuatan. Salah satu cara untuk mengubah benda menjadi bermuatan adalah 
+        dengan menggosokkan benda. Ketika dua benda saling digosokkan, maka elektron dari benda yang satu akan pindah ke 
+        benda yang lain, sehingga benda yang melepas elektron (kekurangan elektron) akan bermuatan positif, dan benda yang 
+        menerima elektron (kelebihan elektron) akan bermuatan negatif. Simak dan perhatikan percobaan pada video 2 di bawah 
+        untuk membuat benda bermuatan dengan cara digosok.</p>
+      <br>
+        <video class="vidmat" id="videoo" controls><source src="../../video/percobaan.mp4" type="video/mp4"></video>
+          <center>
+            <!-- <select id="speed" class="btnvid" onclick="videonya()">
+                                    <option value="1">Normal</option>
+                                    <option value="2">Slow</option>
+                                    <option value="3">Fast</option>
+            </select> -->
+            <button class="btnvid" onclick="alat()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Alat dan bahan</button>
+            <button class="btnvid" onclick="coba1()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 1</button>
+            <button class="btnvid" onclick="coba2()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 2</button>
+            <button class="btnvid" onclick="coba3()" type="button"><i class="fas fa-mouse-pointer"></i>&nbsp; Percobaan 3</button>
+          </center>
+          <p class="caption"">Video 2 Percobaan membuat benda bermuatan</p>
+    </div>
+
+      <!-- kesimpulan -->
+      <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4> 
+      <div class="garis">
+        <div class="first2">
+            <p>Tonton video terlebih dahulu!</p>
+        </div>
+        <div class="kolom">
+          <p class="bawah prgraf">Setelah menyaksikan video di atas dapat disimpulkan bahwa batang kaca yang digosokkan pada kain sutra akan 
+                        bermuatan positif dan penggaris plastik yang digosokkan pada kain wol akan bermuatan negatif. Dengan demikian ada dua jenis muatan yaitu muatan positif dan negatif, 
+                        setiap muatan yang sama akan tolak menolak sedangkan muatan yang berbeda akan tarik menarik.</p>
+                        <center>
+                        <table>
+                          <tr>
+                            <!-- <td class="vid1"><video class="vidbenar" controls autoplay loop><source src="../../video/no1.mp4" type="video/mp4"></video> -->
+                            <td class="vid1"><img src="../../img/no1.gif" class="vidbenar">
+                            </td>
+                            <!-- <td class="vid2"><video class="vidbenar" controls autoplay loop><source src="../../video/no2.mp4" type="video/mp4"></video> -->
+                            <td class="vid2"><img src="../../img/no2.gif" class="vidbenar">
+                            </td>
+                            </tr>
+                        </table>
+                        </center>
+                        <p class="caption">Gambar 2 Penggaris Plastik dengan Wol dan Batang Kaca dengan Kain Sutra</p>
+        </div>
+      </div>
+      
+<!-- materi deret -->
+        <div class="deret">
+          <hr>
+                    <h4><i class="fas fa-book-open"></i>&nbsp; Deret Tribolistrik</h4>
+                      <div class="garis">
+                          <p class="prgraf">Deret tribolistrik menunjukkan urutan deret benda yang akan bermuatan negatif bila digosok dengan sembarang benda di atasnya dan akan bermuatan positif bila digosok dengan benda di bawahnya. 
+                            Misalkan jika gelas digosok pada wol, maka gelas akan bermuatan positif dan wol akan bermuatan negatif. Berikut deret tribolistrik pada tabel 1.</p><br>                                                                                                  
+                          <p class="caption">Tabel 1 Deret Tribolistrik</p>
+                          <table class="tabelnya">
+                            <tr>
+                              <td style="background-color: #bdc3c7;font-weight: bold;">No</td>
+                              <td style="background-color: #bdc3c7;font-weight: bold;">Nama Benda</td>
+                              <td style="background-color:#bdc3c7;font-weight: bold;">No</td>
+                              <td style="background-color: #bdc3c7;font-weight: bold;">Nama Benda</td>
+                            </tr>
+                            <tr>
+                              <td>1</td>
+                              <td>Bulu kelinci</td>
+                              <td>8</td>
+                              <td>Kayu</td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>Gelas (kaca)</td>
+                              <td>9</td>
+                              <td>Batu ambar</td>
+                            </tr>
+                            <tr>
+                              <td>3</td>
+                              <td>Mika (plastik)</td>
+                              <td>10</td>
+                              <td>Damar</td>
+                            </tr>
+                            <tr>
+                              <td>4</td>
+                              <td>Wol</td>
+                              <td>11</td>
+                              <td>Logam (Cu, Ni, Ag)</td>
+                            </tr>
+                            <tr>
+                              <td>5</td>
+                              <td>Bulu kucing</td>
+                              <td>12</td>
+                              <td>Belerang</td>
+                            </tr>
+                            <tr>
+                              <td>6</td>
+                              <td>Sutra</td>
+                              <td>13</td>
+                              <td>Logam (Pt, Au)</td>
+                            </tr>
+                            <tr>
+                              <td>7</td>
+                              <td>Kapas</td>
+                              <td>14</td>
+                              <td>Solenoid</td>
+                            </tr>
+                          </table>
+                      </div>
+
+          <hr>
+          <h4><i class="fas fa-book-open"></i>&nbsp; Elektroskop</h4>
+            <div class="garis"> 
+              <p class="prgraf">Salah satu cara untuk mengetahui muatan listrik pada benda adalah dengan menggunakan elektroskop. Elektroskop memiliki tiga bagian utama, yaitu kepala elektroskop, daun elektroskop yang terbuat dari lempeng emas atau aluminium, dan logam penghantar atau konduktor yang menghubungkan kepala elektroskop dengan daun elektroskop. Daun elektroskop akan membuka apabila kepala elektroskop didekatkan dengan benda yang bermuatan listrik.</p><br>
+              <img src="../../img/ele.png" class="imglek">
+              <center><b><i><font style="color: gray;font-size: 14px">Gambar 3 Ilustrasi Elektroskop</font></i></b></center>
+            </div>
+            
+        </div>
+
+</div>
+
+
+<!--tombol halaman-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="muatan_listrik.html#muatanlistrik">Sebelumnya</a>
+  <a href="muatan_listrik.html#muatanlistrik">1</a>
+  <a href="#muatanlistrik" class="active">2</a>  
+  <a href="halaman3.html#muatanlistrik">3</a>
+  <a href="halaman3.html#muatanlistrik">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+
+<script src="../../js/materi1.js"></script>
+<script src="../../js/konten.js"></script>
+</html>

@@ -1,0 +1,92 @@
+[{
+    "soal0": {
+        "soal": "Badan sel berfungsi untuk ...",
+        "a": "a. Mempercepat jalannya impuls saraf",
+        "b": "b. Meneruskan impuls dari dendrit ke akson",
+        "c": "c. Meneruskan impuls dari badan sel saraf ke sel saraf lain",
+        "d": "d. Menerima impuls dari sel lain dan meneruskannya ke badan sel",
+        "benar": "b"
+    }
+},{
+    "soal1": {
+        "soal":"Perhatikan gambar berikut! <br><img src='../../img/soalpenerapan2.png' style='width: 45%'><br> Bagian pada sel saraf yang berfungsi sebagai tempat terjadinya tarik-menarik muatan listrik adalah ...",
+        "a": "a. (1)",
+        "b": "b. (2)",
+        "c": "c. (3)",
+        "d": "d. (4)",
+        "benar": "d"        
+    }        
+},{
+    "soal2": {
+        "soal": "Perhatikan gambar berikut! <br><img src='../../img/soalpenerapan2.png' style='width: 45%'><br> Bagian pada sel saraf yang berfungsi sebagai menerima impuls dari sel lain dan meneruskannya ke badan sel adalah ....",
+        "a": "a. (1)",
+        "b": "b. (2)",
+        "c": "c. (3)",
+        "d": "d. (4)",
+        "benar": "a"
+    }
+},{
+    "soal3": {
+        "soal": "Berbagai hewan yang memiliki kemampuan menghasilkan muatan listrik umumnya memiliki sistem khusus pada tubuhnya yang disebut sebagai ...",
+        "a": "a. Elektrisitas",
+        "b": "b. Elektroplaks",
+        "c": "c. Elektroreseptor",
+        "d": "d. Neurotransmitter ",
+        "benar": "c"
+    }
+},{
+    "soal4": {
+        "soal": "Zat kimia yang berfungsi untuk menghantarkan rangsang (impuls) listrik adalah ....",
+        "a": "a. Lipase",
+        "b": "b. Amilase",
+        "c": "c. Esterogen",
+        "d": "d. Neurotransmitter",
+        "benar": "d"
+    }
+},{    
+    "soal5": {
+        "soal": "Penyebab sel saraf dapat menghantarkan impuls adalah karena ....",
+        "a": "a. Adanya aliran impuls pada tubuh manusia.",
+        "b": "b. Rangsangan diubah oleh sel saraf menjadi impuls.",
+        "c": "c. Terjadi pertukaran ion-ion di dalam dan di luar membran sel saraf.",
+        "d": "d. Pada bagian luar membran sel bermuatan positif dan bagian dalam bermuatan negatif.",
+        "benar": "c"
+    }
+},{ 
+    "soal6": {
+        "soal": "Bagian utama penangkal petir dibuat dari batang logam berujung runcing. Hal ini dibuat dengan maksud agar ....",
+        "a": "a. Mudah dialiri listrik",
+        "b": "b. Mudah melepas elektron",
+        "c": "c. Mudah menangkap elektron",
+        "d": "d. Mudah terinduksi",
+        "benar": "c"
+    }
+},{ 
+    "soal7": {
+        "soal": "Perhatikan beberapa hewan di bawah ini: <br>1) Echidna<br> 2) Kelelawar<br> 3) Hiu kepala martil<br> 4) Gajah<br> Berdasarkan pernyataan di atas, hewan yang dapat menghasilkan listrik yang kuat adalah ....",
+        "a": "a. 1 dan 2",
+        "b": "b. 1 dan 3",
+        "c": "c. 2 dan 4",
+        "d": "d. 3 dan 4",
+        "benar": "b"
+    }
+},{ 
+    "soal8": {
+        "soal": "Ikan belalai gajah memiliki mulut yang panjang menyerupai bentuk belalai gajah. Ikan ini dilengkapi dengan organ khusus, yang disusun oleh ribuan sel electroplax, pada bagian ekor yang mampu menghasilkan listrik statis bertegangan tinggi. Pernyataan yang benar berkaitan dengan sel elektroplax adalah ....",
+        "a": "a. Sel electroplax menghasilkan muatan positif pada bagian dalam dan muatan negatif pada bagian luar. ",
+        "b": "b. Sel electroplax menghasilkan muatan negatif pada bagian dalam dan muatan positif pada bagian luar. ",
+        "c": "c. Sel electroplax hanya menghasilkan muatan negatif pada saat ikan beristirahat. ",
+        "d": "d. Sel electroplax hanya menghasilkan muatan positif pada saat ikan beristirahat.",
+        "benar": "a"
+    }
+},{
+    "soal9": {
+        "soal": "Perhatikan beberapa teknologi di bawah ini:<br>1) Mesin mobil <br>2) Mesin fotokopi <br>3) Komputer <br>4) Pengecatan mobil <br>Berdasarkan pernyataan di atas, teknologi yang menerapkan konsep listrik statis adalah ….",
+        "a": "a. 1 dan 2",
+        "b": "b. 1 dan 3",
+        "c": "c. 2 dan 4",
+        "d": "d. 3 dan 4",
+        "benar": "c"
+    }
+}
+]

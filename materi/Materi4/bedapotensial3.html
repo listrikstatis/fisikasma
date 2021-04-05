@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beda Potensial</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">    
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimg" src="../../img/potensial.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/potensial.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn">1. Muatan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi1/muatan_listrik.html#muatanlistrik">1.1 Materi</a>     
+     <a href="../Materi1/latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi2/hukum_coulomb.html#hukumcoulomb">2.1 Materi</a>
+     <a href="../Materi2/latihan2.html#hukumcoulomb">2.2 Kuis 2</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi3/medanlistrik.html#medanlistrik">3.1 Materi</a>
+     <a href="../Materi3/latihan3.html#medanlistrik">3.2 Kuis 3</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi4/bedapotensial.html#bedapotensial" class="active">4.1 Materi</a>
+     <a href="latihan4.html#bedapotensial">4.2 Kuis 4</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
+     <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
+     <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
+     <a onclick="kuis5()">5.4 Kuis 5</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+    <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi"><!--ISI NYA-->
+  <h4><i class="fas fa-question-circle"></i>&nbsp;Soal Latihan</h4>
+    <div class="garis">
+      
+        <div class="slideshow">
+            <div class="petunjuk">
+                <p><u><b>Petunjuk : </b></u></p>
+                <ol>
+                  <li class="nomor">Jawablah soal-soal berikut ini.</li>
+                  <li class="nomor">Isilah jawaban dengan mengisi titik-titik di bawah.</li>
+              <li class="nomor">Setelah menjawab soal, tekan tombol "Cek Jawaban".</li>
+                  <li class="nomor">Jika jawaban kamu benar akan berwarna "<font style="color:green;font-weight: bold">hijau</font>".</li>
+                  <li class="nomor">Jika jawaban kamu salah akan berwarna "<font style="color:red;font-weight: bold">merah</font>".</li>
+                </ol>
+            </div>
+
+                <!-- soal 1 -->
+                <div class="soalnya fade">                
+                  <!-- <div class="notext">Soal 1</div> -->
+                  <hr class="grs">
+                  <ol class="s">
+                    <li class="nomor">Beda potensial antara dua titik pada kawat penghantar sebesar 9 V. Berapakah energi listrik yang digunakan untuk memindahkan muatan sebesar 30 C di antara dua titik tersebut?</li>
+                  </ol>
+                      <div class="geser">
+                          <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <table>
+                            <tr>
+                              <td>\(W = V \times Q\)</td>
+                            </tr>                            
+                          </table>
+
+                          <!--input-->
+                          <table>
+                            <tr>
+                              <td>&nbsp;&nbsp;&nbsp;&nbsp; = 
+                              </td>
+                              <td>
+                                <input type="text" class="bp" id="v1" size="2" placeholder="..." onkeyup="cek11()">
+                                \(\times\)
+                                <input type="text" class="bp" id="q1" size="2" placeholder="..." onkeyup="cek12()">
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+                              </td>
+                              <td>
+                                <input type="text" class="bp" id="h1" size="2" placeholder="..." onkeyup="cek13()">
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                          <input class="cek" type="submit" onclick="cek()" value="Cek Jawaban"><br>
+                          <p class="j1">Benar, besar energinya adalah 270 J</p>
+                          <p class="none"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                </div>
+                
+                <!-- soal 2 -->
+                <div class="soalnya fade">
+                  <!-- <div class="notext">Soal 2</div> -->
+                  <hr class="grs">
+                  <ol start="2" class="s">
+                      <li class="nomor">Jumlah muatan yang dipindahkan pada sebuah rangkaian listrik adalah 15 C. Jika energi yang dibutuhkan untuk memindahkan muatan tersebut dari ujung-ujung rangkaian listrik adalah 45 J, berapakah beda potensial antara ujung-ujung rangkaian tersebut?<ol>
+                  </ol>  
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <table>
+                            <tr>
+                              <td>\(V = \frac{W}{Q} \)</td>
+                            </tr>
+                          </table>
+                      
+                          <!--input-->
+                          <table>
+                            <tr>
+                                <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
+                                <td class="tablebot"><input type="text" class="bp" id="2aa" size="2" placeholder="..." onkeyup="cek21()"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="bp" id="2ab" size="2" placeholder="..." onkeyup="cek22()"></td>
+                            </tr>
+                          </table>
+                          &nbsp;&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="2ac" size="2" placeholder="..." onkeyup="cek23()">
+                          <br><br>
+                          <input class="cek" type="submit" onclick="cek2()" value="Cek Jawaban"><br>
+                          <p class="j2">Benar, potensial rangkaian tersebut adalah 3 V</p>
+                          <p class="none2"><b style="color: red;">Jawaban salah </b></p>
+                </div>
+                
+                <!-- soal 3 -->
+                <div class="soalnya fade"> 
+                  <!-- <div class="notext">Soal 3</div> -->
+                  <hr class="grs">
+                  <ol start="3" class="s">
+                    <li class="nomor">Untuk memindahkan muatan sebesar 10 C dari A ke B diperlukan usaha sebesar 100 Joule hitunglah potensial A ke B tersebut?</li> 
+                  </ol> 
+                      <div class="geser">
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <table>
+                            <tr>
+                              <td>\(V = \frac{W}{Q} \)</td>
+                            </tr>
+                          </table>
+                      
+                          <!--input-->
+                          <table>
+                            <tr>
+                                <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
+                                <td class="tablebot"><input type="text" class="bp" id="3aa" size="2" placeholder="..." onkeyup="cek31()"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="bp" id="3ab" size="2" placeholder="..." onkeyup="cek32()"></td>
+                            </tr>
+                          </table>
+                          &nbsp;&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="3ac" size="2" placeholder="..." onkeyup="cek33()">
+                          <br><br>
+                          <input class="cek" type="submit" onclick="cek3()" value="Cek Jawaban"><br>
+                          <p class="j3">Benar, potensial A ke B adalah 10 V</p>
+                          <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                </div>
+                
+                <!-- soal 4 -->
+                <div class="soalnya fade">
+                  <!-- <div class="notext">Soal 4</div> -->
+                  <hr class="grs">
+                  <ol start="4" class="s">
+                    <li class="nomor">Energi listrik yang diperlukan untuk memindahkan muatan 30 coulomb antara dua buah titik adalah 210 joule. Berapa beda potensial antara kedua titik itu?</li> 
+                  </ol>
+                      <div class="geser">
+                          <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <table>
+                            <tr>
+                              <td>\(V = \frac{W}{Q} \)</td>
+                            </tr>
+                          </table>
+                      
+                          <!--input-->
+                          <table>
+                            <tr>
+                                <td rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;= </td>
+                                <td class="tablebot"><input type="text" class="bp" id="4aa" size="2" placeholder="..." onkeyup="cek41()"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" class="bp" id="4ab" size="2" placeholder="..." onkeyup="cek42()"></td>
+                            </tr>
+                          </table>
+
+                          &nbsp;&nbsp;&nbsp;&nbsp; = <input type="text" class="bp" id="4ac" size="2" placeholder="..." onkeyup="cek43()">
+                          <br><br>
+                          <input class="cek" type="submit" onclick="cek4()" value="Cek Jawaban"><br>
+                          <p class="j4">Benar, beda potensial kedua titik adalah 70 V</p>
+                          <p class="none4"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                </div>
+
+        </div>
+
+              <div class="haltengah">
+                <!-- <span class="soprev" onclick="plusSlides(-1)">Soal Sebelumnya</span> -->
+                <span  style="font-weight: bold;">Nomor Soal : </span>
+                <span class="dot" onclick="currentSlide(1)">1</span> 
+                <span class="dot" onclick="currentSlide(2)">2</span> 
+                <span class="dot" onclick="currentSlide(3)">3</span>
+                <span class="dot" onclick="currentSlide(4)">4</span>                 
+                <!-- <span class="sonext" onclick="plusSlides(1)">Soal Selanjutnya</span> -->
+              </div>
+
+
+    </div>
+
+</div>
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="bedapotensial2.html#bedapotensial">Sebelumnya</a>
+  <a href="bedapotensial.html#bedapotensial">1</a>
+  <a href="bedapotensial2.html#bedapotensial" >2</a>
+  <a href="#bedapotensial" class="active">3</a>
+  <a href="latihan4.html#bedapotensial">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+</body>
+
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi4.js"></script>
+</html>

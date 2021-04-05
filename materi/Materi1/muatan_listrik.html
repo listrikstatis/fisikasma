@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muatan Listrik</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimg" src="../../img/muatan.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/muatan.png">
+</div>
+
+<div class="sidebar">
+  <div class="menu">
+
+    <li class="sub">
+      <span class="tulis">Listrik Statis</span>
+    </li> 
+
+    <li class="sub" id="home">
+      <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+    </li> 
+    
+    <li class="sub" id="muatanlistrik">
+      <a href="#muatanlistrik" class="btn">1. Muatan Listrik  <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a href="muatan_listrik.html#muatanlistrik" class="active">1.1 Materi</a>
+      <a href="latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+      </div>
+    </li>
+      
+    <li class="sub" id="hukumcoulomb">
+      <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb  <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi2()">2.1 Materi</a>
+      <a onclick="kuis2()">2.2 Kuis 2</a>
+      </div>
+    </li>
+      
+    <li class="sub" id="medanlistrik">
+      <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi3()">3.1 Materi</a>
+      <a onclick="kuis3()">3.2 Kuis 3</a>
+      </div>
+    </li>
+
+    <li class="sub" id="bedapotensial">
+      <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi4()">4.2 Materi</a>
+      <a onclick="kuis4()">4.2 Kuis 4</a>
+      </div>
+    </li>
+
+    <li class="sub" id="penerapan">
+      <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
+      <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
+      <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
+      <a onclick="kuis5()">5.4 Kuis 5</a>
+      </div>
+    </li>
+
+    <li class="sub" id="evaluasi">
+      <!-- <a href="../evaluasi/evaluasi.html#evaluasi" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a> -->
+      <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+    </li>
+            
+  </div>
+</div>
+
+<div class="isi">
+    <h4 class="tampil" onclick="petunjukk()"><i class="far fa-check-square"></i>&nbsp; Tujuan (klik saya)</h4> 
+    <div class="dalam">
+        <p>•&nbsp;&nbsp;Siswa dapat menjelaskan konsep listrik statis.</p>
+    </div>
+  <hr>
+
+  <h4><i class="fas fa-book-open"></i>&nbsp; Listrik Statis</h4>
+    <div class="garis"> 
+      <p class="prgraf">Pada waktu cuaca mendung atau hujan, sering terjadi petir. Bagaimana petir terjadi? Petir merupakan loncatan muatan listrik akibat perbedaan potensial yang sangat besar dari awan ke bumi yang disertai energi yang sangat besar. Muatan listrik di awan merupakan muatan listrik statis. Adanya petir menunjukkan bahwa awan dapat memiliki muatan listrik. Muatan listrik pada awan ternyata dapat berpindah, baik dari awan yang satu ke awan yang lain, atau dari awan ke bumi. Sebenarnya, bagaimanakah muatan listrik itu terjadi? 
+</p><br>
+
+      <p class="prgraf">Penelitian terhadap muatan listrik dan kelistrikan mempunyai sejarah yang sangat panjang. Orang Yunani kuno telah mengamati bahwa setelah batu amber digosok, batu tersebut dapat menarik benda-benda yang kecil. Hal itu menunjukkan bahwa batu amber setelah digosok menjadi bermuatan listrik.</p><br>
+      
+      <p class="prgraf">Interaksi antara benda-benda bermuatan listrik dapat berupa interaksi tarik-menarik atau tolak-menolak. Interaksi ini dinamakan interaksi elektrostatis. Dari interaksi inilah para ﬁsikiawan mengetahui adanya dua jenis muatan listrik.</p>
+        <br>
+
+        <p class="prgraf">Benda tersusun atas ribuan bahkan jutaan atom. Atom sebagai unsur penyusun zat pada dasarnya tersusun dari partikel-partikel yang sangat kecil, disebut partikel sub atom. Terdapat tiga macam partikel sub atom yang penting dan perlu kita kenali, yaitu proton (bermuatan positif), neutron (tidak bermuatan), dan elektron (bermuatan negatif). Susunan partikel-partikel ini ditunjukkan pada gambar 1.</p>
+        
+        <br>
+        <center><img src="../../img/atom.png" class="atom"></center>
+
+        <p class="caption">Gambar 1 Atom</p>
+        
+
+        <p class="prgraf">Neutron dan proton membentuk inti atom, sedangkan elektron bergerak di sekitar inti atom. Elektron inilah yang memiliki kaitan erat dengan fenomena kelistrikan pada suatu benda. Pada umumnya jumlah elektron dan proton pada atom sebuah benda adalah sama, sehingga atom-atom pada benda tidak bermuatan atau netral. Jika benda tersebut netral, maka benda tersebut dapat diubah menjadi bermuatan. Salah satu cara untuk mengubah benda menjadi bermuatan adalah dengan menggosokkan benda. Ketika dua benda saling digosokkan, maka elektron dari benda yang satu akan pindah ke benda yang lain, sehingga benda yang melepas elektron (kekurangan elektron) akan bermuatan positif, dan benda yang menerima elektron (kelebihan elektron) akan bermuatan negatif. Simak dan perhatikan percobaan pada video di bawah untuk membuat benda bermuatan dengan cara digosok.</p><br>
+
+      <p>
+        Agar lebih mudah memahami muatan listrik, kamu dapat membuat benda bermuatan dengan melakukan simulasi di bawah ini.
+      </p><br>
+
+      <center>
+        <!-- <iframe src="../../simulasi/balon.html" width="800" height="600" scrolling="no" allowfullscreen></iframe> -->
+      <iframe src="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_in.html" width="800" height="600" scrolling="no" allowfullscreen></iframe>
+      </center>
+        <!-- Pertanyaan -->
+        <!-- <div class="kolom2"> -->
+        <!-- <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
+          <div class="garis">
+
+            <div class="slideshow">
+              <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Soal berupa pilihan ganda.</li>
+                      <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"</li>
+                      <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>"</li>  
+                    </ol>
+              </div>
+                <div class="soalnya fade"> 
+                  <hr class="grs">
+                  <ol class="s">
+                      <li>1.&nbsp;Neutron adalah penyusun inti atom yang bermuatan ....</li>
+                  </ol>
+                      <p><label class="rad" id="false6"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;a. Positif</label></p>
+                      <p><label class="rad" id="false7"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;b. Negatif</label></p>
+                      <p><label class="rad"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;c. Positif atau negatif</label></p>
+                      <p><label class="rad" id="false8"><input type="radio" name="pil3" onchange="ben3()"/>&nbsp;d. Netral</label></p>
+                          <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b>
+                            </div>
+                          <div class="b3" id="b3" style="display:none"><b>Jawaban benar</b>
+                           </div>
+                </div>
+
+                <div class="soalnya fade">
+                  <hr class="grs">
+                  <ol start="2" class="s">
+                      <li>2.&nbsp;Partikel sub atom yang berkaitan erat dengan fenomena kelistrikan pada suatu benda adalah...</li>
+                  </ol>
+                        <p><label class="rad" id="sal4"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;a. Neutron</label></p>
+                        <p><label class="rad" id="sal5"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;b. Proton</label></p>
+                        <p><label class="rad"><input type="radio" name="pil2" onchange="ben2()"/>&nbsp;c. Elektron</label></p>
+                        <p><label class="rad" id="sal6"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;d. Electroplax</label></p>
+                          <div class="s1" id="s2" style="display:none"><b>Jawaban salah</b></div>
+                          <div class="b1" id="b2" style="display:none"><b>Jawaban benar</b></div>
+                </div>
+                
+                <div class="soalnya fade">                
+                  <hr class="grs">
+                  <ol start="3" class="s">
+                    <li>3.&nbsp;Listrik yang muatan-muatannya berada dalam keadaan diam adalah ...</li>
+                  </ol>
+                    <p><label class="rad" id="sal1"><input type="radio" name="pil" onchange="sal()"/>&nbsp;a. Listrik dinamis</label></p>
+                    <p><label class="rad"><input type="radio" name="pil" onchange="ben()"/>&nbsp;b. Listrik statis</label></p>
+                    <p><label class="rad" id="sal2"><input type="radio" name="pil" onchange="sal()"/>&nbsp;c. Listrik AC</label></p>
+                    <p><label class="rad" id="sal3"><input type="radio" name="pil" onchange="sal()"/>&nbsp;d. Listrik DC</label></p>
+
+                      <div class="s1" id="s1" style="display:none"><b>Jawaban salah</b></div>
+                      <div class="b1" id="b1" style="display:none"><b>Jawaban benar</b></div>  
+                </div>
+                
+            </div>
+              
+
+              <div class="haltengah">
+                <span  style="font-weight: bold;">Nomor Soal : </span>
+                <span class="dot" onclick="currentSlide(1)">1</span> 
+                <span class="dot" onclick="currentSlide(2)">2</span> 
+                <span class="dot" onclick="currentSlide(3)">3</span>               
+              </div>
+
+          </div> -->
+
+        <!-- </div> -->
+
+      <p class="prgraf">Bagaimana kesimpulan hasil simulasi yang kamu lakukan? Jika kamu melakukan dengan benar kamu akan mengetahui bahwa balon digosok dengan kain maka elektron akan pindah dari kain ke balon. Balon menjadi bermuatan negatif, dan kain yang kehilangan elektron menjadi bermuatan positif. Balon dan kain akan tarik-menarik karena memiliki muatan yang tidak sama. Sebaliknya dua balon akan tolak-menolak karena memiliki muatan yang sama. Dengan demikian ada dua jenis muatan yaitu muatan positif dan negatif, setiap muatan yang sejenis akan tolak menolak sedangkan muatan yang tidak sejenis akan tarik menarik.</p>
+    </div>
+
+</div>
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="#muatanlistrik" class="disable">Sebelumnya</a>
+  <a href="#muatanlistrik" class="active">1</a>
+  <a href="halaman2.html#muatanlistrik">2</a>
+  <a href="halaman3.html#muatanlistrik">3</a>
+  <a href="halaman2.html#muatanlistrik">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+</body>
+
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi1.js"></script>
+</html>

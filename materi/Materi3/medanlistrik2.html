@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medan Listrik</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+          },
+          svg: {
+            fontCache: 'global'
+          }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimgmedan" src="../../img/medan.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/medan.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="muatanlistrik">
+    <a href="#muatanlistrik" class="btn">1. Muatan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="../Materi1/muatan_listrik.html#muatanlistrik">1.1 Materi</a>     
+     <a href="../Materi1/latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="hukumcoulomb">
+    <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">     
+      <a href="../Materi2/hukum_coulomb.html#hukumcoulomb">2.1 Materi</a>
+      <a href="../Materi2/latihan2.html#hukumcoulomb">2.2 Kuis 2</a>
+    </div>
+  </li>
+    
+  <li class="sub" id="medanlistrik">
+    <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a href="medanlistrik.html#medanlistrik" class="active">3.1 Materi</a>
+     <a href="latihan3.html#medanlistrik">3.2 Kuis 3</a>
+    </div>
+  </li>
+
+  <li class="sub" id="bedapotensial">
+    <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi4()">4.1 Materi</a>
+     <a onclick="kuis4()">4.2 Kuis 4</a>
+    </div>
+  </li>
+
+  <li class="sub" id="penerapan">
+    <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
+    <div class="pilih">
+     <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
+     <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
+     <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
+     <a onclick="kuis5()">5.4 Kuis 5</a>
+    </div>
+  </li>
+
+  <li class="sub" id="evaluasi">
+      <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi"><!--ISI NYA-->
+
+<h4><i class="fas fa-file-signature"></i>&nbsp;Contoh</h4>
+    <div class="garis"> 
+      <br>
+      <center>
+      <button class="no1"><i class="fas fa-pen"></i>&nbsp;Contoh 1</button>
+      <button class="no2"><i class="fas fa-pen"></i>&nbsp;Contoh 2</button>
+      <button class="no3"><i class="fas fa-pen"></i>&nbsp;Contoh 3</button>
+      </center>
+        <div class="contoh1">
+        <hr>
+        <ol class="cs">
+          <li class="cs">Hitunglah kuat medan listrik dari sebuah muatan yang bermuatan \(2,5 \times 10^{-5}\) di udara pada suatu titik yang berjarak 10 cm dari muatan tersebut?</li>
+        </ol>
+          <i class="i"><b>Penyelesaian</b></i><br>
+          <button class="diket">Diketahui :</button>
+              <div class="a"><b>Diketahui:</b><br>
+                Q   = \(2,5 \times 10^{-5}\) C<br>
+                r &nbsp;  = \(10\; cm = 10^{-1}\) m<br>
+                K = \(9 × 10^9 \; Nm^2/C^2\)
+              </div>
+
+              <button class="dit">Ditanya :</button>
+              <div class="b"><b>Ditanya: </b><br>
+                    E = ...</div>
+
+              <button class="jwb">Jawab :</button>
+              <div class="c"><b>Jawab:</b><br>
+              \(E = k \cdot \large\frac{Q}{r^2}\)<br>
+              \(\;\;\; = 9 \times 10^9 \cdot \large\frac{2,5\ \times 10^{-5}}{(10^{-1})^2} \)<br>
+              \(\;\;\; = 2,25 \times 10^{-7}\ N/C\)<br>
+              Jadi, kuat medan listriknya adalah \(2,25 \times 10^{-7}\ N/C\)</div>
+          </div>
+
+      <div class="contoh2">
+          <hr>
+        <ol start="2" class="cs">
+          <li class="cs">Medan listrik yang dirasakan oleh muatan uji A terhadap muatan 8 B sebesar 80 N/C. Jika jarak kedua muatan tersebut adalah 3 cm, berapakah besar muatan B?</li>
+        </ol>
+          <i class="i"><b>Penyelesaian</b></i><br>
+          <button class="diket2">Diketahui :</button>
+              <div class="aa"><b>Diketahui:</b><br>
+                E  = 80 N/C<br>
+                r  &nbsp; = 3 cm = 0,03 m<br>
+                K  = \(9 × 10^9 \; Nm^2/C^2\)
+              </div>
+
+              <button class="dit2">Ditanya :</button>
+              <div class="bb"><b>Ditanya: </b>
+                    Q = ...</div>
+
+              <button class="jwb2">Jawab :</button>
+              <div class="cc"><b>Jawab:</b><br>
+              \(E \; = k \cdot \large\frac{Q}{r^2}\)<br>
+              \(80 = 9 \times 10^9 \large\frac{Q}{(3\; \times 10^{-2})^2} \)<br>
+              \(Q \; = 80 \cdot \large\frac{9\; \times 10^{-4}}{9\; \times 10^9}\)<br>
+              \(Q \; = 8 \times 10^{-12}\ C\)<br>
+              Jadi, besar muatan B adalah \(Q = 8 \times 10^{-12}\ C\)</div>
+        </div>
+      
+      <div class="contoh3">
+        <hr>      
+        <ol start="3" class="cs">
+          <li class="cs">Gaya coulomb yang dialami muatan A adalah sebesar \(8 \times 10^{-4}\) N. Jika besar muatan A sebesar \(2 \times 10^{-6}\) C, berapakah besar medan listrik yang ditimbulkan?</li>
+        </ol>
+          <i class="i"><b>Penyelesaian</b></i><br>
+          <button class="diket3">Diketahui :</button>
+              <div class="a3"><b>Diketahui:</b><br>
+                F &nbsp;= \(8 \times 10^{-4}\) C<br>
+                Q = \(2 \times 10^{-6}\) m<br>
+              </div>
+
+              <button class="dit3">Ditanya :</button>
+              <div class="ba3"><b>Ditanya: </b><br>
+                E = ...</div>
+
+              <button class="jwb3">Jawab :</button>
+              <div class="c3"><b>Jawab:</b><br>
+              \(E = \large\frac{F}{Q}\)<br>
+              \(\;\;\; = \large\frac{8 \times 10^{-6}}{2 \times 10^{-6}} \)<br>
+              \(\;\;\; = 400 \; N/C\)<br>
+              Jadi, kuat medan listriknya adalah \(400\; N/C\)</div>
+          </div>
+
+    </div><!--garis-->
+
+</div>
+
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="medanlistrik.html#medanlistrik">Sebelumnya</a>
+  <a href="medanlistrik.html#medanlistrik">1</a>
+  <a href="#medanlistrik" class="active">2</a>
+  <a href="medanlistrik3.html#medanlistrik">3</a>
+  <a href="medanlistrik3.html#medanlistrik">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+
+</body>
+
+<script src="../../js/konten.js"></script>
+</html>
