@@ -17,6 +17,10 @@ body {
   width: 100%;
 }
 
+.ukuran{
+  width: 800px;
+  height: 550px;
+}
 ol{
   font-size: 20px;
 }
@@ -484,7 +488,10 @@ color: transparent;
     height: auto;
     margin: 1px;
   }
-
+.ukuran {
+  width: fit-content;
+  height: auto;
+}
   .j1, .j2, .j3, .j4{
   border: 3px solid green;
   width: auto; 
