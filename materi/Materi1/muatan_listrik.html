@@ -34,7 +34,7 @@
     </li> 
     
     <li class="sub" id="muatanlistrik">
-      <a href="#muatanlistrik" class="btn">1. Muatan Listrik  <i class="fas fa-caret-down"></i></a>
+      <a href="#muatanlistrik" class="btn">1. Listrik Statis <i class="fas fa-caret-down"></i></a>
       <div class="pilih">
       <a href="muatan_listrik.html#muatanlistrik" class="active">1.1 Materi</a>
       <a href="latihan1.html#muatanlistrik">1.2 Kuis 1</a>
@@ -57,18 +57,19 @@
       </div>
     </li>
 
-    <li class="sub" id="bedapotensial">
-      <a href="#bedapotensial" class="btn">4. Energi Potensial Listrik dan Potensial Listrik <i class="fas fa-caret-down"></i></a>
+    <li class="sub" id="potensial">
+      <a href="#potensial" class="btn">4. Energi Potensial dan Potensial Listrik <i class="fas fa-caret-down"></i></a>
       <div class="pilih">
       <a onclick="materi4()">4.2 Materi</a>
       <a onclick="kuis4()">4.2 Kuis 4</a>
       </div>
     </li>
 
-    <li class="sub" id="penerapan">
-      <a href="#penerapan" class="btn">5. Kapasitor <i class="fas fa-caret-down"></i></a>
+    <li class="sub" id="kapasitor">
+      <a href="#kapasitor" class="btn">5. Kapasitor <i class="fas fa-caret-down"></i></a>
       <div class="pilih">
-      <a onclick="materi5()">5.1 Materi</a>
+      <a onclick="materi5()">5.1 Kapasitor</a>
+      <a onclick="materi53()">5.3 Rangkaian Kapasitor</a>
       <a onclick="kuis5()">5.4 Kuis 5</a>
       </div>
     </li>
@@ -116,9 +117,21 @@
         <!-- <iframe src="../../simulasi/balon.html" width="800" height="600" scrolling="no" allowfullscreen></iframe> -->
       <iframe src="https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_in.html" class="ukuran" scrolling="no" allowfullscreen></iframe>
       </center>
+<br>
+      <h4><i class="fas fa-chalkboard"></i>&nbsp; Kesimpulan</h4> 
+        <div class="garis">
+          <!-- <div class="end">
+              <p>Tonton video terlebih dahulu!</p>
+          </div>
+            <div class="kolom1"> -->
+              <p class="prgraf">Bagaimana kesimpulan hasil simulasi yang kamu lakukan? Jika kamu melakukan dengan benar kamu akan mengetahui bahwa balon digosok dengan kain maka elektron akan pindah dari kain ke balon. Balon menjadi bermuatan negatif, dan kain yang kehilangan elektron menjadi bermuatan positif. Balon dan kain akan tarik-menarik karena memiliki muatan yang tidak sama. Sebaliknya dua balon akan tolak-menolak karena memiliki muatan yang sama. Dengan demikian ada dua jenis muatan yaitu muatan positif dan negatif, setiap muatan yang sejenis akan tolak menolak sedangkan muatan yang tidak sejenis akan tarik menarik.</p>
+    
+            <!-- </div> -->
+        </div>
+
         <!-- Pertanyaan -->
         <!-- <div class="kolom2"> -->
-        <!-- <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
+        <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
           <div class="garis">
 
             <div class="slideshow">
@@ -133,35 +146,7 @@
                 <div class="soalnya fade"> 
                   <hr class="grs">
                   <ol class="s">
-                      <li>1.&nbsp;Neutron adalah penyusun inti atom yang bermuatan ....</li>
-                  </ol>
-                      <p><label class="rad" id="false6"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;a. Positif</label></p>
-                      <p><label class="rad" id="false7"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;b. Negatif</label></p>
-                      <p><label class="rad"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;c. Positif atau negatif</label></p>
-                      <p><label class="rad" id="false8"><input type="radio" name="pil3" onchange="ben3()"/>&nbsp;d. Netral</label></p>
-                          <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b>
-                            </div>
-                          <div class="b3" id="b3" style="display:none"><b>Jawaban benar</b>
-                           </div>
-                </div>
-
-                <div class="soalnya fade">
-                  <hr class="grs">
-                  <ol start="2" class="s">
-                      <li>2.&nbsp;Partikel sub atom yang berkaitan erat dengan fenomena kelistrikan pada suatu benda adalah...</li>
-                  </ol>
-                        <p><label class="rad" id="sal4"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;a. Neutron</label></p>
-                        <p><label class="rad" id="sal5"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;b. Proton</label></p>
-                        <p><label class="rad"><input type="radio" name="pil2" onchange="ben2()"/>&nbsp;c. Elektron</label></p>
-                        <p><label class="rad" id="sal6"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;d. Electroplax</label></p>
-                          <div class="s1" id="s2" style="display:none"><b>Jawaban salah</b></div>
-                          <div class="b1" id="b2" style="display:none"><b>Jawaban benar</b></div>
-                </div>
-                
-                <div class="soalnya fade">                
-                  <hr class="grs">
-                  <ol start="3" class="s">
-                    <li>3.&nbsp;Listrik yang muatan-muatannya berada dalam keadaan diam adalah ...</li>
+                    <li>1.&nbsp;Listrik yang muatan-muatannya berada dalam keadaan diam adalah ...</li>
                   </ol>
                     <p><label class="rad" id="sal1"><input type="radio" name="pil" onchange="sal()"/>&nbsp;a. Listrik dinamis</label></p>
                     <p><label class="rad"><input type="radio" name="pil" onchange="ben()"/>&nbsp;b. Listrik statis</label></p>
@@ -169,7 +154,36 @@
                     <p><label class="rad" id="sal3"><input type="radio" name="pil" onchange="sal()"/>&nbsp;d. Listrik DC</label></p>
 
                       <div class="s1" id="s1" style="display:none"><b>Jawaban salah</b></div>
-                      <div class="b1" id="b1" style="display:none"><b>Jawaban benar</b></div>  
+                      <div class="b1" id="b1" style="display:none"><b>Jawaban benar</b></div>
+                      
+                </div>
+
+                <div class="soalnya fade">
+                  <hr class="grs">
+                  <ol start="2" class="s">
+                      <li>2.&nbsp;Balon yang digosokkan pada kain akan bermuatan negatif karena ...</li>
+                  </ol>
+                        <p><label class="rad" id="sal4"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;a.	Elektron pindah dari balon ke kain</label></p>
+                        <p><label class="rad" id="sal5"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;b.	Proton pindah dari penggaris balon ke kain</label></p>
+                        <p><label class="rad"><input type="radio" name="pil2" onchange="ben2()"/>&nbsp;c.	Elektron pindah dari kain ke balon</label></p>
+                        <p><label class="rad" id="sal6"><input type="radio" name="pil2" onchange="sal2()"/>&nbsp;d.	Proton pindah dari kain ke balon</label></p>
+                          <div class="s1" id="s2" style="display:none"><b>Jawaban salah</b></div>
+                          <div class="b1" id="b2" style="display:none"><b>Jawaban benar</b></div>
+                </div>
+                
+                <div class="soalnya fade">                
+                  <hr class="grs">
+                  <ol start="3" class="s">
+                      <li>3.&nbsp;Dua balon yang telah digosokkan pada kain jika didekatkan akan....</li>
+                  </ol>
+                      <p><label class="rad" id="false6"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;a.	Mempertahankan posisi</label></p>
+                      <p><label class="rad" id="false7"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;b. Tolak-menolak</label></p>
+                      <p><label class="rad"><input type="radio" name="pil3" onchange="ben3()"/>&nbsp;c. Tarik-menarik</label></p>
+                      <p><label class="rad" id="false8"><input type="radio" name="pil3" onchange="sal3()"/>&nbsp;d. Menolak dan menarik</label></p>
+                          <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b>
+                            </div>
+                          <div class="b3" id="b3" style="display:none"><b>Jawaban benar</b>
+                           </div>
                 </div>
                 
             </div>
@@ -182,12 +196,11 @@
                 <span class="dot" onclick="currentSlide(3)">3</span>               
               </div>
 
-          </div> -->
+          </div>
 
         <!-- </div> -->
 
-      <p class="prgraf">Bagaimana kesimpulan hasil simulasi yang kamu lakukan? Jika kamu melakukan dengan benar kamu akan mengetahui bahwa balon digosok dengan kain maka elektron akan pindah dari kain ke balon. Balon menjadi bermuatan negatif, dan kain yang kehilangan elektron menjadi bermuatan positif. Balon dan kain akan tarik-menarik karena memiliki muatan yang tidak sama. Sebaliknya dua balon akan tolak-menolak karena memiliki muatan yang sama. Dengan demikian ada dua jenis muatan yaitu muatan positif dan negatif, setiap muatan yang sejenis akan tolak menolak sedangkan muatan yang tidak sejenis akan tarik menarik.</p>
-    </div>
+      </div>
 
 </div>
 
