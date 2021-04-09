@@ -39,9 +39,9 @@
     </li> 
     
     <li class="sub" id="muatanlistrik">
-      <a href="#muatanlistrik" class="btn">1. Muatan Listrik  <i class="fas fa-caret-down"></i></a>
+      <a href="#muatanlistrik" class="btn">1. Listrik Statis <i class="fas fa-caret-down"></i></a>
       <div class="pilih">
-      <a href="muatan_listrik.html#muatanlistrik" class="active">1.1 Materi</a>
+      <a href="muatan_listrik.html#muatanlistrik" class="active">1.1 Muatan Listrik</a>
       <a href="latihan1.html#muatanlistrik">1.2 Kuis 1</a>
       </div>
     </li>
@@ -90,20 +90,8 @@
 <div class="isi">
 <!-- Pertanyaan -->
         <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
-          <div class="garis">              
-            <!-- <div class="petunjuk">
-              <p><u><b>Petunjuk : </b></u></p>
-                <ol>
-                  <li class="nomor">Pertanyaan terdiri dari 4 soal pilihan.</li>
-                  <li class="nomor">Soal nomor 1 sampai 3 berupa pilihan. 
-                    Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"
-                    dan jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>".</li>
-                  <li class="nomor">Soal nomor 4 berupa isian. 
-                    Jika jawaban kamu benar, maka akan muncul icon <img class="imgpetunjuk" src="../../img/benar.png"/>
-                  dan jika jawaban kamu salah, maka akan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
-                </ol>
-            </div>
-    <br> -->
+          <div class="garis">   
+
             <div class="slideshow">
                 <!-- soal 1 -->
                 <div class="soalnya fade"> 
@@ -118,18 +106,18 @@
                   </div>
                   <hr class="grs">
                   <ol class="s">
-                    <li>1.&nbsp;Penggaris plastik yang digosokkan pada wol akan bermuatan negatif karena ...</li>
+                    <li>1.&nbsp;Balon yang digosokkan pada kain akan bermuatan negatif karena ...</li>
                   </ol>
-                    <p><label class="rad" id="false"><input type="radio" name="pil" onchange="salah()"/>&nbsp;a. Elektron pindah dari penggaris plastik ke wol</label></p>
-                    <p><label class="rad" id="false1"><input type="radio" name="pil" onchange="salah()"/>&nbsp;b. Proton pindah dari penggaris plastik ke wol</label></p>
-                    <p><label class="rad"><input type="radio" name="pil" onchange="benar()"/>&nbsp;c. Elektron pindah dari wol ke penggaris plastik </label></p>
-                    <p><label class="rad" id="false2"><input type="radio" name="pil" onchange="salah()"/>&nbsp;d. Proton pindah dari wol ke penggaris plastik</label></p>
+                    <p><label class="rad" id="false"><input type="radio" name="pil" onchange="salah()"/>&nbsp;a.	Elektron pindah dari balon ke kain</label></p>
+                    <p><label class="rad" id="false1"><input type="radio" name="pil" onchange="salah()"/>&nbsp;b.	Proton pindah dari penggaris balon ke kain</label></p>
+                    <p><label class="rad"><input type="radio" name="pil" onchange="benar()"/>&nbsp;c.	Elektron pindah dari kain ke balon</label></p>
+                    <p><label class="rad" id="false2"><input type="radio" name="pil" onchange="salah()"/>&nbsp;d.	Proton pindah dari kain ke balon</label></p>
 
                   <div class="s1" id="s1" style="display:none"><b>Jawaban salah</b>
                     </div>
                   <div class="b1" id="b1" style="display:none"><b>Jawaban benar</b>
                   <p><b style="text-decoration: underline;">Pembahasan :</b><p> 
-                        <p>Penggaris yang telah digosokkan pada wol akan bermuatan negatif karena penggaris kelebihan elektron (elektron dari wol pindah ke penggaris).</p>
+                        <p>Balon yang telah digosokkan pada kain akan bermuatan negatif karena balon kelebihan elektron (elektron dari kain pindah balon).</p>
                   </div>
                 </div>                 
 
@@ -174,11 +162,11 @@
                   </div>
                   <hr class="grs">
                   <ol start="3" class="s">
-                    <li>3.&nbsp;Dua buah benda yang berbeda muatan jika didekatkan akan ...</li>
+                    <li>3.&nbsp;Dua balon yang telah digosokkan pada kain jika didekatkan akan ...</li>
                   </ol>
                       <p><label class="rad" id="false6"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;a. Mempertahankan posisi</label></p>
-                      <p><label class="rad" id="false7"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;b. Tolak-menolak</label></p>
-                      <p><label class="rad"><input type="radio" name="pil3" onchange="benar3()"/>&nbsp;c. Tarik-menarik</label></p>
+                      <p><label class="rad"><input type="radio" name="pil3" onchange="benar3()"/>&nbsp;b. Tolak-menolak</label></p>
+                      <p><label class="rad" id="false7"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;c. Tarik-menarik</label></p>
                       <p><label class="rad" id="false8"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;d. Menolak dan menarik</label></p>
 
                           <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b>
@@ -190,89 +178,31 @@
                 </div>
                 
                 <!-- soal 4 -->
-                <div class="soalnya fade">
+                <div class="soalnya fade">                
+                  <!-- <div class="notext">Soal 3</div> -->
                   <div class="petunjuk">
                   <p><u><b>Petunjuk : </b></u></p>
                     <ol>
-                      <li class="nomor">Pilihlah salah satu alternatif jawaban antara <font style="font-weight: bold;">Positif</font> atau <font style="font-weight: bold;">Negatif</font></li>
-                      <li class="nomor">Jika jawaban kamu benar, akan muncul icon <img class="imgpetunjuk" src="../../img/benar.png"/></li>
-                      <li class="nomor">Jika jawaban kamu salah, maka akan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
+                      <li class="nomor">Soal berupa pilihan ganda.</li>
+                      <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"</li>
+                      <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>"</li>  
                     </ol>
                   </div>
-                <!-- <div class="notext">Soal 4</div>           -->
                   <hr class="grs">
-                    <p>4.&nbsp;Jawablah pertanyaan ini berdasarkan tabel tribolistrik.</p>
-            <br>
-                  <table class="tabelnya" style="margin-left: 2%;">
-                          <tr>
-                            <td style="text-align: center;font-weight: bold;">Benda</td>
-                            <td style="text-align: center;font-weight: bold;">Digosok dengan</td>
-                            <td style="text-align: center;font-weight: bold;">Muatan listrik</td>
-                          </tr>
-                          <tr>
-                            <td>Kain sutra</td>
-                            <td>Damar</td>
-                            <td class="tdnya">
-                              <center>
-                              <button onclick="positif0()" id="aa0">Positif</button>
-                              <button onclick="negatif0()" id="ab0">Negatif</button>
-                              <!-- <button id="aa3" style="display: none;" disabled>Negatif</button> -->
-                            <img class="imgbenar" id="cekk"/></td>
-                              </center>
-                          </tr>
-                          <tr>
-                            <td>Plastik</td>
-                            <td>Wol</td>
-                            <td>
-                              <center>
-                              <button onclick="positif()" id="aa1">Positif</button>
-                              <button onclick="negatif()" id="aa2">Negatif</button>
-                              <!-- <button id="aa3" style="display: none;" disabled>Negatif</button> -->
-                            <img class="imgbenar" id="cek1"/></td>
-                              </center>
-                          </tr>
-                          <tr>
-                            <td>Logam (Ag)</td>
-                            <td>Wol</td>
-                            <td>
-                              <center>
-                              <button onclick="positif2()" id="ab1">Positif</button>
-                              <button onclick="negatif2()" id="ab2">Negatif</button>
-                            <img class="imgbenar" id="cek2"/></td>
-                              </center>
-                          </tr>
-                          <tr>
-                            <td>Kaca</td>
-                            <td>Kain sutra</td>
-                            <td>
-                              <center>                                                            
-                              <button onclick="positif3()" id="ac1">Positif</button>
-                              <button onclick="negatif3()" id="ac2">Negatif</button>
-                            <img class="imgbenar" id="cek3"/></td>
-                              </center>
-                          </tr>
-                          <tr>
-                            <td>Batu ambar</td>
-                            <td>Bulu kelinci</td>
-                            <td>
-                              <center>                                                            
-                              <button onclick="positif4()" id="ad1">Positif</button>
-                              <button onclick="negatif4()" id="ad2">Negatif</button>
-                            <img class="imgbenar" id="cek4"/></td>
-                              </center>
-                          </tr>
-                          <tr>
-                            <td>Penggaris</td>
-                            <td>Kapas</td>
-                            <td>
-                              <center>                                                           
-                              <button onclick="positif5()" id="ae1">Positif</button>
-                              <button onclick="negatif5()" id="ae2">Negatif</button>
-                            <img class="imgbenar" id="cek5"/></td>
-                            </center>
-                          </tr>
-                  </table>
-                  
+                  <ol start="3" class="s">
+                    <li>3.&nbsp;Dua balon yang telah digosokkan pada kain jika didekatkan akan ...</li>
+                  </ol>
+                      <p><label class="rad" id="false6"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;a. Mempertahankan posisi</label></p>
+                      <p><label class="rad"><input type="radio" name="pil3" onchange="benar3()"/>&nbsp;b. Tolak-menolak</label></p>
+                      <p><label class="rad" id="false7"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;c. Tarik-menarik</label></p>
+                      <p><label class="rad" id="false8"><input type="radio" name="pil3" onchange="salah3()"/>&nbsp;d. Menolak dan menarik</label></p>
+
+                          <div class="s3" id="s3" style="display:none"><b>Jawaban salah</b>
+                            </div>
+                          <div class="b3" id="b3" style="display:none"><b>Jawaban benar</b>
+                          <p><b style="text-decoration: underline;">Pembahasan :</b><br>
+                                Setiap benda yang bermuatan sama akan tolak-menolak, tetapi muatan yang berbeda akan saling tarik-menarik.</p>
+                          </div>
                 </div>
             </div>
 
