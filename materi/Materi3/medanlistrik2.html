@@ -45,46 +45,46 @@
   </li> 
    
   <li class="sub" id="muatanlistrik">
-    <a href="#muatanlistrik" class="btn">1. Muatan Listrik <i class="fas fa-caret-down"></i></a>
+    <a href="#muatanlistrik" class="btn">A. Listrik Statis<i class="fas fa-caret-down"></i></a>
     <div class="pilih">
-     <a href="../Materi1/muatan_listrik.html#muatanlistrik">1.1 Materi</a>     
-     <a href="../Materi1/latihan1.html#muatanlistrik">1.2 Kuis 1</a>
+     <a href="../Materi1/muatan_listrik.html#muatanlistrik">1. Muatan Listrik</a>     
+     <a href="../Materi1/latihan1.html#muatanlistrik">Kuis 1</a>
     </div>
   </li>
     
   <li class="sub" id="hukumcoulomb">
-    <a href="#hukumcoulomb" class="btn">2. Hukum Coulomb <i class="fas fa-caret-down"></i></a>
+    <a href="#hukumcoulomb" class="btn">B. Hukum Coulomb <i class="fas fa-caret-down"></i></a>
     <div class="pilih">     
-      <a href="../Materi2/hukum_coulomb.html#hukumcoulomb">2.1 Materi</a>
-      <a href="../Materi2/latihan2.html#hukumcoulomb">2.2 Kuis 2</a>
+      <a href="../Materi2/hukum_coulomb.html#hukumcoulomb">1. Materi</a>
+      <a href="../Materi2/latihan2.html#hukumcoulomb">Kuis 2</a>
     </div>
   </li>
     
   <li class="sub" id="medanlistrik">
-    <a href="#medanlistrik" class="btn">3. Medan Listrik <i class="fas fa-caret-down"></i></a>
+    <a href="#medanlistrik" class="btn">C. Medan Listrik <i class="fas fa-caret-down"></i></a>
     <div class="pilih">
-     <a href="medanlistrik.html#medanlistrik" class="active">3.1 Materi</a>
-     <a href="latihan3.html#medanlistrik">3.2 Kuis 3</a>
+     <a href="medanlistrik.html#medanlistrik">1. Hukum Gauss</a>
+     <a href="medanlistrik2.html#medanlistrik" class="active">2. Kuat Medan Listrik</a>
+     <a href="latihan3.html#medanlistrik">Kuis 3</a>
     </div>
   </li>
 
-  <li class="sub" id="bedapotensial">
-    <a href="#bedapotensial" class="btn">4. Beda Potensial <i class="fas fa-caret-down"></i></a>
-    <div class="pilih">
-     <a onclick="materi4()">4.1 Materi</a>
-     <a onclick="kuis4()">4.2 Kuis 4</a>
-    </div>
-  </li>
+  <li class="sub" id="potensial">
+      <a href="#potensial" class="btn">D. Energi Potensial dan Potensial Listrik <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi4()">1. Materi</a>
+      <a onclick="kuis4()">Kuis 4</a>
+      </div>
+    </li>
 
-  <li class="sub" id="penerapan">
-    <a href="#penerapan" class="btn">5. Penerapan Listrik Statis <i class="fas fa-caret-down"></i></a>
-    <div class="pilih">
-     <a onclick="materi5()">5.1 Kelistrikan pada Sel Saraf</a>
-     <a onclick="materi52()">5.2 Hewan-Hewan Penghasil Listrik</a>
-     <a onclick="materi53()">5.3 Listrik Statis dalam Kehidupan Sehari-Hari</a>
-     <a onclick="kuis5()">5.4 Kuis 5</a>
-    </div>
-  </li>
+    <li class="sub" id="kapasitor">
+      <a href="#kapasitor" class="btn">E. Kapasitor <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi5()">1. Kapasitor</a>
+      <a onclick="materi52()">2. Rangkaian Kapasitor</a>
+      <a onclick="kuis5()">Kuis 5</a>
+      </div>
+    </li>
 
   <li class="sub" id="evaluasi">
       <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
@@ -94,7 +94,44 @@
 </div>
 
 <div class="isi"><!--ISI NYA-->
+<h4 class="tampil" onclick="petunjukk()"><i class="far fa-check-square"></i>&nbsp; Tujuan (klik saya)</h4> 
+    <div class="dalam">
+        <p>•&nbsp;&nbsp;Siswa dapat menghitung besar medan listrik</p>
+    </div>
+  <hr>
 
+  <h4><i class="fas fa-book-open"></i>&nbsp; Kuat Medan Listrik</h4>
+    <div class="garis"> 
+    
+      <table class="tabelrumus">
+        <tr>
+          <td class="rumus">
+            <p>Besar kuat medan listrik pada muatan \(Q_1\) yang terletak dalam daerah muatan \(Q_2\) adalah:</p>
+            <p class="pborder">$$E = \frac{F}{Q}$$</p>
+            <br>
+            <p>Keterangan :<br>
+              E&nbsp; = Medan listrik (N/C)<br>
+              F&nbsp; = Gaya coulomb (newton)<br>
+              Q&nbsp; = Besar muatan listrik (coulomb)
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="rumus2">
+              <p>Besar kuat medan listrik pada suatu titik yang berjarak r dari muatan Q adalah:</p>
+              <p class="pborder">$$E = k \cdot \frac{Q}{r^2}$$</p>
+              <br>
+              <p>Keterangan :<br>
+              E&nbsp; = Medan listrik (N/C)<br>
+              k&nbsp; = Konstanta = 9 × 10<sup>9</sup> Nm<sup>2</sup>/C<sup>2</sup><br>
+              r&nbsp;&nbsp; = Jarak antara dua muatan (meter)<br>
+              Q&nbsp; = Besar muatan listrik (coulomb)
+              </p>
+          </td>
+        </tr>
+        </table>
+    </div>
+    
 <h4><i class="fas fa-file-signature"></i>&nbsp;Contoh</h4>
     <div class="garis"> 
       <br>
