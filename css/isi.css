@@ -274,14 +274,14 @@ hr.grs{
   font-family: verdana,arial,helvetica;
 }
 
-.b1, .b2, .b3{
+.b1, .b2, .b3, .b4, .b5{
   border: 2px solid green;
   font-family: sans-serif;
   padding: 10px;
   border-radius: 5px;
   /* font-size: 20px; */
 }
-.s1, .s2, .s3{
+.s1, .s2, .s3, .s4, .s5{
   border: 2px solid red;
   font-family: sans-serif;
   padding: 10px;

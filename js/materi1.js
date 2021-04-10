@@ -144,6 +144,34 @@ function benar3(){
   // document.getElementById('nomor4').style.display = 'block'; 
 }
 
+function salah4(){
+  document.getElementById('b4').style.display = 'none';
+  document.getElementById('s4').style.display = 'block';
+}
+
+function benar4(){
+  document.getElementById('b4').style.display = 'block';
+  document.getElementById('s4').style.display = 'none'; 
+  document.getElementById('false9').style.display = 'none';
+  document.getElementById('false10').style.display = 'none';
+  document.getElementById('false11').style.display = 'none'; 
+  // document.getElementById('nomor4').style.display = 'block'; 
+}
+
+function salah5(){
+  document.getElementById('b5').style.display = 'none';
+  document.getElementById('s5').style.display = 'block';
+}
+
+function benar5(){
+  document.getElementById('b5').style.display = 'block';
+  document.getElementById('s5').style.display = 'none'; 
+  document.getElementById('false12').style.display = 'none';
+  document.getElementById('false13').style.display = 'none';
+  document.getElementById('false14').style.display = 'none'; 
+  // document.getElementById('nomor5').style.display = 'block'; 
+}
+
 //Halaman 2 bawah
 function negatif(){
     cek1.src = "../../img/benar.png";
