@@ -175,13 +175,13 @@ h4 {
   font-family: sans-serif;
   padding: 10px;
   border: none;
-  border-style: solid;
+  border-style: double;
   margin-right: 5px;
   margin-top: -30px;
   cursor: pointer;
   border-radius: 5px;
   font-size: 18px;
-  width: 20%;
+  width: fit-content;
 }
 
 .no1:hover,
@@ -204,7 +204,7 @@ h4 {
   cursor: pointer;
   border-radius: 5px;
   font-size: 18px;
-  width: 20%;
+  width: fit-content;
   border: none;
   border-style: solid;
 }

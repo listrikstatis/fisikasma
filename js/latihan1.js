@@ -1,25 +1,14 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyAZDp9rrxItslIYMXyU2_7Y-eCr1sM63Qo",
-    authDomain: "listrikstatis-b91fe.firebaseapp.com",
-    projectId: "listrikstatis-b91fe",
-    storageBucket: "listrikstatis-b91fe.appspot.com",
-    messagingSenderId: "261164154927",
-    appId: "1:261164154927:web:a273f977e8f6ef428246da"
-};
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-    
-// var firebaseConfig = {
-//     apiKey: "AIzaSyAhKXoyKcsbwP2vXcyDEmLvCIJ9I_6YIns",
-//     authDomain: "listrik-da7f7.firebaseapp.com",
-//     databaseURL: "https://listrik-da7f7-default-rtdb.firebaseio.com",
-//     projectId: "listrik-da7f7",
-//     storageBucket: "listrik-da7f7.appspot.com",
-//     messagingSenderId: "569158504829",
-//     appId: "1:569158504829:web:75d834f0bf739b7fb63c14"
-//   };
-//   // Initialize Firebase
-//   firebase.initializeApp(firebaseConfig);
+    apiKey: "AIzaSyAhKXoyKcsbwP2vXcyDEmLvCIJ9I_6YIns",
+    authDomain: "listrik-da7f7.firebaseapp.com",
+    databaseURL: "https://listrik-da7f7-default-rtdb.firebaseio.com",
+    projectId: "listrik-da7f7",
+    storageBucket: "listrik-da7f7.appspot.com",
+    messagingSenderId: "569158504829",
+    appId: "1:569158504829:web:75d834f0bf739b7fb63c14"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
 
 
 let selanjutnya = document.querySelector('.lanjut');
