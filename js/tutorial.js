@@ -52,6 +52,14 @@ function materi3(){
     alert('Maaf, Kamu belum bisa membuka materi ini!');
   }
 }
+function materi3b(){
+  var skor = localStorage.getItem("nkuis2");
+  if (skor>=70){
+    window.location.href='../Materi3/medanlistrik2.html#medanlistrik';
+  } else{
+    alert('Maaf, Kamu belum bisa membuka materi ini!');
+  }
+}
 
 function kuis3(){
   var skor = localStorage.getItem("nkuis2");
