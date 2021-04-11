@@ -527,7 +527,7 @@ a {
     height: auto;
     background: #334E5C;
     margin-top: -5px;
-    text-align: -webkit-center;
+    /* text-align: -webkit-center; */
   }
 
   /*_______________________________________________________________________________*/
