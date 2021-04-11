@@ -40,17 +40,17 @@ selanjutnya.addEventListener('click', function () {
     } else {
         kelasnya.className = kelasnya.className.replace('tt_salah', '');
         if (kelasnya.value == "1") {
-            kelasfix = "IX A";
+            kelasfix = "XII A";
         } else if (kelasnya.value == "2") {
-            kelasfix = "IX B";
+            kelasfix = "XII B";
         } else if (kelasnya.value == "3") {
-            kelasfix = "IX C";
+            kelasfix = "XII C";
         } else if (kelasnya.value == "4") {
-            kelasfix = "IX D";
+            kelasfix = "XII D";
         } else if (kelasnya.value == "5") {
-            kelasfix = "IX E";
+            kelasfix = "XII E";
         } else if (kelasnya.value == "6") {
-            kelasfix = "IX F";
+            kelasfix = "XII F";
         } 
         cek += 1;
     }
@@ -123,9 +123,10 @@ dat.onreadystatechange = function () {
             let jwb1 = data[nilai]["soal" + nilai]["b"];
             let jwb2 = data[nilai]["soal" + nilai]["c"];
             let jwb3 = data[nilai]["soal" + nilai]["d"];
+            let jwb4 = data[nilai]["soal" + nilai]["e"];
             let bnr = data[nilai]["soal" + nilai]["benar"];
 
-            let jwb = [jwb0, jwb1, jwb2, jwb3];
+            let jwb = [jwb0, jwb1, jwb2, jwb3, jwb4];
 
             jwbs.push(bnr);
 
@@ -188,7 +189,7 @@ dat.onreadystatechange = function () {
             let soall = document.createElement('div');
             soall.setAttribute('class', 'soall');
 
-            for (let ii = 0; ii < 4; ii++) {
+            for (let ii = 0; ii < 5; ii++) {
                 let bg_pilihan = document.createElement('label');
                 bg_pilihan.setAttribute('class', 'bg_pilihan');
 
@@ -201,8 +202,10 @@ dat.onreadystatechange = function () {
                     input.setAttribute('value', 'b');
                 } else if (ii == 2) {
                     input.setAttribute('value', 'c');
-                } else {
+                } else if (ii == 3){
                     input.setAttribute('value', 'd');
+                } else {
+                    input.setAttribute('value', 'e');
                 }
 
                 let textnya = document.createElement('span');

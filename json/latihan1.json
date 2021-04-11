@@ -1,91 +1,101 @@
 [{
     "soal0": {
-        "soal": "Terdapat lima buah benda, diketahui benda Q bermuatan positif, benda P ditolak oleh benda Q, benda Q ditarik oleh benda R, benda R ditolak oleh benda S dan benda S ditarik oleh benda T. Pernyataan muatan listrik yang benar adalah ....",
-        "a": "a. P dan R negatif",
-        "b": "b. P dan R positif",
-        "c": "c. R dan S negatif",
-        "d": "d. S dan T positif",
-        "benar": "c"
-    }
-},{
-    "soal1": {
-        "soal":"Terdapat empat buah benda, benda 1 menarik benda 2, benda 2 menarik benda 3. Apabila diketahui benda 3 bermuatan positif maka ....",
-        "a": "a. Benda 1 dan 2 bermuatan negatif",
-        "b": "b. Benda 1 dan 2 bermuatan positif",
-        "c": "c. Benda 1 bermuatan negatif dan 2 bermuatan positif",
-        "d": "d. Benda 1 bermuatan positif dan 2 bermuatan negatif",
-        "benar": "d"        
-    }        
-},{
-    "soal2": {
-        "soal": "Apabila suatu atom kehilangan sejumlah elektron, maka atom tersebut ...",
-        "a": "a. Tidak bermuatan",
-        "b": "b. Bermuatan positif",
-        "c": "c. Bermuatan negatif",
-        "d": "d. Tidak dapat ditentukan muatannya",
-        "benar": "b"
-    }
-},{
-    "soal3": {
         "soal": "Bola A menarik bola B, bola B menolak bola C, sedangkan bola C menarik bola D. apabila diketahui bola A bermuatan positif maka ...",
         "a": "a. Bola B negatif, bola C positif, bola D negatif",
         "b": "b. Bola B negatif, bola C negatif, bola D negatif",
         "c": "c. Bola B negatif, bola C negatif, bola D positif",
-        "d": "d. Bola B negatif, bola C positif, bola D negatif",
+        "d": "d. Bola B positif, bola C negatif, bola D positif",
+        "e": "e. Bola B negatif, bola C positif, bola D negatif",
         "benar": "c"
     }
 },{
-    "soal4": {
-        "soal": "Bila benda O menarik benda P, Benda P menarik benda Q, jika benda Q bermuatan negatif maka ....",
-        "a": "a. O dan P bermuatan negatif",
-        "b": "b. O dan P bermuatan positif",
-        "c": "c. O bermuatan negatif dan P bermuatan positif",
-        "d": "d. O bermuatan positif dan P bermuatan negatif",
-        "benar": "c"
-    }
-},{    
-    "soal5": {
-        "soal": "Dua muatan yang sejenis jika didekatkan akan ...",
-        "a": "a. Tetap mempertahankan posisinya",
-        "b": "b. Menarik dan menolak",
-        "c": "c. Tolak menolak",
-        "d": "d. Tarik menarik",
-        "benar": "c"
-    }
-},{ 
-    "soal6": {
-        "soal": "Benda X bermuatan positif dan benda Y bermuatan negatif. Jika kedua benda saling berdekatan , maka ...",
-        "a": "a. Benda X dan Y tarik menarik",
-        "b": "b. Benda X menolak benda Y",
-        "c": "c. Benda X dan Y akan tolak menolak",
-        "d": "d. Benda X dan Y tidak terjadi interaksi",
-        "benar": "a"
-    }
-},{ 
-    "soal7": {
-        "soal": "Benda-benda bermuatan listrik berikut ini yang tolak menolak adalah ...",
-        "a": "a. Sisir dengan kaca",
-        "b": "b. Plastik dengan sisir",
-        "c": "c. Ebonit dengan kaca",
-        "d": "d. Plastik dengan kaca",
-        "benar": "a"
-    }
-},{ 
-    "soal8": {
-        "soal": "Perhatikan pernyataan berikut.<br>1) Muatan listrik yang sejenis tolak menolak<br>2) Benda bermuatan listrik positif jika jumlah elektron lebih banyak dari proton<br>3) Muatan listrik yang tidak sejenis tarik menarik<br>4) Benda bermuatan listrik negatif jika jumlah proton lebih banyak dari elektron<br>Sifat-sifat dari muatan listrik yang benar sesuai pernyataan nomor ...",
-        "a": "a. 1 dan 2",
-        "b": "b. 1 dan 3",
-        "c": "c. 2 dan 3",
-        "d": "d. 2 dan 4",
-        "benar": "b"
-    }
+    "soal1": {
+        "soal":"Terdapat lima buah benda, diketahui benda Q bermuatan positif, benda P ditolak oleh benda Q, benda Q ditarik oleh benda R, benda R ditolak oleh benda S dan benda S ditarik oleh benda T. Pernyataan muatan listrik yang benar adalah ....",
+        "a": "a. P dan R negatif",
+        "b": "b. R dan S negatif",
+        "c": "c. R dan S positif",
+        "d": "d. P dan R positif",
+        "e": "e. S dan T positif",
+        "benar": "b"        
+    }        
 },{
-    "soal9": {
+    "soal2": {
         "soal": "Empat buah muatan listrik A, B, C, D. Diketahui A dan B tolak menolak, A dan C tarik menarik, C dan D tolak menolak. Jika B bermuatan positif, ...",
         "a": "a. A bermuatan positif, C positif",
         "b": "b. C bermuatan negatif, D positif",
         "c": "c. A bermuatan negatif, C positif",
-        "d": "d. D bermuatan negatif, A positif",
+        "d": "d. D bermuatan positif, C negatif ",        
+        "e": "e. D bermuatan negatif, A positif",
+        "benar": "e"
+    }
+},{
+    "soal3": {
+        "soal": "Dua benda bermuatan listrik masing-masing bermuatan 10 C dan 20 C berjarak 0,2 m di udara (k = \\(9 \\times 10^9\\; Nm^2/C^2\\)). Gaya tolak-menolak antara kedua muatan tersebut sebesar ...",
+        "a": "a. \\(54 \\times 10^9\\) N",
+        "b": "b. \\(36 \\times 10^{10}\\) N",
+        "c": "c. \\(18 \\times 10^{11}\\) N",
+        "d": "d. \\(9 \\times 10^{12}\\) N",
+        "e": "e. \\(4,5 \\times 10^{13}\\) N",
+        "benar": "e"
+    }
+},{
+    "soal4": {
+        "soal": "Bola konduktor bermuatan 4 C didekatkan dengan bola konduktor bermuatan 6 C dengan jarak 2 m. Besar gaya yang terjadi antara dua muatan tersebut adalah ...",
+        "a": "a. \\(40 \\times 10^9\\) N",
+        "b": "b. \\(45 \\times 10^9\\) N",
+        "c": "c. \\(54 \\times 10^9\\) N",
+        "d": "d. \\(62 \\times 10^9\\) N",
+        "e": "e. \\(70 \\times 10^9\\) N",
+        "benar": "c"
+    }
+},{    
+    "soal5": {
+        "soal": "Dua muatan \\(Q_A\\) dan \\(Q_B\\) berjarak r, gaya tolak antara kedua muatan adalah F. Jika jarak antara muatan, dijadikan ½ r, gaya tolaknya menjadi ...",
+        "a": "a. 4 F",
+        "b": "b. 2 F",
+        "c": "c. ¼ F",
+        "d": "d. ¾ F",
+        "e": "e. ½ F",
+        "benar": "a"
+    }
+},{ 
+    "soal6": {
+        "soal": "Gaya Coulomb yang dialami kedua muatan A dan B adalah sebesar \\(3 \\times 10^{–4}\\) N. Jika besar muatan A dan B masing-masing sebesar \\(2 \\times 10^{–6}\\) C dan \\(1,5 \\times 10^{–6}\\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B ....",
+        "a": "a. 1,50 N/C",
+        "b": "b. 150 N/C",
+        "c": "c. 10 N/C",
+        "d": "d. 15 N/C",
+        "e": "e. 155 N/C",
+        "benar": "b"
+    }
+},{ 
+    "soal7": {
+        "soal": "Suatu daerah di dekat Q muatan 15 C mengalami gaya tarik sebesar 300 N, maka besar medan listrik di daerah tersebut adalah ...",
+        "a": "a. 5 N/C",
+        "b": "b. 10 N/C",
+        "c": "c. 15 N/C",
+        "d": "d. 20 N/C",
+        "e": "e. 25 N/C",
         "benar": "d"
+    }
+},{ 
+    "soal8": {
+        "soal": "Perhatikan gambar di bawah ini! <br> <img src='../../img/medansoal8.png' style='width: 45%'><br> Berapakah kuat medan listrik di titik P yang memiliki jarak sebesar 3 cm dan muatan q yang bernilai \\(8 \\times 10^{-9}\\) C ....",
+        "a": "a. \\(36 \\times 10^4\\) N/C",
+        "b": "b. \\(24 \\times 10^4\\) N/C",
+        "c": "c. \\(12 \\times 10^4\\) N/C",
+        "d": "d. \\(8 \\times 10^4\\) N/C",
+        "e": "e. \\(1 \\times 10^4\\) N/C",
+        "benar": "d"
+    }
+},{
+    "soal9": {
+        "soal": "Titik A berada pada jarak 6 cm dari suatu muatan listrik. Jika muatan itu memberikan kuat medan listrik sebesar 10<sup>6</sup> N/C, berapa besar muatan listrik tersebut ...",
+        "a": "a. \\(2 \\times 10^{-7}\\) C",
+        "b": "b. \\(4 \\times 10^{-7}\\) C",
+        "c": "c. \\(10 \\times 10^{-7}\\) C",
+        "d": "d. \\(16 \\times 10^{-7}\\) C",
+        "e": "e. \\(20 \\times 10^{-7}\\) C",
+        "benar": "b"
     }
 }]
