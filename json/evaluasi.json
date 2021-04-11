@@ -1,10 +1,11 @@
 [{
     "soal0": {
-        "soal": "Sebuah muatan Q yang muatannya \\(7 \\times 10^9\\) C pada jarak 7 cm. Maka kuat medan listrik muatan tersebut adalah ... ",
-        "a": "a. \\(1,30 \\times 10^4\\) N/C",
-        "b": "b. \\(1,29 \\times 10^5\\) N/C",
-        "c": "c. \\(1,29 \\times 10^4\\) N/C",
-        "d": "d. \\(12,9 \\times 10^5\\) N/C",
+        "soal": "Bila benda O menarik benda P, Benda P menarik benda Q, jika benda Q bermuatan negatif maka ... ",
+        "a": "a. O dan P bermuatan negatif",
+        "b": "b. O dan P bermuatan positif",
+        "c": "c. O bermuatan negatif dan P bermuatan positif",
+        "d": "d. O bermuatan positif dan P bermuatan negatif",
+        "e": "e. O bermuatan netral dan P bermuatan positif",
         "benar": "c"
     }
 },{
@@ -13,7 +14,8 @@
         "a": "a. positif, positif, positif",
         "b": "b. positif, negatif, negatif",
         "c": "c. negatif, negatif, negatif",
-        "d": "d. negatif, positif, negatif",
+        "d": "d. positif, positif, negatif",
+        "e": "e. negatif, positif, negatif",
         "benar": "b"        
     }        
 },{
@@ -23,6 +25,7 @@
         "b": "b. 1 dan 4",
         "c": "c. 2 dan 4",
         "d": "d. 3 dan 4",
+        "e": "e. 1 dan 4",
         "benar": "a"
     }
 },{
@@ -31,16 +34,18 @@
         "a": "a. positif, karena telah melepaskan sebagian dari elektronnya",
         "b": "b. positif, karena jumlah proton pada penggaris bertambah",
         "c": "c. negatif, karena telah menerima beberapa elektron dari kain",
-        "d": "d. negatif, karena elektron dari penggaris pindah ke kain",
-        "benar": "b"
+        "d": "d. positif, karena telah menerima proton dari kain",
+        "e": "e. negatif, karena elektron dari penggaris pindah ke kain",
+        "benar": "c"
     }
 },{
    "soal4": {
-        "soal": "Menurut deret tribolistrik, jika emas (Au) digosok dengan kain wol, maka emas akan ....",
-        "a": "a. bermuatan positif",
-        "b": "b. bermuatan negatif",
-        "c": "c. netral",
-        "d": "d. mungkin positif, mungkin negatif",
+        "soal": "Perhatikan pernyataan berikut.<br>1) Muatan listrik yang sejenis tolak menolak<br>2) Benda bermuatan listrik positif jika jumlah elektron lebih banyak dari proton <br>3) Muatan listrik yang tidak sejenis tarik menarik <br>4) Benda bermuatan listrik negatif jika jumlah proton lebih banyak dari elektron<br>Sifat-sifat dari muatan listrik yang benar sesuai pernyataan nomor ...",
+        "a": "a. 1 dan 2",
+        "b": "b. 1 dan 3",
+        "c": "c. 2 dan 3",
+        "d": "d. 2 dan 4",
+        "e": "e. 3 dan 4",
         "benar": "b"
     }
 },{    
@@ -49,7 +54,8 @@
         "a": "a. 3 N",
         "b": "b. 6 N",
         "c": "c. 12 N",
-        "d": "d. 24 N",
+        "d": "d. 18 N",
+        "e": "e. 24 N",
         "benar": "a"
     }
 },{ 
@@ -58,124 +64,138 @@
         "a": "a. \\(5,4 \\times 10^{–5}\\) N",
         "b": "b. \\(5,4 \\times 10^{–4}\\) N",
         "c": "c. \\(5,4 \\times 10^5\\) N",
-        "d": "d. \\(5,4 \\times 10^{–2}\\) N",
-        "benar": "d"
+        "d": "d. \\(5,4 \\times 10^{–3}\\) N",
+        "e": "e. \\(5,4 \\times 10^{–2}\\) N",
+        "benar": "e"
     }
 },{ 
     "soal7": {
         "soal": "Dua benda P dan Q masing-masing bermuatan \\(6 \\times 10^{-7}\\) C dan \\(-4 \\times 10^{-8}\\) C, dipisahkan pada jarak 0,02 m. Jika k = \\(9 \\times 10^9\\; Nm^2/C^2\\) gaya tarik-menarik antara kedua benda itu adalah ....",
-        "a": "a. 0,054 N",
-        "b": "b. 0,54 N ",
-        "c": "c. 5,4 N",
-        "d": "d. 54 N",
-        "benar": "b"
+        "a": "a. 0,0054 N",
+        "b": "b. 0,054 N ",
+        "c": "c. 0,54 N",
+        "d": "d. 5,4 N",
+        "e": "e. 54 N",
+        "benar": "c"
     }
 },{ 
     "soal8": {
-        "soal": "Benda A menarik benda B, benda B menolak benda C, dan benda C menarik benda D. Jika A bermuatan listrik negatif, muatan benda D adalah ....",
-        "a": "a. negatif",
-        "b": "b. positif",
-        "c": "c. netral",
-        "d": "d. bisa positif atau negatif",
-        "benar": "a"
+        "soal": "Dua muatan listrik yang terpisahkan sejauh 10 cm mengalami gaya tarik-menarik 10 N. Gaya tarik antara kedua muatan jika terpisah sejauh 5 cm sebesar …",
+        "a": "a. 10 N",
+        "b": "b. 20 N",
+        "c": "c. 25 N",
+        "d": "d. 30 N",
+        "e": "e. 40 N",
+        "benar": "e"
     }
 },{
     "soal9": {
-        "soal": "Diketahui dua buah muatan listrik masing-masing bermuatan \\(+5 \\times 10^{-9}\\) C dipisahkan oleh jarak 0,5 cm. Gaya tolak menolak kedua muatan tersebut adalah ...",
-        "a": "a. \\(9 \\times 10^{–1}\\) N",
-        "b": "b. \\(9 \\times 10^{–2}\\) N",
-        "c": "c. \\(9 \\times 10^{–3}\\) N",
-        "d": "d. \\(9 \\times 10^{–4}\\) N",
-        "benar": "c"
-    }
-},{
-    "soal10": {
-        "soal": "Beda potensial antara titik A ke titik B sebesar 20 V, besar energi yang diperlukan untuk memindahkan muatan 4 C antara dua titik tersebut adalah ...",
-        "a": "a. 0,2 V",
-        "b": "b. 5 V",
-        "c": "c. 40 V",
-        "d": "d. 80 J",
-        "benar": "d"
-    }
-},{
-    "soal11": {
-        "soal": "Hewan yang memiliki kemampuan menghasilkan muatan listrik umumnya memiliki sistem khusus pada tubuhnya yang disebut sebagai ...",
-        "a": "a. Elektrisitas",
-        "b": "b. Elektroplaks",
-        "c": "c. Elektroreseptor",
-        "d": "d. Neurotransmitter",
-        "benar": "c"
-    }
-},{
-    "soal12": {
-        "soal": "Untuk memindahkan muatan listrik sebesar 5 C, dari titik A ke titik B diperlukan usaha sebesar 25 J, beda potensial antara titik A dan titik B adalah....",
-        "a": "a. 5 V",
-        "b": "b. 20 V",
-        "c": "c. 10 V",
-        "d": "d. 30 V",
-        "benar": "a"
-    }
-},{
-    "soal13": {
-        "soal": "Untuk memindahkan 24 coulomb muatan listrik dari A ke B diperlukan energi 120 joule, maka beda potensial antara A dan B adalah ....",
-        "a": "a. 2 V",
-        "b": "b. 5 V",
-        "c": "c. 0,2 V",
-        "d": "d. 0,5 V",
-        "benar": "b"
-    }
-},{
-    "soal14": {
-        "soal": "Benda pada gambar berikut ini bermuatan ...<br><img src='../../img/eva3.png'>",
-        "a": "a. Negatif",
-        "b": "b. Positif",
-        "c": "c. Netral",
-        "d": "d. Proton",
-        "benar": "a"
-    }
-},{
-    "soal15": {
-        "soal": "Diketahui besar muatan q = \\(4 \\times 10^{–9}\\) C mempunyai gaya coulomb 400 N, maka kuat medan listrik muatan tersebut adalah ...",
-        "a": "a. \\(0,1 \\times 10^{10}\\) N/C",
-        "b": "b. \\(1 \\times 10^{-11}\\) N/C",
-        "c": "c. \\(1 \\times 10^{10}\\) N/C",
-        "d": "d. \\(0,1 \\times 10^{-11}\\) N/C",
-        "benar": "b"
-    }
-},{
-    "soal16": {
-        "soal": "Akson atau neurit berfungsi untuk ...",
-        "a": "a. Mempercepat jalannya impuls saraf",
-        "b": "b. Meneruskan impuls dari dendrit ke akson",
-        "c": "c. Meneruskan impuls dari badan sel saraf ke sel saraf lain",
-        "d": "d. Menerima impuls dari sel lain dan meneruskannya ke badan sel",
-        "benar": "C"
-    }
-},{
-    "soal17": {
         "soal": "Sebuah muatan 200 coulomb berada pada jarak 10 m terhadap 20 coulomb muatan yang lain, besar medan listrik pada muatan 200 coulomb tersebut adalah ...",
         "a": "a. \\(1,8 \\times 10^8\\) N/C",
         "b": "b. \\(1,8 \\times 10^{-8}\\) N/C",
         "c": "c. \\(1,8 \\times 10^9\\) N/C",
-        "d": "d. \\(1,8 \\times 10^{-9}\\) N/C",
+        "d": "d. \\(1,8 \\times 10^{-6}\\) N/C",
+        "e": "e. \\(1,8 \\times 10^{-9}\\) N/C",
         "benar": "c"
     }
 },{
-    "soal18": {
-        "soal": "Prinsip kerja penangkal petir adalah ...",
-        "a": "a. mencegah arus listrik dari awan",
-        "b": "b. menetralkan muatan listrik pada awan",
-        "c": "c. mengalihkan aliran arus listrik dari awan ke tempat lain",
-        "d": "d. menyalurkan arus listrik dari awan ke bumi",
+    "soal10": {
+        "soal": "Kuat medan listrik yang ditimbulkan oleh muatan listrik pada sebuah titik bergantung pada:<br>1) Besarnya muatan<br>2) Jaraknya dari muatan<br>3) Jenis muatan<br>4) Jenis medium antara muatan dan titik<br>Pernyataan yang benar adalah ...",
+        "a": "a. 1, 2, 3 dan 4 ",
+        "b": "b. 1, 2 dan 4",
+        "c": "c. 1 dan 3",
+        "d": "d. 2 dan 4",
+        "e": "e. 4",
+        "benar": "b"
+    }
+},{
+    "soal11": {
+        "soal": "Sebuah muatan Q yang muatannya \\(7 \\times 10^9\\) C pada jarak 7 cm. Maka kuat medan listrik muatan tersebut adalah ... ",
+        "a": "a. \\(1,30 \\times 10^4\\) N/C",
+        "b": "b. \\(1,29 \\times 10^{5}\\) N/C",
+        "c": "c. \\(1,29 \\times 10^4\\) N/C",
+        "d": "d. \\(1,30 \\times 10^{5}\\) N/C",
+        "e": "e. \\(12,9 \\times 10^{5}\\) N/C",
+        "benar": "c"
+    }
+},{
+    "soal12": {
+        "soal": "Sebuah bola konduktor berjari-jari 20 cm bermuatan listrik 1µC. Potensial listrik pada jarak 10 cm adalah ...",
+        "a": "a. \\(4,5 \\times 10^4\\) V",
+        "b": "b. \\(3 \\times 10^5\\) V",
+        "c": "c. \\(3,5 \\times 10^4\\) V",
+        "d": "d. \\(3 \\times 10^4\\) V",
+        "e": "e. \\(4,5 \\times 10^5\\) V",
+        "benar": "a"
+    }
+},{
+    "soal13": {
+        "soal": "Potensial di suatu titik yang berjarak r dari muatan Q adalah 600V. Kuat medan listrik di titik tersebut 400 N/C. Jika k = \\(9 \\times 10^9\\; Nm^2/C^2\\), maka besar muatan Q adalah ...",
+        "a": "a. \\(1,50 \\times 10^{-7}\\) C",
+        "b": "b. \\(2,25 \\times 10^{-7}\\) C",
+        "c": "c. \\(4,40 \\times 10^{-7}\\) C",
+        "d": "d. \\(1,0 \\times 10^{-7}\\) C",
+        "e": "d. \\(3,30 \\times 10^{-7}\\) C",
         "benar": "d"
     }
 },{
-    "soal19": {
-        "soal": "Pada cuaca buruk supaya tidak kena sambaran petir, sebaiknya ....",
-        "a": "a. Berteduh di bawah pohon besar",
-        "b": "b. Berlari ke lapangan yang luas",
-        "c": "c. Memakai topi dari baja",
-        "d": "d. Berteduh ke rumah yang ada penangkal petirnya",
+    "soal14": {
+        "soal": "Bola A dan Bola B masing-masing muatan 10 C dan 30 C. Jarak antarbola adalah 3 m. Jika kedua bola tersebut berada di udara maka ...",
+        "a": "a. E<sub>p</sub> bola B \\(9 \\times 10^{11}\\) joule",
+        "b": "b. E<sub>p</sub> bola B \\(3 \\times 10^{11}\\) joule",
+        "c": "c. E<sub>p</sub> bola A \\(9 \\times 10^{10}\\) joule",
+        "d": "d. E<sub>p</sub> bola A : E<sub>p</sub> bola B = 1:3",
+        "e": "e. E<sub>p</sub> bola B = E<sub>p</sub> bola A",
+        "benar": "a"
+    }
+},{
+    "soal15": {
+        "soal": "Tiga kapasitor A, B, dan C masing-masing berkapasitas 4F, 6F, dan 12F disusun seri kemudian dihubungkan dengan tegangan 90V. Apabila muatan listrik masing-masing kapasitor Q<sub>A</sub>, Q<sub>B</sub>, dan Q<sub>C</sub> maka …",
+        "a": "a. Q<sub>C</sub> = 3 × Q<sub>A</sub> ",
+        "b": "b. Q<sub>A</sub> < Q<sub>B</sub> < Q<sub>C</sub>",
+        "c": "c. Q<sub>C</sub> = 1/3 × Q<sub>A</sub>",
+        "d": "d. Q<sub>A</sub> = Q<sub>B</sub> = Q<sub>C</sub>",
+        "e": "e. Q<sub>B</sub> = 0",
         "benar": "d"
+    }
+},{
+    "soal16": {
+        "soal": "Sebuah kapasitor dengan kapasitansi \\(2 \\times 10^{-5}\\) F yang pernah dihubungkan untuk beberapa saat lamanya pada beda potensial 500 V. Kedua ujungnya dihubungkan dengan ujung-ujung sebuah kapasitor lain dengan kapasitansinya \\(3 \\times 10^{-5}\\) F yang tidak bermuatan. Energi yang tersimpan di dalam kedua kapasitor adalah …",
+        "a": "a. 0,25 J",
+        "b": "b. 0,50 J",
+        "c": "c. 1,00 J",
+        "d": "d. 1,25 J",
+        "e": "e. 1,50 J",
+        "benar": "c"
+    }
+},{
+    "soal17": {        
+        "soal": "Kapasitor X, Y dan Z dirangkai seperti pada gambar.<br><img class='gmb' src='../../img/soal18.png'><br>Bila saklar S ditutup selama 5 detik, energi listrik yang tersimpan pada kapasitor Z adalah …",
+        "a": "a. 2144 J",
+        "b": "b. 1720 J",
+        "c": "c. 728 J",
+        "d": "d. 864 J",
+        "e": "e. 432 J",
+        "benar": "e"
+    }
+},{
+    "soal18": {
+        "soal": "Kapasitas 1,2 µF diberi muatan hingga 3 kilovolt. Besar energi yang tesimpan dalam kapasitor adalah ... ",
+        "a": "a. 0,6 joule",
+        "b": "b. 4,5 joule",
+        "c": "c. 5,4 joule",
+        "d": "d. 7,6 joule",
+        "e": "e. 8,10 joule",
+        "benar": "c"
+    }
+},{
+    "soal19": {
+        "soal": "Sebuah kapasitor 50 µF dihubungkan dengan sumber tegangan hingga dapat menyimpan energi sebesar 0,36 joule. Besar muatan yang tersimpan dalam kapasitor tersebut adalah ...",
+        "a": "a. \\(3,6 \\times 10^{-3}\\) C",
+        "b": "b. \\(3,6 \\times 10^{-2}\\) C",
+        "c": "c. \\(6,0 \\times 10^{-2}\\) C",
+        "d": "d. \\(6,0 \\times 10^{3}\\) C",
+        "e": "e. \\(6,0 \\times 10^{-3}\\) C",
+        "benar": "e"
     }
 }]
