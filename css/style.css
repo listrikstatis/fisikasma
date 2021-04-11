@@ -71,7 +71,7 @@ a {
   margin-top: 0.5% !important;
 }
 
-.headerimgkap {
+.headerimgkap, .headerimgmedan {
   width: 13%;
   text-align: -webkit-center;
   margin-top: 0.4%;
@@ -395,7 +395,7 @@ a {
   }
 
   .headerimg,
-  .headerimgkap {
+  .headerimgkap, .headerimgmedan {
     width: 70%;
     text-align: -webkit-center;
     margin-bottom: 2%;
