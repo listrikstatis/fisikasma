@@ -40,17 +40,17 @@ selanjutnya.addEventListener('click', function () {
     } else {
         kelasnya.className = kelasnya.className.replace('tt_salah', '');
         if (kelasnya.value == "1") {
-            kelasfix = "IX A";
+            kelasfix = "XII A";
         } else if (kelasnya.value == "2") {
-            kelasfix = "IX B";
+            kelasfix = "XII B";
         } else if (kelasnya.value == "3") {
-            kelasfix = "IX C";
+            kelasfix = "XII C";
         } else if (kelasnya.value == "4") {
-            kelasfix = "IX D";
+            kelasfix = "XII D";
         } else if (kelasnya.value == "5") {
-            kelasfix = "IX E";
+            kelasfix = "XII E";
         } else if (kelasnya.value == "6") {
-            kelasfix = "IX F";
+            kelasfix = "XII F";
         } 
         cek += 1;
     }

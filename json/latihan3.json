@@ -1,87 +1,96 @@
 [{
     "soal0": {
-        "soal": "Daerah atau ruang di sekitar muatan listrik yang masih dipengaruhi oleh gaya listrik dari muatan tersebut disebut ...",
-        "a": "a. Medan listrik",
-        "b": "b. Kuat arus listrik",
-        "c": "c. Energi listrik",
-        "d": "d. Beda potensial listrik",
+        "soal": "Sebuah kapasitor mempunyai kapasitas 4 μF diberi beda potensial 25 volt. Energi yang tersimpan adalah ...",
+        "a": "a. \\(1,5 \\times 10^{-3}\\) joule",
+        "b": "b. \\(1,25 \\times 10^{3}\\) joule",
+        "c": "c. \\(1,50 \\times 10^{-3}\\) joule",
+        "d": "d. \\(1,50 \\times 10^{3}\\) joule",
+        "e": "e. \\(1 \\times 10^{3}\\) joule",
         "benar": "a"
     }
 },{
     "soal1": {
-        "soal":"Sebuah bola bermuatan listrik 10 C, kuat medan listrik pada jarak 3 meter dari pusat bola adalah ....",
-        "a": "a. \\(1 \\times 10^9\\) N/C",
-        "b": "b. \\(1 \\times 10^{10}\\) N/C",
-        "c": "c. \\(9 \\times 10^9\\) N/C",
-        "d": "d. \\(9 \\times 10^{10}\\) N/C",
-        "benar": "b"        
+        "soal":"Sebuah kapasitor 1,2 μF dihubungkan dengan 3 kV. Energi yang tersimpan dalam kapasitor adalah ...",
+        "a": "a. 5 J",
+        "b": "b. 5,1 J",
+        "c": "c. 5,2 J",
+        "d": "d. 5,3 J",
+        "e": "e. 5,4 J",
+        "benar": "e"
     }        
 },{
     "soal2": {
-        "soal": "Suatu daerah dekat M muatan 60 C mengalami gaya tarikan sebesar 240 N, maka besar medan listrik di daerah tersebut adalah ...",
-        "a": "a. 3 N/C",
-        "b": "b. 4 N/C",
-        "c": "c. 5 N/C",
-        "d": "d. 6 N/C",
-        "benar": "b"
+        "soal": "Kapasitas kapasitor keping sejajar yang diberi muatan dipengaruhi oleh: <br> 1) Konstanta dielektrik<br> 2) Tebal pelat <br> 3) Luas pelat <br> 4) Jarak kedua pelat <br> Pernyataan yang benar adalah ...",
+        "a": "a. 1 dan 2",
+        "b": "b. 2 dan 4",
+        "c": "c. 3 dan 2",
+        "d": "d. 1, 3 dan 4",
+        "e": "e. 4",
+        "benar": "d"
     }
 },{
     "soal3": {
-        "soal": "Gaya coulomb yang dialami oleh muatan A dan B adalah \\(7 \\times 10^{-4}\\) N. Jika besar muatan B adalah \\(2 \\times 10^{-6}\\) C, maka besar kuat medan listrik yang dirasakan oleh muatan B adalah ....",
-        "a": "a. 0,35 N/C",
-        "b": "b. 3,5 N/C",
-        "c": "c. 35 N/C",
-        "d": "d. 350 N/C",
-        "benar": "d"
+        "soal": "Tiga buah kapasitor masing-masing kapasitasnya 3 F, 6 F, dan 9 F dihubungkan secara seri. Kedua ujung dari gabungan tersebut dihubungkan dengan sumber tegangan 220 V. Tegangan di ujung-ujung kapasitor 3 F adalah ...",
+        "a": "a. 18 V",
+        "b": "b. 110 V",
+        "c": "c. 120 V",
+        "d": "d. 220 V",
+        "e": "e. 225 V",
+        "benar": "c"
     }
 },{
     "soal4": {
-        "soal": "Gaya Coulomb yang dialami kedua muatan A dan B adalah sebesar \\(3 \\times 10^{–4}\\) N. Jika besar muatan A dan B masing-masing sebesar \\(2 \\times 10^{–6}\\) C dan \\(1,5 \\times 10^{–6}\\) C, berapakah besar kuat medan listrik yang dirasakan muatan A oleh muatan B ....",
-        "a": "a. 150 N/C",
-        "b": "b. 15 N/C",
-        "c": "c. 1,50 N/C",
-        "d": "d. 155 N/C",
-        "benar": "a"
+        "soal": "Untuk memperbesar kapasitas kapasitor dilakukan dengan cara ...",
+        "a": "a. menaikkan tegangan",
+        "b": "b. menurunkan tegangan",
+        "c": "c. luas keping diperbesar",
+        "d": "d. jumlah muatan diperbesar",
+        "e": "e. luas keping diperkecil",
+        "benar": "c"
     }
 },{    
     "soal5": {
-        "soal": "Suatu daerah di dekat Q muatan 15 C mengalami gaya tarik sebesar 300 N, maka besar medan listrik di daerah tersebut adalah ...",
-        "a": "a. 5 N/C",
-        "b": "b. 10 N/C",
-        "c": "c. 15 N/C",
-        "d": "d. 20 N/C",
-        "benar": "d"
+        "soal": "Dua buah kapasitor masing-masing memiliki kapasitas 2 µF dan 4 µF disusun seri. Kapasitor penggantinya adalah ...",
+        "a": "a. 1/8 µF",
+        "b": "b. 1/2 µF",
+        "c": "c. 1/3 µF",
+        "d": "d. 3/4 µF",
+        "e": "e. 4/3 µF",
+        "benar": "e"
     }
 },{ 
     "soal6": {
-        "soal": "Suatu titik dekat muatan 10<sup>-5</sup> C memiliki kuat medan listrik 600 N/C. Gaya coulomb yang ada pada titik tersebut adalah ...",
-        "a": "a. \\(6 \\times 10^{-3}\\) N",
-        "b": "b. \\(3 \\times 10^{-3}\\) N",
-        "c": "c. \\(5 \\times 10^{-3}\\) N",
-        "d": "d. \\(8 \\times 10^{-3}\\) N",
-        "benar": "a"
-    }
-},{ 
-    "soal7": {
-        "soal": "Perhatikan gambar di bawah ini! <br> <img src='../../img/medansoal8.png' style='width: 45%'><br> Berapakah kuat medan listrik di titik P yang memiliki jarak sebesar 3 cm dan muatan q yang bernilai \\(8 \\times 10^{-9}\\) C ....",
-        "a": "a. \\(36 \\times 10^4\\) N/C",
-        "b": "b. \\(24 \\times 10^4\\) N/C",
-        "c": "c. \\(12 \\times 10^4\\) N/C",
-        "d": "d. \\(8 \\times 10^4\\) N/C",
+        "soal": "Sebuah kapasitor bermuatan 10 C dan mempunyai beda potensial 100 Volt. Energi yang tersimpan di dalamnya adalah ...",
+        "a": "a. \\(1 \\times 10^{-8}\\) joule",
+        "b": "b. \\(5 \\times 10^{-6}\\) joule",
+        "c": "c. \\(5 \\times 10^{-7}\\) joule",
+        "d": "d. \\(1 \\times 10^{-6}\\) joule",
+        "e": "e. \\(1 \\times 10^{-7}\\) joule",
         "benar": "d"
     }
 },{ 
-    "soal8": {
-        "soal": "Jarak titik P dengan benda bermuatan \\(5 \\times 10^{-6}\\) C adalah 3 cm. Tentukan kuat medan listrik yang dialami titik P ...",
-        "a": "a. \\(5 \\times 10^7\\) N/C",
-        "b": "b. \\(7,5 \\times 10^7\\) N/C",
-        "c": "c. \\(15 \\times 10^7\\) N/C",
-        "d": "d. \\(22,5 \\times 10^7\\) N/C",
+    "soal7": {
+        "soal": "Tiga buah kapasitor yang masing-masing kapasitasnya 2 µF, 3 µF, dan 5 µF disusun secara paralel dan dihubungkan dengan sumber tegangan 200 volt, maka besar muatan ketiganya adalah ...",
+        "a": "a. 2.000 µC",
+        "b": "b. 2.500 µC",
+        "c": "c. 1.500 µC",
+        "d": "d. 1.000 µC",
+        "e": "e. 500 µC",
         "benar": "a"
+    }
+},{ 
+    "soal8": {
+        "soal": "Tiga buah kapasitor masing-masing 6 μF, 12 μF dan 4 μF dirangkai seri kemudian dihubungkan dengan sumber tegangan 8 volt. Tegangan pada kapasitor 4 μF adalah ...",
+        "a": "a. 8,0 volt",
+        "b": "b. 4,0 volt",
+        "c": "c. 2,0 volt",
+        "d": "d. 1,0 volt",
+        "e": "e. 0,5 volt",
+        "benar": "b"
     }
 },{
     "soal9": {
-        "soal": "Titik A berada pada jarak 6 cm dari suatu muatan listrik. Jika muatan itu memberikan kuat medan listrik sebesar 10<sup>6</sup> N/C, berapa besar muatan listrik tersebut ...",
+        "soal": "Kapasitor terpasang seperti gambar di bawah.<br><img class='gmb' src='../../img/kapasitor10.png'> <br> Jika muatan yang tersimpan pada C3 adalah 540 μC , maka: <br>1) Muatan yang tersimpan C1 = 240 μC<br>2) Beda potensial ujung-ujung C2 = 60 V<br>3) Beda potensial AB = 60 V<br>4) Jumlah muatan total = 360 μC<br>Pernyataan yang benar adalah ...",
         "a": "a. \\(2 \\times 10^{-7}\\) C",
         "b": "b. \\(4 \\times 10^{-7}\\) C",
         "c": "c. \\(20 \\times 10^{-7}\\) C",

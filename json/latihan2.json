@@ -1,91 +1,101 @@
 [{
     "soal0": {
-        "soal": "Besarnya gaya tolak atau gaya tarik antara dua muatan listrik adalah ...",
-        "a": "a. Berbanding terbalik dengan muatan-muatannya",
-        "b": "b. Berbanding lurus dengan besar muatan-muatannya",
-        "c": "c. Berbanding terbalik dengan dengan jarak antara kedua muatan",
-        "d": "d. Berbanding lurus kuadrat jarak antara kedua muatan",
-        "benar": "b"
+        "soal": "Sebuah bola konduktor diberi muatan Q = 3 μC. Diameter bola 20 cm. Jika muatan kecil q = 2 μC ingin dipindahkan dari permukaan bola ke titik yang berjarak 5 cm dari pusat bola maka diperlukan usaha sebesar ...",
+        "a": "a. 1300 joule",
+        "b": "b. 500 joule",
+        "c": "c. 50 joule",
+        "d": "d. 25 joule",
+        "e": "e. nol",
+        "benar": "e"
     }
 },{
     "soal1": {
-        "soal": "Dua benda masing-masing bermuatan listrik sebesar \\(4 \\times 10^{-9}\\) C dan \\(9 \\times 10^{-9}\\) C. Pada jarak 2 cm, jika nilai k = \\(9 \\times 10^9\\; Nm^2/C^2\\), gaya tolak antara kedua benda sama dengan ...",
-        "a": "a. \\(8,1 \\times 10^{-6}\\) N",
-        "b": "b. \\(8,1 \\times 10^{-5}\\) N",
-        "c": "c. \\(8,1 \\times 10^{-4}\\) N",
-        "d": "d. \\(8,1 \\times 10^{-3}\\) N",
-        "benar": "c"       
+        "soal": "Sebuah bola konduktor diberi muatan +12 μC dan berjari-jari 4 cm. Jika ada tiga titik A, B dan C yang dari pusat berjarak R<sub>A</sub> = 3 cm, R<sub>B</sub> = 4 cm dan R<sub>C</sub> = 6 cm. Maka potensial listrik di titik A dan B adalah ...",
+        "a": "a. \\(2,7 \\times 10^{6}\\) volt",
+        "b": "b. \\(2,7 \\times 10^{7}\\) volt",
+        "c": "c. \\(1,8 \\times 10^{6}\\) volt",
+        "d": "d. \\(3 \\times 10^{7}\\) volt",
+        "e": "e. \\(1,8 \\times 10^{7}\\) volt",
+        "benar": "a"
     }        
 },{
     "soal2": {
-        "soal": "Dua benda bermuatan listrik masing-masing bermuatan 10 C dan 20 C berjarak 0,2 m di udara (k = \\(9 \\times 10^9\\; Nm^2/C^2\\)). Gaya tolak-menolak antara kedua muatan tersebut sebesar ...",
-        "a": "a. \\(54 \\times 10^9\\) N",
-        "b": "b. \\(36 \\times 10^{10}\\) N",
-        "c": "c. \\(9 \\times 10^{12}\\) N",
-        "d": "d. \\(4,5 \\times 10^{13}\\) N",
-        "benar": "d"
-    }
-},{
-    "soal3": {
-        "soal": "Dua muatan yang sama besar berjarak 3 cm terjadi gaya tolak sebesar \\(10^{-19}\\) N. Besar muatan tersebut adalah ....",
-        "a": "a. \\(10^{-10}\\) C",
-        "b": "b. \\(10^{-24}\\) C",
-        "c": "c. \\(10^{-16}\\) C",
-        "d": "d. \\(10^{-32}\\) C",
+        "soal": "Sebuah bola konduktor diberi muatan +12 μC dan berjari-jari 4 cm. Jika ada tiga titik A, B dan C yang dari pusat berjarak R<sub>A</sub> = 3 cm, R<sub>B</sub> = 4 cm dan R<sub>C</sub> = 6 cm. Maka potensial listrik di titik C adalah ...",
+        "a": "a. \\(2,7 \\times 10^{6}\\) volt",
+        "b": "b. \\(2,7 \\times 10^{7}\\) volt",
+        "c": "c. \\(1,8 \\times 10^{6}\\) volt",
+        "d": "d. \\(3 \\times 10^{7}\\) volt",
+        "e": "e. \\(1,8 \\times 10^{7}\\) volt",
         "benar": "c"
     }
 },{
-    "soal4": {
-        "soal": "Jika gaya tolak kedua benda bermuatan listrik masing-masing 2 C dan 4 C sebesar \\(7,2 \\times 10^{12}\\) N, jarak kedua benda tersebut adalah ...",
-        "a": "a. 100 m",
-        "b": "b. 10 m",
-        "c": "c. 100 cm",
-        "d": "d. 10 cm",
+    "soal3": {
+        "soal": "Dua muatan titik Q<sub>A</sub> = -4 μC dan Q<sub>B</sub> = +8 μC berjarak 16 cm. Besar potensial listrik di suatu titik yang berada di tengah-tengah kedua muatan itu adalah ...",
+        "a": "a. \\(3 \\times 10^{6}\\) volt",
+        "b": "b. \\(4,5 \\times 10^{6}\\) volt",
+        "c": "c. \\(3 \\times 10^{5}\\) volt",
+        "d": "d. \\(4,5 \\times 10^{5}\\) volt",
+        "e": "e. \\(4,0 \\times 10^{5}\\) volt",
         "benar": "d"
+    }
+},{
+    "soal4": {
+        "soal": "Pada titik A dan B dari titik sudut segitiga terdapat muatan Q<sub>A</sub> = 8 μC dan Q<sub>A</sub> = -6 µC seperti pada gambar. <br> <img src='../../img/ep5.png' style='width: 45%'><br> Jika terdapat muatan lain sebesar q = 2 μC maka energi potensial muatan q jika berada di titik C adalah ... ",
+        "a": "a. 1,8 joule",
+        "b": "b. 0,9 joule",
+        "c": "c. 0,8 joule",
+        "d": "d. 0,7 joule",
+        "e": "e. 1 joule",
+        "benar": "b"
     }
 },{    
     "soal5": {
-        "soal": "Dua muatan \\(Q_A\\) dan \\(Q_B\\) berjarak r, gaya tolak antara kedua muatan adalah F. Jika jarak antara muatan, dijadikan ½ r, gaya tolaknya menjadi ...",
-        "a": "a. ¼ F",
-        "b": "b. ½ F",
-        "c": "c. 2 F",
-        "d": "d. 4 F",
+        "soal": "Potensial di titik P sejauh r dari muatan q sama dengan V. Potensial di titik Q sejauh R dari muatan 5q sama dengan 2V. Pernyataan yang benar adalah ...",
+        "a": "a. R = 0,1r",
+        "b": "b. R = r/5",
+        "c": "c. R = r",
+        "d": "d. R = 2,5r",
+        "e": "e. R = 5r",
         "benar": "d"
     }
 },{ 
     "soal6": {
-        "soal": "Dua muatan listrik masing-masing 6 C dan 2 C, jarak antara kedua muatan adalah 3 m. Besar gaya tolak-menolaknya (k = \\(9 \\times 10^9\\; Nm^2/C^2\\)) adalah ...",
-        "a": "a. \\(12 \\times 10^8\\) N",
-        "b": "b. \\(12 \\times 10^9\\) N",
-        "c": "c. \\(12 \\times 10^{10}\\) N",
-        "d": "d. \\(16 \\times 10^{10}\\) N",
-        "benar": "b"
+        "soal": "Muatan listrik sebesar 45 C dipindahkan dari suatu titik dengan potensial listrik 10 V ke titik lain dengan potensial listrik 50 V, usaha yang diperlukan untuk memindahkan muatan tersebut adalah ...",
+        "a": "a. 1.000 J",
+        "b": "b. 1.200 J",
+        "c": "c. 1.400 J",
+        "d": "d. 1.600 J",
+        "e": "e. 1.800 J",
+        "benar": "e"
     }
 },{ 
     "soal7": {
-        "soal": "Bola konduktor bermuatan 4 C didekatkan dengan bola konduktor bermuatan 6 C dengan jarak 2 m. Besar gaya yang terjadi antara dua muatan tersebut adalah ...",
-        "a": "a. \\(40 \\times 10^9\\) N",
-        "b": "b. \\(62 \\times 10^9\\) N",
-        "c": "c. \\(45 \\times 10^9\\) N",
-        "d": "d. \\(54 \\times 10^9\\) N",
-        "benar": "d"
+        "soal": "Titik P terletak pada jarak 15 cm dari muatan listrik 3 µC. Potensial listrik yang dihasilkan muatan adalah ...",
+        "a": "a. \\(180 \\times 10^{3}\\) volt",
+        "b": "b. \\(90 \\times 10^{3}\\) volt",
+        "c": "c. \\(-225 \\times 10^{3}\\) volt",
+        "d": "d. \\(1,80 \\times 10^{3}\\) volt",
+        "e": "e. \\(18 \\times 10^{3}\\) volt",
+        "benar": "a"
     }
 },{ 
     "soal8": {
-        "soal": "Dua buah benda A dan B masing-masing bermuatan \\(5 \\times 10^{-7}\\) C dan \\(-10 \\times 10^{-8}\\) C terpisah dengan jarak 0.04 m. Besar gaya tarik kedua muatan tersebut adalah ...",
-        "a": "a. 0,26 N",
-        "b": "b. 0,28 N",
-        "c": "c. 26 N",
-        "d": "d. 28 N",
-        "benar": "b"
+        "soal": "Titik Q terletak pada jarak 20 cm dari muatan listrik -5 µC. Potensial listrik yang dihasilkan muatan adalah ...",
+        "a": "a. \\(180 \\times 10^{3}\\) volt",
+        "b": "b. \\(225 \\times 10^{3}\\) volt",
+        "c": "c. \\(-225 \\times 10^{3}\\) volt",
+        "d": "d. \\(1,80 \\times 10^{3}\\) volt",
+        "e": "e. \\(18 \\times 10^{3}\\) volt",
+        "benar": "c"
     }
 },{
     "soal9": {
-        "soal": "Dua buah benda A dan B masing-masing bermuatan 20 C dan 30 C. Jika jarak antara kedua benda adalah 5 m, maka besar gaya tolak-menolak adalah ... (k = \\(9 \\times 10^9\\; Nm^2/C^2\\))",
-        "a": "a. \\(216 \\times 10^9\\) N",
-        "b": "b. \\(2,16 \\times 10^9\\) N",
-        "c": "c. \\(21,6 \\times 10^9\\) N",
-        "d": "d. \\(2160 \\times 10^9\\) N",
-        "benar": "a"
+        "soal": "Perhatikan gambar di bawah ini. <br> <img src='../../img/energi10.png' style='width: 45%'><br> Pada suatu titik sudut segitiga sama sisi terdapat muatan +3 μC,-7 μC,+5 μC. Panjang sisi segitiga adalah 8 cm. Maka potensial di titik tengah segitiga tersebut adalah ...",
+        "a": "a. \\(-1,9 \\times 10^{5}\\) V",
+        "b": "b. \\(1,9 \\times 10^{5}\\) V",
+        "c": "c. \\(-19 \\times 10^{5}\\) V",
+        "d": "d. \\(19 \\times 10^{5}\\) V",
+        "e": "e. \\(0,19 \\times 10^{5}\\) V",
+        "benar": "b"
     }
 }]
