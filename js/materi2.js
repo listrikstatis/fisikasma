@@ -76,14 +76,80 @@ function benar2(){
 //           });
 // });
 
-// soal 2
-function salahh(){
-  document.getElementById('b1').style.display = 'none';
-  document.getElementById('s1').style.display = 'block';
+//SOAL 2
+function cek1(){
+  let a1= document.getElementById("2aa1").value;
+  let b1= document.getElementById("2ab1").value;
+  let c1= document.getElementById("2ac1").value;
+
+  if (a1 == "2,25" && b1 == "10" && c1 == "-7") {
+    // document.getElementsByClassName('cek')[0].style.display='none';
+    document.getElementsByClassName('j1')[0].style.display='block';
+    document.getElementsByClassName('none1')[0].style.display='none';
+  } else {
+    document.getElementsByClassName('none1')[0].style.display='block'; 
+    document.getElementById("2aa1").style="border: 3px solid red"; 
+    document.getElementById("2ab1").style="border: 3px solid red"; 
+    document.getElementById("2ac1").style="border: 3px solid red";
+  }
+  
+  if (a1 == "2,25"){
+    document.getElementById("2aa1").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2aa1").style="border: 3px solid red";
+  }
+  
+  if (b1 == "10"){
+    document.getElementById("2ab1").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2ab1").style="border: 3px solid red";
+  }
+  
+  if (c1 == "-7"){
+    document.getElementById("2ac1").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2ac1").style="border: 3px solid red";
+  }
+
 }
-function benarr(){
-  document.getElementById('b1').style.display = 'block';
-  document.getElementById('s1').style.display = 'none';
+
+function cek11(){
+  let a1= document.getElementById("2aa1").value;
+  
+  if (a1 == "2,25"){
+    document.getElementById("2aa1").style="border: 3px solid green";     
+    document.getElementsByClassName('none1')[0].style.display='none';    
+  } else{
+    document.getElementById("2aa1").style="border: 3px solid red";    
+    document.getElementsByClassName('j1')[0].style.display='none';  
+    document.getElementsByClassName('none1')[0].style.display='block';
+  }
+}
+
+function cek12(){
+  let b1= document.getElementById("2ab1").value;
+  
+  if (b1 == "10"){
+    document.getElementById("2ab1").style="border: 3px solid green";        
+    document.getElementsByClassName('none1')[0].style.display='none'; 
+  } else{
+    document.getElementById("2ab1").style="border: 3px solid red";    
+    document.getElementsByClassName('j1')[0].style.display='none';  
+    document.getElementsByClassName('none1')[0].style.display='block';
+  }
+}
+
+function cek13(){
+  let c1= document.getElementById("2ac1").value;
+  
+  if (c1 == "-7"){
+    document.getElementById("2ac1").style="border: 3px solid green";      
+    document.getElementsByClassName('none1')[0].style.display='none';   
+  } else{
+    document.getElementById("2ac1").style="border: 3px solid red";    
+    document.getElementsByClassName('j1')[0].style.display='none';  
+    document.getElementsByClassName('none1')[0].style.display='block';
+  }
 }
 
 //SOAL 3
@@ -94,156 +160,87 @@ function cek3(){
     // document.getElementsByClassName('cek3')[0].style.display='none';
     document.getElementsByClassName('co1')[0].style.display='block';    
     document.getElementById("cb3").style="border: 3px solid green";    
-    // document.getElementsByClassName('non1')[0].style.display='none'; 
+    document.getElementsByClassName('non1')[0].style.display='none'; 
   } else {          
     document.getElementsByClassName('co1')[0].style.display='none'; 
     document.getElementById("cb3").style="border: 3px solid red"; 
-    // document.getElementsByClassName('non1')[0].style.display='block'; 
+    document.getElementsByClassName('non1')[0].style.display='block'; 
 }
 }
 
-//SOAL 1
-function cek(){
-  let cb31= document.getElementById("cb31").value;
-  
-  if (cb31 == "10" && cb32 == "20" && cb33 == "0,2" && cb34 == "2" && cb35 == "4,5" && cb36 == "10" && cb37 == "13") {
-    // document.getElementsByClassName('cek3')[0].style.display='none';
-    document.getElementsByClassName('co3')[0].style.display='block';
-  } else {          
-    document.getElementsByClassName('non3')[0].style.display='none'; 
-    document.getElementById("cb31").style="border: 3px solid red"; 
-  }
-  if (cb31 == "10"){
-    document.getElementById("cb31").style="border: 3px solid green";   
+//SOAL 2
+function cek2(){
+  let a2= document.getElementById("2aa").value;
+  let b2= document.getElementById("2ab").value;
+  let c2= document.getElementById("2ac").value;
+
+  if (a2 == "1,8" && b2 == "10" && c2 == "2") {
+    // document.getElementsByClassName('cek')[0].style.display='none';
+    document.getElementsByClassName('j2')[0].style.display='block';
+    document.getElementsByClassName('none2')[0].style.display='none';
   } else {
-    document.getElementById("cb31").style="border: 3px solid red"; 
+    document.getElementsByClassName('none2')[0].style.display='block'; 
+    document.getElementById("2aa").style="border: 3px solid red"; 
+    document.getElementById("2ab").style="border: 3px solid red"; 
+    document.getElementById("2ac").style="border: 3px solid red";
   }
   
-  if(cb32 == "20"){
-    document.getElementById("cb32").style="border: 3px solid green";
-  } else {
-    document.getElementById("cb32").style="border: 3px solid red"; 
+  if (a2 == "1,8"){
+    document.getElementById("2aa").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2aa").style="border: 3px solid red";
   }
   
-  if(cb33 == "0,2"){
-    document.getElementById("cb33").style="border: 3px solid green";
-  } else {
-    document.getElementById("cb33").style="border: 3px solid red"; 
+  if (b2 == "10"){
+    document.getElementById("2ab").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2ab").style="border: 3px solid red";
   }
   
-  if(cb34 == "2"){
-    document.getElementById("cb34").style="border: 3px solid green";
-  } else {
-    document.getElementById("cb34").style="border: 3px solid red"; 
+  if (c2 == "2"){
+    document.getElementById("2ac").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2ac").style="border: 3px solid red";
   }
+
+}
+
+function cek21(){
+  let a2= document.getElementById("2aa").value;
   
-  if(cb35 == "4,5"){
-    document.getElementById("cb35").style="border: 3px solid green";
-  } else {
-    document.getElementById("cb35").style="border: 3px solid red"; 
-  }
-  
-  if(cb36 == "10"){
-    document.getElementById("cb36").style="border: 3px solid green";
-  } else {
-    document.getElementById("cb36").style="border: 3px solid red"; 
-  }
-  
-  if(cb37 == "13"){
-    document.getElementById("cb37").style="border: 3px solid green";
-  } else {
-    document.getElementById("cb37").style="border: 3px solid red"; 
+  if (a2 == "1,8"){
+    document.getElementById("2aa").style="border: 3px solid green";     
+    document.getElementsByClassName('none2')[0].style.display='none';    
+  } else{
+    document.getElementById("2aa").style="border: 3px solid red";    
+    document.getElementsByClassName('j2')[0].style.display='none';  
+    document.getElementsByClassName('none2')[0].style.display='block';
   }
 }
 
-function cek11(){
-  let cb31= document.getElementById("cb31").value;
+function cek22(){
+  let b2= document.getElementById("2ab").value;
   
-  if (cb31 == "10"){
-    document.getElementById("cb31").style="border: 3px solid green";     
-    document.getElementsByClassName('non3')[0].style.display='none';    
+  if (b2 == "10"){
+    document.getElementById("2ab").style="border: 3px solid green";        
+    document.getElementsByClassName('none2')[0].style.display='none'; 
   } else{
-    document.getElementById("cb31").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non3')[0].style.display='block';
+    document.getElementById("2ab").style="border: 3px solid red";    
+    document.getElementsByClassName('j2')[0].style.display='none';  
+    document.getElementsByClassName('none2')[0].style.display='block';
   }
 }
 
-function cek12(){
-  let cb32= document.getElementById("cb32").value;
+function cek23(){
+  let c2= document.getElementById("2ac").value;
   
-  if (cb32 == "20"){
-    document.getElementById("cb32").style="border: 3px solid green";        
-    document.getElementsByClassName('non3')[0].style.display='none'; 
+  if (c2 == "2"){
+    document.getElementById("2ac").style="border: 3px solid green";      
+    document.getElementsByClassName('none2')[0].style.display='none';   
   } else{
-    document.getElementById("cb32").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non3')[0].style.display='block';
-  }
-}
-
-function cek13(){
-  let cb33= document.getElementById("cb33").value;
-  
-  if (cb33 == "0,2"){
-    document.getElementById("cb33").style="border: 3px solid green";      
-    document.getElementsByClassName('non3')[0].style.display='none';   
-  } else{
-    document.getElementById("cb33").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non3')[0].style.display='block';
-  }
-}
-
-function cek14(){
-  let cb34= document.getElementById("cb34").value;
-  
-  if (cb34 == "2"){
-    document.getElementById("cb34").style="border: 3px solid green";      
-    document.getElementsByClassName('non3')[0].style.display='none';   
-  } else{
-    document.getElementById("cb34").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non3')[0].style.display='block';
-  }
-}
-
-function cek15(){
-  let cb35= document.getElementById("cb35").value;
-  
-  if (cb35 == "4,5"){
-    document.getElementById("cb35").style="border: 3px solid green";      
-    document.getElementsByClassName('non3')[0].style.display='none';   
-  } else{
-    document.getElementById("cb35").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non3')[0].style.display='block';
-  }
-}
-
-function cek16(){
-  let cb36= document.getElementById("cb36").value;
-  
-  if (cb36 == "10"){
-    document.getElementById("cb36").style="border: 3px solid green";      
-    document.getElementsByClassName('non3')[0].style.display='none';   
-  } else{
-    document.getElementById("cb36").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';  
-    document.getElementsByClassName('non3')[0].style.display='block';
-  }
-}
-
-function cek17(){
-  let cb37= document.getElementById("cb37").value;
-  
-  if (cb37 == "13"){
-    document.getElementById("cb37").style="border: 3px solid green";      
-    document.getElementsByClassName('non3')[0].style.display='none'; 
-  } else{
-    document.getElementById("cb37").style="border: 3px solid red";    
-    document.getElementsByClassName('co3')[0].style.display='none';    
-    document.getElementsByClassName('non3')[0].style.display='block';
+    document.getElementById("2ac").style="border: 3px solid red";    
+    document.getElementsByClassName('j2')[0].style.display='none';  
+    document.getElementsByClassName('none2')[0].style.display='block';
   }
 }
 
