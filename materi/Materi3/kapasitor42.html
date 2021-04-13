@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Kapasitor</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimg" src="../../img/rk.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimg" src="../../img/rk.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="listrik">
+      <a href="#listrik" class="btn">A. Listrik Statis <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a href="../Materi1/muatan_listrik.html#listrik">1. Muatan Listrik</a>
+      <a href="../Materi1/hukum_coulomb.html#listrik">2. Hukum Coulomb</a>
+      <a href="../Materi1/medanlistrik.html#listrik">3. Medan Listrik</a>
+      <a href="../Materi1/latihan1.html#listrik">Kuis 1</a>
+      </div>
+    </li>
+    
+  <li class="sub" id="potensial">
+      <a href="#potensial" class="btn">B. Energi Potensial dan Potensial Listrik <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi2()">1. Materi</a>
+      <a onclick="kuis2()">Kuis 2</a>
+      </div>
+    </li>
+
+    <li class="sub" id="kapasitor">
+      <a href="#kapasitor" class="btn">C. Kapasitor <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi3()" class="active">1. Kapasitor</a>
+      <a onclick="materi3b()">2. Rangkaian Kapasitor</a>
+      <a onclick="kuis3()">Kuis 3</a>
+      </div>
+    </li>
+
+  <li class="sub" id="evaluasi">
+    <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi">
+  <h4><i class="fas fa-file-signature"></i>&nbsp;Contoh</h4>
+    <div class="garis"> 
+      <br>
+      <center>
+      <button class="no1"><i class="fas fa-pen"></i>&nbsp;Contoh 1</button>
+      <button class="no2"><i class="fas fa-pen"></i>&nbsp;Contoh 2</button>
+      </center>
+        <div class="contoh1">
+        <hr>
+        <ol class="cs">
+          <li class="cs">Tiga buah kapasitor yang masing-masing kapasitasnya 3 µF, 12 µF, dan 4 µF dihubungkan secara seri kemudian dipasang pada sumber tegangan sebesar 24 Volt. Hitunglah :<br>
+            a. kapasitas kapasitor susunan seri tersebut,<br>
+            b. muatan total pada kapasitor,<br>
+            c. muatan masing-masing kapasitor, dan <br>
+            d. tegangan pada masing-masing kapasitor!
+</li>
+        </ol>
+          <i class="i"><b>Penyelesaian</b></i><br>
+          <p>$a.\frac{1}{C_s} = \frac{1}{C_1}+\frac{1}{C_2} + \frac{1}{C_3} = \frac{1}{3}+\frac{1}{12}+\frac{1}{4} = \frac{4+1+3}{12} = \frac{8}{12}\; maka \;C_s =\frac{12}{8}=1,5\; µF$</p><br>
+              <p>b. $Q_t = C_s \times V = (1,5 \times 10^{-6}) \times 24 = 3,6 \times 10^{-5}$
+              </p><br>
+              <p>c. $Q_1 = Q_2 = Q_3 = Q_t = 3,6 \times 10^{-5}$ C</p><br>
+              <p>$d. V_1 = \frac{Q_1}{C_1} = \frac{3,6 \times 10^{-5}}{3 \times 10^{-6}} = 12 \;volt$<br><br>
+                $\;\;\;\; V_2 = \frac{Q_2}{C_2} = \frac{3,6 \times 10^{-5}}{12 \times 10^{-6}} = 3 \;volt$<br><br>
+                $\;\;\;\; V_3 = \frac{Q_3}{C_3} = \frac{3,6 \times 10^{-5}}{4 \times 10^{-6}} = 9 \;volt$
+              </p>
+          </div> 
+
+      <div class="contoh2">
+          <hr>
+        <ol start="2" class="cs">
+          <li class="cs">Tiga buah kapasitor yang masing-masing kapasitasnya 4 µF, 6 µF, dan 12 µF disusun paralel kemudian susunan tersebut dihubungkan dengan sumber tegangan sebesar 16 Volt.
+          Hitunglah : <br>a. kapasitas kapasitor susunan paralel tersebut, <br> b. muatan total yang tersimpan pada kapasitor, <br> c. tegangan pada masing-masing kapasitor, dan <br> d. muatan pada masing-masing kapasitor! </li>
+        </ol>
+          <i class="i"><b>Penyelesaian</b></i><br>
+          <p>$a. C_p = C_1+C_2+C_3 = 4+6+12 = 22 µF$</p><br>
+          
+          <p>b. $Q_t = C_p \times V = (22 \times 10^{-6}) \times 16 = 3,52 \times 10^{-4}\; joule$             </p><br>
+
+          <p>c. $V_1 = V_2 = V_3 = V = 16$ volt</p><br>
+
+          <p>$d. Q_1 = C_1 \times V_1 = (4 \times 10^{-6}) \times 16 = 6,4 \times 10^{-5}$ joule<br><br>
+                $\;\;\;\; Q_2 = C_2 \times V_2 = (6 \times 10^{-6}) \times 16 = 9,6 \times 10^{-5}$ joule<br><br>
+                $\;\;\;\; Q_3 = C_3 \times V_3 = (12 \times 10^{-6}) \times 16 = 1,92 \times 10^{-4}$ joule
+              </p>
+        </div>
+      
+
+    </div><!--garis-->
+    
+  <!-- <h4><i class="fas fa-file-signature"></i>&nbsp;Soal Latihan</h4>
+    <div class="garis">
+            <div class="petunjuk">
+                <p><u><b>Petunjuk : </b></u></p>
+                <ol>
+                  <li class="nomor">Jawablah soal-soal berikut ini.</li>
+                  <li class="nomor">Isilah jawaban dengan mengisi titik-titik di bawah.</li>
+              <li class="nomor">Setelah menjawab soal, tekan tombol "Cek Jawaban".</li>
+                  <li class="nomor">Jika jawaban kamu benar akan berwarna "<font style="color:green;font-weight: bold">hijau</font>".</li>
+                  <li class="nomor">Jika jawaban kamu salah akan berwarna "<font style="color:red;font-weight: bold">merah</font>".</li>
+                </ol>
+            </div>
+
+      <div class="slideshow">
+
+                  <div class="soalnya fade"> 
+                    <ol class="s">
+                      <li class="nomor">Jika muatan dan kapasitas kapasitor diketahui berturut-turut sebesar 5 μC dan 20 μF, tentukan beda potensial kapasitor tersebut!</li>
+                    </ol>
+                      <div class="geser">
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                      <p>V = <input type="text" class="md" id="aa" size="9" placeholder=".....">
+                        <img class="pas" src="../../img/tanya.png" id="ceka"/></p><br>
+                        <input class="cek3" type="submit" onclick="cekjwb()" value="Cek Jawaban">
+                        <p class="m3"><b>Jawaban Benar</b><br>
+                            Jadi, beda potensial kapasitor tersebut adalah 0,25 volt</p>
+                        <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                  </div>
+                  
+
+                  <div class="soalnya fade">           
+                    <ol start="2" class="s">
+                      <li class="nomor">Sebuah kapasitor terbuat dari dua keping sejajar. Luas tiap keping 2 $cm^2$ dan jarak antarkeping 1,5 mm. Medium di antara kedua keping adalah dielektrik dengan K = 6.<br>
+                      a.	Tentukan kapasitas kapasitor <br>b.	Jika kapasitor dihubungkan dengan baterai 10 V, berapa muatan yang dapat disimpan di dalamnya? <br>c.	Jika kapasitor dihubungkan dengan baterai 10 V, berapa energi listrik yang dapat disimpan di dalamnya?</li>
+                    </ol>
+                      <div class="geser">
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>  
+                              <table>
+                                <tr>
+                                  <td>a.) $C\;\; = $
+                                  </td>
+                                  <td>
+                                    <input type="text" class="bp" id="2aa1" size="2" placeholder="..." onkeyup="cek11()">
+                                    \(\times\)
+                                    <input type="text" class="bp" id="2ab1" size="2" placeholder="..." onkeyup="cek12()">
+                                    <sup><input type="text" class="bp" id="2ac1" size="2" placeholder="..." onkeyup="cek13()"></sup>
+                                  </td>
+                                </tr>
+                              </table>
+                              <br>
+                              <input class="cek" type="submit" onclick="cek1()" value="Cek Jawaban"><br>
+                              <p class="j1">Benar, kapasitas kapasitor adalah $7,2 \times 10^{-12}$ F</p>
+                              <p class="none1"><b style="color: red;">Jawaban salah </b></p>
+<br>
+                              <table>
+                                <tr>
+                                  <td>b.) $Q\;\; = $
+                                  </td>
+                                  <td>
+                                    <input type="text" class="bp" id="2aa2" size="2" placeholder="..." onkeyup="cek21()">
+                                    \(\times\)
+                                    <input type="text" class="bp" id="2ab2" size="2" placeholder="..." onkeyup="cek22()">
+                                    <sup><input type="text" class="bp" id="2ac2" size="2" placeholder="..." onkeyup="cek23()"></sup>
+                                  </td>
+                                </tr>
+                              </table>
+                              <br>
+                              <input class="cek" type="submit" onclick="cek2()" value="Cek Jawaban"><br>
+                              <p class="j2">Benar, muatan adalah yang dapat disimpan  $72 \times 10^{-12}$ C</p>
+                              <p class="none"><b style="color: red;">Jawaban salah </b></p>
+<br>
+                              <table>
+                                <tr>
+                                  <td>c.) $W\;\; = $
+                                  </td>
+                                  <td>
+                                    <input type="text" class="bp" id="2aa3" size="2" placeholder="..." onkeyup="cek31()">
+                                    \(\times\)
+                                    <input type="text" class="bp" id="2ab3" size="2" placeholder="..." onkeyup="cek32()">
+                                    <sup><input type="text" class="bp" id="2ac3" size="2" placeholder="..." onkeyup="cek33()"></sup>
+                                  </td>
+                                </tr>
+                              </table>
+                              <br>
+                              <input class="cek" type="submit" onclick="cek3()" value="Cek Jawaban"><br>
+                              <p class="j3">Benar, energi listrik yang dapat disimpan adalah $3,6 \times 10^{-10}$ J</p>
+                              <p class="none4"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                          
+                  </div>
+                  
+                  
+                  <div class="soalnya fade"> 
+                    <ol start="3" class="s">
+                      <li class="nomor">Berapakah energi dalam kapasitor yang dimuati hingga hingga mencapai kapasitas maksimum 250 μF dengan beda potensial 2000 V?</li>
+                    </ol>
+                      <div class="geser">
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                      <p>V = <input type="text" class="md" id="aa4" size="9" placeholder=".....">
+                        <img class="pas" src="../../img/tanya.png" id="ceka4"/></p><br>
+                        <input class="cek3" type="submit" onclick="cekjwb4()" value="Cek Jawaban">
+                        <p class="m4"><b>Jawaban Benar</b><br>
+                            Jadi, energi pada kapasitor tersebut adalah 250 J</p>
+                        <p class="non3"><b style="color: red;">Jawaban salah </b></p>
+                      </div>
+                  </div>
+
+      </div>
+
+              <div class="haltengah">
+                <span  style="font-weight: bold;">Nomor Soal : </span>
+                <span class="dot" onclick="currentSlide(1)">1</span> 
+                <span class="dot" onclick="currentSlide(2)">2</span> 
+                <span class="dot" onclick="currentSlide(3)">3</span>              
+              </div>
+      </div> -->
+
+
+</div>
+
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="kapasitor3.html#kapasitor">Sebelumnya</a>
+  <a href="kapasitor3.html#kapasitor">1</a>
+  <a href="#kapasitor" class="active">2</a>
+  <a href="kapasitor4.html#kapasitor">3</a>
+  <a href="kapasitor4.html#kapasitor">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+</body>
+
+<script src="../../js/mathjax.js"></script>
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi5.js"></script>
+</html>
