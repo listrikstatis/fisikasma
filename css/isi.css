@@ -346,12 +346,12 @@ input[type="radio"]{
 .cb{
   border: none;
   border-radius: 5px;
-  width: 30px;
+  width: 35px;
   margin: -1px;
 }
 .bp {
   border-radius: 5px;
-  width: 34px;
+  width: 37px;
   border: none;
 }
 
