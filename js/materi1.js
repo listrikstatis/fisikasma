@@ -113,7 +113,8 @@ function benar(){
   // document.getElementById('nomor2').style.display = 'block';
   document.getElementById('false').style.display = 'none';
   document.getElementById('false1').style.display = 'none';
-  document.getElementById('false2').style.display = 'none';
+  document.getElementById('false2').style.display = 'none';  
+  document.getElementById('false15').style.display = 'none';
 }
 
 function salah2(){
@@ -128,6 +129,7 @@ function benar2(){
   document.getElementById('false3').style.display = 'none';
   document.getElementById('false4').style.display = 'none';
   document.getElementById('false5').style.display = 'none';
+  document.getElementById('false16').style.display = 'none';
 }
 
 function salah3(){
@@ -141,6 +143,7 @@ function benar3(){
   document.getElementById('false6').style.display = 'none';
   document.getElementById('false7').style.display = 'none';
   document.getElementById('false8').style.display = 'none'; 
+  document.getElementById('false17').style.display = 'none';
   // document.getElementById('nomor4').style.display = 'block'; 
 }
 
@@ -155,6 +158,7 @@ function benar4(){
   document.getElementById('false9').style.display = 'none';
   document.getElementById('false10').style.display = 'none';
   document.getElementById('false11').style.display = 'none'; 
+  document.getElementById('false18').style.display = 'none';
   // document.getElementById('nomor4').style.display = 'block'; 
 }
 
@@ -169,6 +173,7 @@ function benar5(){
   document.getElementById('false12').style.display = 'none';
   document.getElementById('false13').style.display = 'none';
   document.getElementById('false14').style.display = 'none'; 
+  document.getElementById('false19').style.display = 'none';
   // document.getElementById('nomor5').style.display = 'block'; 
 }
 
