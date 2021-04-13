@@ -79,21 +79,21 @@ label{
 .j1, .j2, .j3, .j4{
   border: 3px solid green;
   padding: 10px;
-  width: 40%; 
+  width: fit-content;
   display: none;
 }
 
 .m1, .m2, .m3{
   border: 3px solid green;
   padding: 10px;
-  width: 45%; 
+  width: fit-content; 
   display: none;
 }
 
 .co1, .co2, .co3{
   border: 3px solid green;
   padding: 10px;
-  width: 45%; 
+  width: fit-content; 
   display: none;
 } 
 
