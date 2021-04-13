@@ -90,40 +90,28 @@ function benarr(){
 function cek3(){
   let cb3= document.getElementById("cb3").value;
 
-  if (cb3 == "0,8" || cb3 =="0.8") {
+  if (cb3 == "4,5" || cb3 =="4.5") {
     // document.getElementsByClassName('cek3')[0].style.display='none';
     document.getElementsByClassName('co1')[0].style.display='block';    
     document.getElementById("cb3").style="border: 3px solid green";    
-    document.getElementsByClassName('non1')[0].style.display='none'; 
+    // document.getElementsByClassName('non1')[0].style.display='none'; 
   } else {          
     document.getElementsByClassName('co1')[0].style.display='none'; 
     document.getElementById("cb3").style="border: 3px solid red"; 
-    document.getElementsByClassName('non1')[0].style.display='block'; 
+    // document.getElementsByClassName('non1')[0].style.display='block'; 
 }
 }
 
 //SOAL 1
 function cek(){
   let cb31= document.getElementById("cb31").value;
-  let cb32= document.getElementById("cb32").value;
-  let cb33= document.getElementById("cb33").value;
-  let cb34= document.getElementById("cb34").value;
-  let cb35= document.getElementById("cb35").value;
-  let cb36= document.getElementById("cb36").value;
-  let cb37= document.getElementById("cb37").value;
-
+  
   if (cb31 == "10" && cb32 == "20" && cb33 == "0,2" && cb34 == "2" && cb35 == "4,5" && cb36 == "10" && cb37 == "13") {
     // document.getElementsByClassName('cek3')[0].style.display='none';
     document.getElementsByClassName('co3')[0].style.display='block';
   } else {          
     document.getElementsByClassName('non3')[0].style.display='none'; 
     document.getElementById("cb31").style="border: 3px solid red"; 
-    document.getElementById("cb32").style="border: 3px solid red"; 
-    document.getElementById("cb33").style="border: 3px solid red"; 
-    document.getElementById("cb34").style="border: 3px solid red"; 
-    document.getElementById("cb35").style="border: 3px solid red"; 
-    document.getElementById("cb36").style="border: 3px solid red"; 
-    document.getElementById("cb37").style="border: 3px solid red"; 
   }
   if (cb31 == "10"){
     document.getElementById("cb31").style="border: 3px solid green";   

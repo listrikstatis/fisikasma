@@ -476,6 +476,8 @@ a {
   .pborder {
     border: 1px solid green;
     padding: 5px;
+    font-size: unset;
+    text-align: unset !important;
   }
 
   /*-----------------------------------------------------------------------*/

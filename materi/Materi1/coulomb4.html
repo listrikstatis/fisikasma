@@ -81,24 +81,24 @@
 <div class="isi"><!--ISI NYA-->
 <h4><i class="fas fa-question-circle"></i>&nbsp;Soal Latihan</h4>
   <div class="garis"> 
-
-        <div class="slideshow">
-
-                <!-- soal 1 -->
-                <div class="soalnya fade"> 
-                  <div class="petunjuk">
+                    <div class="petunjuk">
                       <p><u><b>Petunjuk : </b></u></p>
                         <ol>
-                          <li class="nomor">Jawablah soal berikut ini dengan mengisi titik-titik di bawah.</li>
+                          <li class="nomor">Jawablah soal berikut ini dengan mengisi titik-titik yang tersedia.</li>
                           <li class="nomor">Setelah selesai mengisi jawaban, tekan tombol "Cek Jawaban".</li>
                           <li class="nomor">Jika jawaban kamu benar akan berwarna "<font style="color:green;font-weight: bold">hijau</font>".</li>
                           <li class="nomor">Jika jawaban kamu salah akan berwarna "<font style="color:red;font-weight: bold">merah</font>".</li>
                         </ol>
                     </div>
+        <div class="slideshow">
+
+                <!-- soal 1 -->
+                <div class="soalnya fade"> 
+                  
                   <!-- <div class="notext">Soal 1</div> -->
                   <hr class="grs">
                   <ol class="s">
-                    <li class="nomor">Dua buah benda bermuatan listrik masing-masing 10 C dan 20 C berada pada jarak 20 cm, berapa gaya tolak-menolak antara dua muatan tersebut?</li>
+                    <li class="nomor">Dua muatan titik yang sejenis dan sama besar $Q_A$ = $Q_B$ = $10^{-9}$ C berada pada jarak 20 cm satu dari yang lain. Jika k = $9 \times 10^9$ $Nm^2/C^2$,  gaya tolak yang dialami kedua muatan adalah?</li>
                       </ol>                    
                   <div class="geser">
                     <p><b style="text-decoration: underline;">Jawab :</b></p>  
@@ -127,48 +127,35 @@
 
                 <!-- soal 2 -->
                 <div class="soalnya fade">
-                   <div class="petunjuk">
-                      <p><u><b>Petunjuk : </b></u></p>
-                        <ol>
-                          <li class="nomor">Soal berupa pilihan ganda.</li>
-                          <li class="nomor">Jika pilihan kamu benar, maka akan muncul tulisan "<font style="color: green;font-weight: bold;">Jawaban benar</font>"</li>
-                          <li class="nomor">Jika pilihan kamu salah, maka akan muncul tulisan "<font style="color: red;font-weight: bold;">Jawaban salah</font>"</li>  
-                        </ol>
-                  </div>
                   <!-- <div class="notext">Soal 2</div> -->
                   <hr class="grs">
                   <ol start="2" class="s">
-                      <li class="nomor">Dua muatan sejenis besarnya \(2 \times 10^{-6}\) C dan \(6 \times 10^{-4}\) C. Jika jarak kedua muatan 6 cm, berapakah gaya coulomb yang dialami kedua muatan?<p>
+                      <li class="nomor">Dua buah muatan listrik masing-masing besarnya $3 \times 10^{-6}$ C dan $6 \times 10^{-6}$ C terpisah pada jarak 3 cm. Tentukan besarnya gaya listrik yang bekerja pada masing-masing muatan tersebut.<p>
                   </ol>      
-                        <label class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;a. $3 \times 10^2$ N</label><br>
-                        <label class="rad"><input type="radio" name="coba" onchange="benarr()"/>&nbsp;b. $3 \times 10^3$ N</label><br>
-                        <label class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;c. $3 \times 10^4$ N</label><br>
-                        <label class="rad"><input type="radio" name="coba" onchange="salahh()"/>&nbsp;d. $3 \times 10^5$ N</label><br>
+                    <div class="geser">
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>
+                          <p>$F\;\; = $<input type="text" class="cb" id="cb2" size="3" placeholder="..."></p>
+                        <br>        
+                        <input class="cek" type="submit" onclick="cek2()" value="Cek Jawaban">
+                        <p class="co1"><b>Jawaban Benar</b><br>
+                            Jadi, besar gaya pada partikel bermuatan -5 µC adalah \(4,5 \; N\)</p>
+                        <p class="non1 math"><b style="color: red;">Jawaban salah</b><br>
+                          <b style="text-decoration: underline;">Pembahasan</b><br>
+                            $F = \large k \frac{Q_1 \times Q_2}{r^2}$<br>
+                            $F = 9 \times 10^9 \large \frac{(4 \times 10^{-6}) \times (8 \times 10^{-6})}{(0,6)^2}$<br>
+                            $F = 0,8$
+                        </p>
+                    </div>
 
-                          <div class="b1" id="b1" style="display:none">Benar, gaya coulomb kedua muatan adalah $3 \times 10^3$ N</div>
-                          <div class="s1" id="s1" style="display:none"><b>Jawaban Salah</b><br>
-                            <p><b style="text-decoration: underline;">Pembahasan :</b><p>                               
-                            <p>$F = \large k \frac{Q_1 \times Q_2}{r^2}$</p>
-                            <p class="math">$F = 9 \times 10^9 \large \frac{(2 \times 10^{-6}) \times (6 \times 10^{-4})}{(0,06)^2}$</p>
-                            <p>$\;\;\; = 3 \times 10^3$</p>
-                          </div>
                 </div>
                 
                 <!-- soal 3 -->
                 <div class="soalnya fade">                
-                  <div class="petunjuk">
-                      <p><u><b>Petunjuk : </b></u></p>
-                        <ol>
-                          <li class="nomor">Jawablah soal berikut ini dengan mengisi titik-titik di bawah.</li>
-                          <li class="nomor">Setelah selesai mengisi jawaban, tekan tombol "Cek Jawaban".</li>
-                          <li class="nomor">Jika jawaban kamu benar akan berwarna "<font style="color:green;font-weight: bold">hijau</font>".</li>
-                          <li class="nomor">Jika jawaban kamu salah akan berwarna "<font style="color:red;font-weight: bold">merah</font>".</li>
-                        </ol>
-                    </div>
+                  
                   <!-- <div class="notext">Soal 3</div> -->
                       <hr class="grs">
                         <ol start="3" class="s">
-                            <li class="nomor">Dua buah muatan masing-masing \(4 \times 10^{-6}\) C dan \(8 \times 10^{-6}\) C terpisah sejauh 60 cm. Tentukan besar gaya yang terjadi antara dua buah muatan tersebut?</li>
+                            <li class="nomor">Tiga buah partikel berada pada satu garis lurus, setiap partikel bermuatan 3 µC, -5 µC, dan 2 µC. Antar partikel berjarak yang sama, yaitu 10 cm. Tentukan besar gaya pada partikel bermuatan -5 µC. </li>
                         </ol>
                     <div class="geser">
                         <p><b style="text-decoration: underline;">Jawab :</b></p>
@@ -176,7 +163,7 @@
                         <br>        
                         <input class="cek" type="submit" onclick="cek3()" value="Cek Jawaban">
                         <p class="co1"><b>Jawaban Benar</b><br>
-                            Jadi, besar gaya antara 2 muatan adalah \(0,8 \; N\)</p>
+                            Jadi, besar gaya pada partikel bermuatan -5 µC adalah \(4,5 \; N\)</p>
                         <p class="non1 math"><b style="color: red;">Jawaban salah</b><br>
                           <b style="text-decoration: underline;">Pembahasan</b><br>
                             $F = \large k \frac{Q_1 \times Q_2}{r^2}$<br>
