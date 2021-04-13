@@ -24,7 +24,7 @@ function cekjwb(){
     ceka.src = "../../img/benar.png";
     document.getElementById("aa").style="border: 2px solid green";    
     document.getElementsByClassName('m3')[0].style.display='block';
-    document.getElementsByClassName('none')[0].style.display='none'; 
+    document.getElementsByClassName('none3')[0].style.display='none'; 
   } else {
     ceka.src = "../../img/salah.png";
     document.getElementById("aa").style="border: 2px solid red";
