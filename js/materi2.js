@@ -253,3 +253,13 @@ $('input[class="cb"]').keyup(function(e)
     this.value = this.value.replace(/^[a-zA-Z\s]+$/, '');
   }
 });
+
+
+//Input Soal 
+$('input[class="bp"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z\s]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z\s]+$/, '');
+  }
+});

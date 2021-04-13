@@ -155,7 +155,7 @@
                 <div class="petunjuk">
                   <p><u><b>Petunjuk : </b></u></p>
                     <ol>
-                      <li class="nomor">Isilah jawaban pada kotak yang telah disediakan.</li>
+                      <li class="nomor">Isilah jawaban pada titik-titik di bawah.</li>
                       <li class="nomor">Jika jawaban kamu benar, maka kotak akan berwarna "<font style="color: green;font-weight: bold;">hijau</font>" dan muncul icon <img class="imgpetunjuk" src="../../img/benar.png"/></li>
                       <li class="nomor">Jika jawaban kamu salah, maka kotak akan berwarna "<font style="color: red;font-weight: bold;">merah</font>" dan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
                     </ol>
@@ -171,7 +171,7 @@
                     </ol>
                       <div class="geser">
                         <p><b style="text-decoration: underline;">Jawab :</b></p>
-                      <p><input type="text" id="aa" size="9" placeholder=".....">
+                      <p>V = <input type="text" class="md" id="aa" size="9" placeholder=".....">
                         <img class="pas" src="../../img/tanya.png" id="ceka"/></p><br>
                         <input class="cek3" type="submit" onclick="cekjwb()" value="Cek Jawaban">
                         <p class="m3"><b>Jawaban Benar</b><br>
@@ -184,16 +184,61 @@
                   <div class="soalnya fade">           
                     <!-- <div class="notext">Soal 2</div> -->
                     <ol start="2" class="s">
-                      <li class="nomor">Sebuah kapasitor terbuat dari dua keping sejajar. Luas tiap keping 2 $cm^2$ dan jarak antarkeping 1,5 mm. Medium di antara kedua keping adalah dielektrik dengan K = 6.</li>
+                      <li class="nomor">Sebuah kapasitor terbuat dari dua keping sejajar. Luas tiap keping 2 $cm^2$ dan jarak antarkeping 1,5 mm. Medium di antara kedua keping adalah dielektrik dengan K = 6.<br>
+                      a.	Tentukan kapasitas kapasitor <br>b.	Jika kapasitor dihubungkan dengan baterai 10 V, berapa muatan yang dapat disimpan di dalamnya? <br>c.	Jika kapasitor dihubungkan dengan baterai 10 V, berapa energi listrik yang dapat disimpan di dalamnya?</li>
                     </ol>
                       <div class="geser">
-                        <p><b style="text-decoration: underline;">Jawab :</b></p>
-                      <p>a.<input type="text" id="ab" size="9" placeholder=".....">
-                        <img class="pas" src="../../img/tanya.png" id="ceka"/></p><br>
-                        <input class="cek3" type="submit" onclick="cekjwba()" value="Cek Jawaban">
-                        <p class="m3"><b>Jawaban Benar</b><br>
-                            Jadi, beda potensial kapasitor tersebut adalah 0,25 volt</p>
-                        <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+                        <p><b style="text-decoration: underline;">Jawab :</b></p>  
+                              <table>
+                                <tr>
+                                  <td>a.) $C\;\; = $
+                                  </td>
+                                  <td>
+                                    <input type="text" class="bp" id="2aa1" size="2" placeholder="..." onkeyup="cek11()">
+                                    \(\times\)
+                                    <input type="text" class="bp" id="2ab1" size="2" placeholder="..." onkeyup="cek12()">
+                                    <sup><input type="text" class="bp" id="2ac1" size="2" placeholder="..." onkeyup="cek13()"></sup>
+                                  </td>
+                                </tr>
+                              </table>
+                              <br>
+                              <input class="cek" type="submit" onclick="cek1()" value="Cek Jawaban"><br>
+                              <p class="j1">Benar, kapasitas kapasitor adalah $7,2 \times 10^{-12}$ F</p>
+                              <p class="none1"><b style="color: red;">Jawaban salah </b></p>
+<br>
+                              <table>
+                                <tr>
+                                  <td>b.) $Q\;\; = $
+                                  </td>
+                                  <td>
+                                    <input type="text" class="bp" id="2aa2" size="2" placeholder="..." onkeyup="cek21()">
+                                    \(\times\)
+                                    <input type="text" class="bp" id="2ab2" size="2" placeholder="..." onkeyup="cek22()">
+                                    <sup><input type="text" class="bp" id="2ac2" size="2" placeholder="..." onkeyup="cek23()"></sup>
+                                  </td>
+                                </tr>
+                              </table>
+                              <br>
+                              <input class="cek" type="submit" onclick="cek2()" value="Cek Jawaban"><br>
+                              <p class="j2">Benar, muatan adalah yang dapat disimpan  $72 \times 10^{-12}$ C</p>
+                              <p class="none3"><b style="color: red;">Jawaban salah </b></p>
+<br>
+                              <table>
+                                <tr>
+                                  <td>c.) $W\;\; = $
+                                  </td>
+                                  <td>
+                                    <input type="text" class="bp" id="2aa3" size="2" placeholder="..." onkeyup="cek31()">
+                                    \(\times\)
+                                    <input type="text" class="bp" id="2ab3" size="2" placeholder="..." onkeyup="cek32()">
+                                    <sup><input type="text" class="bp" id="2ac3" size="2" placeholder="..." onkeyup="cek33()"></sup>
+                                  </td>
+                                </tr>
+                              </table>
+                              <br>
+                              <input class="cek" type="submit" onclick="cek3()" value="Cek Jawaban"><br>
+                              <p class="j3">Benar, energi listrik yang dapat disimpan adalah $3,6 \times 10^{-10}$ F</p>
+                              <p class="none4"><b style="color: red;">Jawaban salah </b></p>
                       </div>
                           
                   </div>

@@ -33,66 +33,96 @@ function cekjwb(){
   }
 }
 
-function cekjwba(){
-  document.getElementById("ab").value = document.getElementById("ab").value.toLowerCase();
-	var abb= document.getElementById("ab").value; 
-	var cekb = document.getElementById("cekb");
+//SOAL 2
+function cek2(){
+  let a2= document.getElementById("2aa").value;
+  let b2= document.getElementById("2ab").value;
+  let c2= document.getElementById("2ac").value;
 
-   if (abb == "akson" || abb == "neurit") {
-    cekb.src = "../../img/benar.png";
-    document.getElementById("ab").style="border: 2px solid green";
+  if (a2 == "1,8" && b2 == "10" && c2 == "2") {
+    // document.getElementsByClassName('cek')[0].style.display='none';
+    document.getElementsByClassName('j2')[0].style.display='block';
+    document.getElementsByClassName('none2')[0].style.display='none';
   } else {
-    cekb.src = "../../img/salah.png";
-    document.getElementById("ab").style="border: 2px solid red";
+    document.getElementsByClassName('none2')[0].style.display='block'; 
+    document.getElementById("2aa").style="border: 3px solid red"; 
+    document.getElementById("2ab").style="border: 3px solid red"; 
+    document.getElementById("2ac").style="border: 3px solid red";
+  }
+  
+  if (a2 == "1,8"){
+    document.getElementById("2aa").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2aa").style="border: 3px solid red";
+  }
+  
+  if (b2 == "10"){
+    document.getElementById("2ab").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2ab").style="border: 3px solid red";
+  }
+  
+  if (c2 == "2"){
+    document.getElementById("2ac").style="border: 3px solid green";   
+  } else{
+    document.getElementById("2ac").style="border: 3px solid red";
+  }
+
+}
+
+function cek21(){
+  let a2= document.getElementById("2aa").value;
+  
+  if (a2 == "1,8"){
+    document.getElementById("2aa").style="border: 3px solid green";     
+    document.getElementsByClassName('none2')[0].style.display='none';    
+  } else{
+    document.getElementById("2aa").style="border: 3px solid red";    
+    document.getElementsByClassName('j2')[0].style.display='none';  
+    document.getElementsByClassName('none2')[0].style.display='block';
   }
 }
 
-function cekjwbb(){
-  document.getElementById("ac").value = document.getElementById("ac").value.toLowerCase();
-  	var acc= document.getElementById("ac").value;
-  	var cekc = document.getElementById("cekc");
-
-  if (acc == "badan sel") {
-    cekc.src = "../../img/benar.png";
-    document.getElementById("ac").style="border: 2px solid green";
-  } else {
-    cekc.src = "../../img/salah.png";
-    document.getElementById("ac").style="border: 2px solid red";
+function cek22(){
+  let b2= document.getElementById("2ab").value;
+  
+  if (b2 == "10"){
+    document.getElementById("2ab").style="border: 3px solid green";        
+    document.getElementsByClassName('none2')[0].style.display='none'; 
+  } else{
+    document.getElementById("2ab").style="border: 3px solid red";    
+    document.getElementsByClassName('j2')[0].style.display='none';  
+    document.getElementsByClassName('none2')[0].style.display='block';
   }
 }
 
-function cekjwbc(){
-  document.getElementById("ad").value = document.getElementById("ad").value.toLowerCase();
-  var add= document.getElementById("ad").value;  
-  var cekd = document.getElementById("cekd");
-
-  if (add == "nodus ranvier") {
-    cekd.src = "../../img/benar.png";
-    document.getElementById("ad").style="border: 2px solid green";
-  } else {
-    cekd.src = "../../img/salah.png";
-    document.getElementById("ad").style="border: 2px solid red";
+function cek23(){
+  let c2= document.getElementById("2ac").value;
+  
+  if (c2 == "2"){
+    document.getElementById("2ac").style="border: 3px solid green";      
+    document.getElementsByClassName('none2')[0].style.display='none';   
+  } else{
+    document.getElementById("2ac").style="border: 3px solid red";    
+    document.getElementsByClassName('j2')[0].style.display='none';  
+    document.getElementsByClassName('none2')[0].style.display='block';
   }
-}
-
-function cekjwbd(){
-  document.getElementById("ae").value = document.getElementById("ae").value.toLowerCase();
-	var aee= document.getElementById("ae").value;  
-  	var ceke = document.getElementById("ceke");
-  if (aee == "myelin") {
-    ceke.src = "../../img/benar.png";
-    document.getElementById("ae").style="border: 2px solid green";
-  } else {
-    ceke.src = "../../img/salah.png";
-    document.getElementById("ae").style="border: 2px solid red";
-  }
-
 }
 
 $('.in').bind('keyup blur',function(){ 
     var node = $(this);
     node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
 );
+
+
+//Input Soal 
+$('input[class="bp"]').keyup(function(e)
+                                {
+  if (/^[a-zA-Z\s]+$/.test(this.value))
+  {
+    this.value = this.value.replace(/^[a-zA-Z\s]+$/, '');
+  }
+});
 
 var slideIndex = 1;
 showSlides(slideIndex);
