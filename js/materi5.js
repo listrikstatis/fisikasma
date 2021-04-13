@@ -261,6 +261,23 @@ function cek33(){
   }
 }
 
+//pertanyaan 3
+function cekjwb4(){
+  var aaaa= document.getElementById("aa4").value;
+  var ceka = document.getElementById("ceka4");
+
+  if (aaaa == "250") {
+    ceka.src = "../../img/benar.png";
+    document.getElementById("aa4").style="border: 2px solid green";    
+    document.getElementsByClassName('m4')[0].style.display='block';
+    document.getElementsByClassName('non3')[0].style.display='none'; 
+  } else {
+    ceka.src = "../../img/salah.png";
+    document.getElementById("aa4").style="border: 2px solid red";
+    document.getElementsByClassName('m4')[0].style.display='none';
+    document.getElementsByClassName('non3')[0].style.display='block'; 
+  }
+}
 
 $('.in').bind('keyup blur',function(){ 
     var node = $(this);
