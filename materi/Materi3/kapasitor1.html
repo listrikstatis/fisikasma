@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Kapasitor</title>
+    <link rel="shortcut icon" type="icon" href="../../img/ico.png">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/isi.css">
+    <link rel="stylesheet" type="text/css" href="../../css/table.css">
+    <link rel="stylesheet" href="../../fontawesome/css/all.css">
+    <script src="../../js/jquery.js"></script>
+    <script src="https://kit.fontawesome.com/317815b2fb.js" crossorigin="anonymous"></script>
+    <script>
+        MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
+    <script src="../../js/mathjax.js"></script>
+    <script src="../../js/tutorial.js"></script>
+</head>
+<body>
+
+<div class="headermenu2">
+        <img class="headerimgkap" src="../../img/kap.png">
+</div>
+
+<div class="headermenu">
+        <img class="headerimgkap" src="../../img/kap.png">
+</div>
+
+<div class="sidebar">
+ <div class="menu">
+
+  <li class="sub">
+    <span class="tulis">Listrik Statis</span>
+  </li> 
+
+  <li class="sub" id="home">
+    <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+  </li> 
+   
+  <li class="sub" id="listrik">
+      <a href="#listrik" class="btn">A. Listrik Statis <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a href="../Materi1/muatan_listrik.html#listrik">1. Muatan Listrik</a>
+      <a href="../Materi1/hukum_coulomb.html#listrik">2. Hukum Coulomb</a>
+      <a href="../Materi1/medanlistrik.html#listrik">3. Medan Listrik</a>
+      <a href="../Materi1/latihan1.html#listrik">Kuis 1</a>
+      </div>
+    </li>
+    
+  <li class="sub" id="potensial">
+      <a href="#potensial" class="btn">B. Energi Potensial dan Potensial Listrik <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi2()">1. Materi</a>
+      <a onclick="kuis2()">Kuis 2</a>
+      </div>
+    </li>
+
+    <li class="sub" id="kapasitor">
+      <a href="#kapasitor" class="btn">C. Kapasitor <i class="fas fa-caret-down"></i></a>
+      <div class="pilih">
+      <a onclick="materi3()" class="active">1. Kapasitor</a>
+      <a onclick="materi3b()">2. Rangkaian Kapasitor</a>
+      <a onclick="kuis3()">Kuis 3</a>
+      </div>
+    </li>
+
+  <li class="sub" id="evaluasi">
+    <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+  </li>
+          
+ </div>
+</div>
+
+<div class="isi">
+  <h4 class="tampil" onclick="petunjukk()"><i class="far fa-check-square"></i>&nbsp; Tujuan (klik saya)</h4> 
+    <div class="dalam">
+        <p>•&nbsp;&nbsp;Siswa dapat mengidentifikasi bagian sel saraf.</p>
+    </div>
+  <hr>
+
+  <h4><i class="fas fa-book-open"></i>&nbsp; Bagian Sel Saraf dan Fungsinya</h4>
+  <div class="gariss">
+    <p class="prgraf">Setiap manusia memiliki sistem saraf yang dapat mengontrol seluruh aktivitas tubuh, 
+            contohnya gerak otot. Sistem saraf terdiri atas sel-sel saraf berfungsi untuk menerima, mengolah, 
+            dan mengirim rangsangan yang diterima panca indra. Setiap sel saraf terdiri atas tiga bagian, 
+            yaitu badan sel saraf, dendrit, dan akson atau neurit. Selain ketiga bagian tersebut, 
+            pada sel saraf juga terdapat selubung myelin. Berdasarkan ada dan tidaknya myelin, 
+            terdapat dua macam neuron, yaitu neuron yang berselubung myelin dan neuron yang tidak berselubung myelin.
+            Agar dapat mengetahui sel saraf lebih lanjut, bacalah dengan teliti tabel 2 di bawah.</p>
+    <br>
+
+<!-- tabel -->
+    <p class="caption">Tabel 2 Bagian Sel Saraf dan Fungsinya</p>
+      <table class="tabelnya">
+        <tr>
+          <td style="background-color: #dfe0e1;font-weight: bold;border: 1px solid rgb(133, 132, 132);">Bagian Sel Saraf</td>
+          <td style="background-color: #dfe0e1;font-weight: bold;border: 1px solid rgb(133, 132, 132);">Deskripsi</td>
+          <td style="background-color: #dfe0e1;font-weight: bold;border: 1px solid rgb(133, 132, 132);">Fungsi</td>
+        </tr>
+        <tr>
+          <td>Dendrit</td>
+          <td>Penonjolan badan sel yang bercabang-cabang dan berbentuk seperti cabang pohon.</td>
+          <td>Menerima impuls dari sel lain dan meneruskannya ke badan sel.</td>
+        </tr>
+        <tr>
+          <td>Badan sel</td>
+          <td>Di dalamnya terdapat inti sel yang dikelilingi oleh sitoplasma. Sitoplasma mengandung organela sel seperti mitokondria, ribosom, Badan Golgi dan retikulum endoplasma khusus milik sel saraf yang disebut badan Nissl.</td>
+          <td>Meneruskan impuls dari dendrit ke akson.</td>
+        </tr>
+        <tr>
+          <td>Akson/Neurit</td>
+          <td>Penonjolan badan sel berbentuk panjang dan silindris. Setiap satu sel saraf hanya memiliki satu akson. Ujung akhir akson disebut dengan terminal akson. Terminal ini memiliki beberapa percabangan dan berbonggol. Pada bonggol inilah akan dilepaskan neurotransmitter dan disebut sebagai bonggol sinaptik.</td>
+          <td>Meneruskan impuls dari badan sel saraf ke sel saraf lain atau ke sel otot atau ke sel kelenjar. Pada bonggol sinaptik terjadi proses sinapsis, yaitu komunikasi antara sel saraf satu dengan yang lain atau sel saraf dengan sel otot dan sel kelenjar menggunakan neurotransmitter.</td>
+        </tr>
+        <tr>
+          <td>Myelin</td>
+          <td>Selubung lemak berlapis-lapis, dihasilkan oleh sel  Schwann. Lapisan lemak myelin sulit ditembus oleh  ion-ion yang keluar dan masuk membran sel saraf pada bagian akson.</td>
+          <td>Mempercepat impuls saraf dengan membantu terjadinya loncatan muatan.</td>
+        </tr>
+        <tr>
+          <td>Nodus Ranvier</td>
+          <td>Daerah akson terbuka yang tidak diselubungi myelin.</td>
+          <td>Tempat terjadinya tarik-menarik muatan listrik di membran sel saraf.</td>
+        </tr>
+      </table>
+
+    <br>
+
+    <p class="prgraf">Sel saraf sering diibaratkan seperti kabel listrik karena memiliki bentuk dan mekanisme kerja yang hampir sama. Coba perhatikan gambar setiap sel saraf memiliki satu akson yang mendukung terjadinya perambatan atau hantaran arus listrik. Selain akson, penghantar listrik lain di dalam tubuh makhluk hidup adalah cairan tubuh. Cairan tubuh dapat berupa darah, cairan jaringan dan sitosol yang terdapat dalam sitoplasma sel. Pada sel saraf juga terdapat isolator listrik, yaitu selubung myelin pada akson.</p>
+            <img src="../../img/cl.png" class="imgpenerapan">
+            <p class="caption">Gambar 8 Berkas Sel Saraf dan Kabel Listrik</p>
+          <br>
+            <p class="prgraf">Pada akson tidak berselubung myelin, hantaran arus listrik dapat terjadi di sepanjang akson. Pada akson berselubung myelin, beda potensial terjadi di daerah akson yang tidak diselubungi myelin atau di daerah yang disebut nodus Ranvier. Tarik menarik muatan listrik terjadi di nodus Ranvier satu dan seterusnya.
+            Dengan demikian, selain berfungsi sebagai pelindung akson, myelin juga dapat mempercepat terjadinya loncatan muatan listrik pada saraf.
+            </p><br>
+            <img src="../../img/cl2.png" class="imgpenerapan">
+            <p class="caption">Gambar 9 Pergerakan Impuls pada Akson Tidak Bermyelin (atas) dan Akson Bermyelin (bawah)</p>
+            
+            <br><br>
+    <center><button class="klik">Sudah Membaca</button></center> 
+  </div>
+
+    <!-- Pertanyaan -->
+    <h4><i class="fas fa-question-circle"></i>&nbsp; Pertanyaan</h4>
+  <div class="garis">
+
+    <div class="first">
+      <p>Baca materi terlebih dahulu!</p>
+    </div>
+        <div class="kolom">
+
+          <p>Tunjukkan nama bagian sel saraf pada gambar sesuai dengan tabel di atas dengan mengisi kotak yang telah disediakan.</p>
+          <br>
+          <img src="../../img/so.png" class="imgpenerapan">
+          <br><p class="caption">Gambar 10 Sel Saraf</p>
+
+  <!-- isiannya   -->
+                <!-- <div class="petunjuk">
+                  <p><u><b>Petunjuk : </b></u></p>
+                    <ol>
+                      <li class="nomor">Isilah jawaban pada kotak yang telah disediakan.</li>
+                      <li class="nomor">Isi jawaban dengan <b>huruf kecil!</b></li>
+                      <li class="nomor">Jika jawaban kamu benar, maka kotak akan berwarna "<font style="color: green;font-weight: bold;">hijau</font>" dan muncul icon <img class="imgpetunjuk" src="../../img/benar.png"/></li>
+                      <li class="nomor">Jika jawaban kamu salah, maka kotak akan berwarna "<font style="color: red;font-weight: bold;">merah</font>" dan muncul icon <img class="imgpetunjuk" src="../../img/salah.png"/></li>  
+                    </ol>
+                </div>
+
+        <table class="quiz">
+          <tr class="quiz">
+            <td>a. <input class="in" type="text" style="font-weight: bold;border-color: green" size="9" value=" inti sel" disabled>
+                  <img class="pas" src="../../img/benar.png"/></td>
+            <td>b. <input class="in" type="text" id="aa" size="9" onchange="cekjwb()" placeholder=".............">
+                  <img class="pas" src="../../img/tanya.png" id="ceka"/></td>
+            <td>c. <input class="in" type="text" id="ab" size="9" onchange="cekjwba()" placeholder=".............">
+                  <img class="pas" src="../../img/tanya.png" id="cekb"/></td>
+            <td>d. <input class="in" type="text" id="ac" size="9" onchange="cekjwbb()" placeholder=".............">
+                  <img class="pas" src="../../img/tanya.png" id="cekc"/></td>
+            <td>e. <input class="in" type="text" id="ad" size="9" onchange="cekjwbc()" placeholder=".............">
+                  <img class="pas" src="../../img/tanya.png" id="cekd"/></td>
+            <td>f. <input class="in" type="text" id="ae" size="9" onchange="cekjwbd()" placeholder=".............">
+                  <img class="pas" src="../../img/tanya.png" id="ceke"/></td>
+          </tr>
+        </table> -->
+
+    </div>
+          
+  </div>
+
+
+</div>
+
+
+<!--tombol page-->
+<center>
+<div class="center">
+  <div class="page">
+  <a href="kapasitor.html#kapasitor">Sebelumnya</a>
+  <a href="kapasitor.html#kapasitor">1</a>
+  <a href="#kapasitor" class="active">2</a>
+  <a href="kapasitor2.html#kapasitor">3</a>
+  <a href="kapasitor2.html#kapasitor">Selanjutnya</a>
+  </div>
+</div>
+</center>
+
+</body>
+
+<script src="../../js/mathjax.js"></script>
+<script src="../../js/konten.js"></script>
+<script src="../../js/materi5.js"></script>
+</html>

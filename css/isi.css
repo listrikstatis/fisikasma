@@ -339,14 +339,17 @@ input[type="radio"]{
   width: 65%;
   text-align: center;
 }
-
+.md{
+  border-radius: 5px;
+  width: 50px;
+}
 .cb{
   border: none;
   border-radius: 5px;
   width: 30px;
   margin: -1px;
 }
-.md, .bp {
+.bp {
   border-radius: 5px;
   width: 34px;
   border: none;

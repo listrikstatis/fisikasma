@@ -17,16 +17,19 @@ $(document).ready(function(){
 
 //pertanyaan bagian sel saraf 
 function cekjwb(){
-  document.getElementById("aa").value = document.getElementById("aa").value.toLowerCase();
   var aaa= document.getElementById("aa").value;
   var ceka = document.getElementById("ceka");
 
-  if (aaa == "dendrit") {
+  if (aaa == "0,25") {
     ceka.src = "../../img/benar.png";
-    document.getElementById("aa").style="border: 2px solid green";
+    document.getElementById("aa").style="border: 2px solid green";    
+    document.getElementsByClassName('m3')[0].style.display='block';
+    document.getElementsByClassName('none3')[0].style.display='none'; 
   } else {
     ceka.src = "../../img/salah.png";
     document.getElementById("aa").style="border: 2px solid red";
+    document.getElementsByClassName('m3')[0].style.display='none';
+    document.getElementsByClassName('none3')[0].style.display='block'; 
   }
 }
 
@@ -91,30 +94,30 @@ $('.in').bind('keyup blur',function(){
     node.val(node.val().replace(/[^a-zA-Z\s]/g,'') ); }
 );
 
-// var slideIndex = 1;
-// showSlides(slideIndex);
+var slideIndex = 1;
+showSlides(slideIndex);
 
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-// function currentSlide(n) {
-//   showSlides(slideIndex = n);
-// }
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-// function showSlides(n) {
-//   var i;
-//   var slides = document.getElementsByClassName("mySlides");
-//   var dots = document.getElementsByClassName("dot");
-//   if (n > slides.length) {slideIndex = 1}    
-//   if (n < 1) {slideIndex = slides.length}
-//   for (i = 0; i < slides.length; i++) {
-//       slides[i].style.display = "none";  
-//   }
-//   for (i = 0; i < dots.length; i++) {
-//       dots[i].className = dots[i].className.replace(" activeuy", "");
-//   }
-//   slides[slideIndex-1].style.display = "block";  
-//   dots[slideIndex-1].className += " activeuy";
-// }
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("soalnya");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" activeuy", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " activeuy";
+}
 
