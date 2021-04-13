@@ -115,8 +115,8 @@ a {
 }
 
 .headerimg3 {
-  padding-top: 10px;
-  width: 48%;
+  padding-top: 5px;
+  width: 14%;
   text-align: -webkit-center;
 }
 
@@ -406,14 +406,14 @@ a {
   }
 
   .headerimg2, .headerimgsel {
-    width: 70%;
+    width: 90%;
     text-align: -webkit-center;
     margin-bottom: 1%;
   }
 
   .headerimg3 {
     padding-top: 10px;
-    width: 85%;
+    width: 70%;
     text-align: -webkit-center;
     margin-bottom: 2%;
   }
