@@ -1,9 +1,9 @@
 //input nilai ke variabel localstorage
-localStorage.setItem("nkuis1",70);
-localStorage.setItem("nkuis2",70);
-localStorage.setItem("nkuis3",70);
-localStorage.setItem("nkuis4",70);
-localStorage.setItem("nkuis5",70);
+localStorage.setItem("nkuis1",80);
+localStorage.setItem("nkuis2",80);
+localStorage.setItem("nkuis3",80);
+localStorage.setItem("nkuis4",80);
+localStorage.setItem("nkuis5",80);
 
 //input nilai ke variabel localstorage
 // localStorage.setItem("nkuis1",0);
@@ -27,7 +27,7 @@ console.log(localStorage);
 /*subbab 2*/
 function materi2(){
     var skor = localStorage.getItem("nkuis1");
-    if (skor>=70){
+    if (skor>=80){
       window.location.href='../Materi2/potensial.html#potensial';
     } else{
       alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -35,8 +35,8 @@ function materi2(){
 }
 function kuis2(){
     var skor = localStorage.getItem("nkuis1");
-    // var skor = 70;
-    if (skor>=70){
+    // var skor = 80;
+    if (skor>=80){
       window.location.href='../Materi2/latihan2.html#potensial';
     } else{
       alert('Maaf, Kamu belum bisa membuka kuis ini!');
@@ -46,7 +46,7 @@ function kuis2(){
 /*subbab 3*/
 function materi3(){
   var skor = localStorage.getItem("nkuis2");
-  if (skor>=70){
+  if (skor>=80){
     window.location.href='../Materi3/kapasitor.html#kapasitor';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -54,7 +54,7 @@ function materi3(){
 }
 function materi3b(){
   var skor = localStorage.getItem("nkuis2");
-  if (skor>=70){
+  if (skor>=80){
     window.location.href='../Materi3/kapasitor3.html#kapasitor';
   } else{
     alert('Maaf, Kamu belum bisa membuka materi ini!');
@@ -63,7 +63,7 @@ function materi3b(){
 
 function kuis3(){
   var skor = localStorage.getItem("nkuis2");
-  if (skor>=70){
+  if (skor>=80){
     window.location.href='../Materi3/latihan3.html#kapasitor';
   } else{
     alert('Maaf, Kamu belum bisa membuka kuis ini!');
@@ -73,7 +73,7 @@ function kuis3(){
 /*evaluasi*/
 function evaluasi(){
   var skor = localStorage.getItem("nkuis3");
-  if (skor>=70){
+  if (skor>=75){
     window.location.href='../evaluasi/evaluasi.html#evaluasi';
   } else{
     alert('Maaf, Kamu belum bisa membuka Evaluasi ini!');
