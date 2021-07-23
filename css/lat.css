@@ -8,6 +8,26 @@ hr {
     border-style: dashed;
 }
 
+article {
+    width: fit-content;
+    text-align: center;
+    background-color: #46b29e;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+}
+
+article .count {
+    padding: 5px;
+}
+
+article #timer {
+    padding: 5px;
+    /* color: crimson; */
+    background-color: white;
+    border-radius: 2px;
+}
+
 .clear {
     clear: both;
 }
