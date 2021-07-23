@@ -42,8 +42,15 @@
     <div class="card-header text-center" style="background-color: #46B29E;">
         <img class="logo" src="../img/logo.png">
         </div>
-    <br>
-    
+    <!-- <br> -->
+    <div class="card-title-md" style="margin: 10px 10px;margin-bottom: 0;">
+        <button type="button" class="btn btn-outline-primary" onclick="location.href='nilaisiswa.html'"><i class="fas fa-arrow-circle-left"></i>&nbsp;&nbsp;Kembali</button>
+        <center style="background-color: #e7f1ef;">
+            <button type="button" class="btn btn-dark" style="font-weight: bold;width: 8%;"><i class="fas fa-mouse-pointer"></i>&nbsp;Kuis</button>
+            <button type="button" class="btn btn-outline-dark" onclick="location.href='jawabanevaluasi.html'" style="font-weight: bold;width: 8%;"><i class="fas fa-mouse-pointer"></i>&nbsp;Evaluasi</button>
+        </center>
+    </div>
+
     <div class="card-body">
         <div class="card-title-md">
             <center> 
@@ -54,7 +61,7 @@
                     <option value="kuis3/">KUIS 3</option>
                     <option value="kuis3/">KUIS 4</option>
                     <option value="kuis3/">KUIS 5</option>
-                    <option value="evaluasi/">EVALUASI</option>
+                    <!-- <option value="evaluasi/">EVALUASI</option> -->
                 </select>
             </label>
             <label for="nama">Kelas : 
@@ -68,10 +75,10 @@
                 <option value="6">IX F</option>
             </select>
             </label>
-            <button type="button" class="cari btn btn-primary" onclick="readlah()">Cari</button>
-            <button type="button" class="cari btn btn-primary download" >Download</button>
+            <button type="button" class="cari btn btn-primary" onclick="readlah()"><i class="fas fa-search"></i>&nbsp;&nbsp;Cari</button>
+            <button type="button" class="cari btn btn-primary download"><i class="fas fa-download"></i>&nbsp;&nbsp;Download</button>
         </div>
-    <br>
+    <!-- <br> -->
 
         <table id='table_wrapper' class="table table-light">
             <thead>
@@ -101,8 +108,8 @@
     </div>
 
 </div>
-    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>  
-    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
 
 <script src="../js/jawaban.js"></script>
 </body>

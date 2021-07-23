@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Hasil Kuis</title>
+	<title>Nilai Siswa</title>
     <!-- <link rel="stylesheet" href="../css/csshasil.css" type="text/css"> -->
     <link rel="shortcut icon" type="icon" href="../../img/ico.png"> 
     <link rel="stylesheet" href="../fontawesome/css/all.css">
@@ -32,11 +32,13 @@
         <div class="card-header text-center" style="background-color: #46B29E;">
         <img class="logo" src="../img/logo.png">
         </div>
-    <br>
+    <!-- <br> -->
+    <button type="button" class="btn btn-outline-primary" style="width: fit-content;margin: 10px 10px;" onclick="location.href='nilaisiswa.html'"><i class="fas fa-arrow-circle-left"></i>&nbsp;&nbsp;Kembali</button>
+
         <div class="card-body">
             <div class="card-title-md">
                     <center> 
-                            <label for="nama">Kuis : 
+                            <label for="nama">Hasil : 
                             <select id="kuis" name="kuis" class="mundur">
                                 <option value="kuis1/" selected="selected">KUIS 1</option>
                                 <option value="kuis2/">KUIS 2</option>
@@ -86,8 +88,8 @@
         </div>
     </div>
 
-    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>  
-    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-database.js"></script>
 
 <script src="../js/script.js"></script>
 </body>
