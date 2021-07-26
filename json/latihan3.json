@@ -91,10 +91,11 @@
 },{
     "soal9": {
         "soal": "Kapasitor terpasang seperti gambar di bawah.<br><img class='gmb' src='../../img/kapasitor10.png'> <br> Jika muatan yang tersimpan pada C3 adalah 540 μC , maka: <br>1) Muatan yang tersimpan C1 = 240 μC<br>2) Beda potensial ujung-ujung C2 = 60 V<br>3) Beda potensial AB = 60 V<br>4) Jumlah muatan total = 360 μC<br>Pernyataan yang benar adalah ...",
-        "a": "a. \\(2 \\times 10^{-7}\\) C",
-        "b": "b. \\(4 \\times 10^{-7}\\) C",
-        "c": "c. \\(20 \\times 10^{-7}\\) C",
-        "d": "d. \\(14 \\times 10^{-7}\\) C",
+        "a": "a. 1, 2, 3 dan 4",
+        "b": "b. 1, 2 dan 3",
+        "c": "c. 1 dan 3",
+        "d": "d. 2 dan 4",
+        "e": "e. 4",
         "benar": "b"
     }
 }]
