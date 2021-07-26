@@ -26,42 +26,41 @@
     <script src="../../js/tutorial.js"></script>
 </head>
 
-<body>
+<body>	
 
 <div class="headermenu2">
-        <img class="headerkuis" src="../../img/kuis1.png">
-</div>
-
-<div class="headermenu">
-        <img class="headerkuis" src="../../img/kuis1.png">
+        <img class="headerkuis1" src="../../img/kuis2.png">
 </div>
 	
-<div class="sidebar">
-  <div class="menu">
+<div class="headermenu">
+        <img class="headerkuis1" src="../../img/kuis2.png">
+</div>
 
+<div class="sidebar">
+    <div class="menu">
     <li class="sub">
-      <span class="tulis">Listrik Statis</span>
+    <span class="tulis">Listrik Statis</span>
     </li> 
 
     <li class="sub" id="home">
-      <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
+        <a href="../../index.html" class="btn"><i class="fa fa-home"></i>Home</a>
     </li> 
-    
+
     <li class="sub" id="listrik">
       <a href="#listrik" class="btn">A. Listrik Statis <i class="fas fa-caret-down"></i></a>
       <div class="pilih">
-      <a href="muatan_listrik.html#listrik">1. Muatan Listrik</a>
-      <a href="hukum_coulomb.html#listrik">2. Hukum Coulomb</a>
-      <a href="medanlistrik.html#listrik">3. Medan Listrik</a>
-      <a href="latihan1.html#listrik" class="active">Kuis 1</a>
+      <a href="../Materi1/muatan_listrik.html#listrik">1. Muatan Listrik</a>
+      <a href="../Materi1/hukum_coulomb.html#listrik">2. Hukum Coulomb</a>
+      <a href="../Materi1/medanlistrik.html#listrik">3. Medan Listrik</a>
+      <a href="../Materi1/latihan1.html#listrik">Kuis 1</a>
       </div>
     </li>
-      
-    <li class="sub" id="potensial">
+    
+  <li class="sub" id="potensial">
       <a href="#potensial" class="btn">B. Energi Potensial dan Potensial Listrik <i class="fas fa-caret-down"></i></a>
       <div class="pilih">
       <a onclick="materi2()">1. Materi</a>
-      <a onclick="kuis2()">Kuis 2</a>
+      <a onclick="kuis2()" class="active">Kuis 2</a>
       </div>
     </li>
 
@@ -75,13 +74,12 @@
     </li>
 
     <li class="sub" id="evaluasi">
-      <!-- <a href="../evaluasi/evaluasi.html#evaluasi" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a> -->
       <a onclick="evaluasi()" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a>
+        <!-- <a href="../evaluasi/evaluasi.html" class="btn"><i class="fas fa-file-signature"></i>Evaluasi</a> -->
     </li>
-            
-  </div>
-</div>
 
+    </div>
+</div>
 
     <div class="full hilang"> <a href="">Mulai</a> </div>
             
@@ -133,9 +131,9 @@
                             <div class="lanjut">MULAI</div>
                         </div>
                     </div>
-                    
+
                     <!-- <div class="up hilang" id="up">
-                        <center><h1>Latihan 1</h1></center>
+                        <center><h1>Latihan 2</h1></center>
                         <hr>
                     </div> -->
 
@@ -206,7 +204,7 @@
                         <center>
                         <div class="skornya">
                             <br>
-                            <br>
+                            <!-- <h3>SKOR</h3> -->
                             <table class="t_hasil">
                                 <tr>
                                     <td class="ket_hasil">
@@ -281,14 +279,14 @@
                             <button class="tmbl" button onclick="location.href='latihan1.html'">Ulang Latihan</a></button>
                             <button class="tmbl" button onclick="location.href='muatan_listrik.html#listrik'">Pelajari Ulang Materi</a></button>
                         </div>
-                        
+
                         <button id="next" class="tmbl hilang" button onclick="location.href='../Materi2/potensial.html#potensial'">Materi Selanjutnya</button><br>
 
                         </div>
                     </center>
                     </div> 
 
-
+    
 <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
 
