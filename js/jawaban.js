@@ -56,7 +56,7 @@ function readlah() {
 
     let jwbfixx = [];
 
-    let jwb1 = ["c", "d", "b", "c", "c", "c", "a", "a", "b", "d"];
+    let jwb1 = ["c", "b", "e", "e", "c", "a", "b", "d", "d", "b"];
     if (kuisfix == "kuis1/") {
         let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb1.length; i++) {
@@ -67,7 +67,7 @@ function readlah() {
         jwbfixx = jwb1;
     }
 
-    let jwb2 = ["b", "c", "d", "c", "d", "d", "b", "d", "b", "a"];
+    let jwb2 = ["e", "a", "c", "d", "b", "d", "e", "a", "c", "b"];
     if (kuisfix == "kuis2/") {
         let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb2.length; i++) {
@@ -78,7 +78,7 @@ function readlah() {
         jwbfixx = jwb2;
     }
 
-    let jwb3 = ["a", "b", "b", "d", "a", "d", "a", "d", "a", "b"];
+    let jwb3 = ["a", "e", "d", "c", "c", "e", "d", "a", "b", "b"];
     if (kuisfix == "kuis3/") {
         let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < jwb3.length; i++) {
@@ -89,29 +89,29 @@ function readlah() {
         jwbfixx = jwb3;
     }
 
-    let jwb4 = ["a", "b", "d", "d", "a", "b", "a", "c", "c", "b"];
-    if (kuisfix == "kuis4/") {
-        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
-        for (let i = 0; i < jwb4.length; i++) {
-            hhh += `<td class="table-info"> ${jwb4[i]}</td>`;
-        }
-        hhh += `</tr>`;
-        tmp.innerHTML += hhh;
-        jwbfixx = jwb4;
-    }
+    // let jwb4 = ["a", "b", "d", "d", "a", "b", "a", "c", "c", "b"];
+    // if (kuisfix == "kuis4/") {
+    //     let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
+    //     for (let i = 0; i < jwb4.length; i++) {
+    //         hhh += `<td class="table-info"> ${jwb4[i]}</td>`;
+    //     }
+    //     hhh += `</tr>`;
+    //     tmp.innerHTML += hhh;
+    //     jwbfixx = jwb4;
+    // }
 
-    let jwb5 = ["b", "d", "a", "c", "d", "c", "c", "b", "a", "c"];
-    if (kuisfix == "kuis5/") {
-        let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
-        for (let i = 0; i < jwb5.length; i++) {
-            hhh += `<td class="table-info"> ${jwb5[i]}</td>`;
-        }
-        hhh += `</tr>`;
-        tmp.innerHTML += hhh;
-        jwbfixx = jwb5;
-    }
+    // let jwb5 = ["b", "d", "a", "c", "d", "c", "c", "b", "a", "c"];
+    // if (kuisfix == "kuis5/") {
+    //     let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
+    //     for (let i = 0; i < jwb5.length; i++) {
+    //         hhh += `<td class="table-info"> ${jwb5[i]}</td>`;
+    //     }
+    //     hhh += `</tr>`;
+    //     tmp.innerHTML += hhh;
+    //     jwbfixx = jwb5;
+    // }
 
-    let evaluasi = ["c", "b", "a", "b", "b", "a", "d", "b", "a", "c", "d", "c", "a", "b", "a", "b", "c", "c", "d", "d"];
+    let evaluasi = ["c", "b", "a", "c", "b", "a", "e", "c", "e", "c", "b", "c", "a", "d", "a", "d", "c", "e", "c", "e"];
     if (kuisfix == "evaluasi/") {
         let hhh = `<tr><td class="table-info  tulis" colspan="2">Kunci Jawaban </td>`;
         for (let i = 0; i < evaluasi.length; i++) {
