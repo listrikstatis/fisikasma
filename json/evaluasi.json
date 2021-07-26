@@ -141,21 +141,21 @@
 },{
     "soal14": {
         "soal": "Bola A dan Bola B masing-masing muatan 10 C dan 30 C. Jarak antarbola adalah 3 m. Jika kedua bola tersebut berada di udara maka ...",
-        "a": "a. E<sub>p</sub> bola B \\(9 \\times 10^{11}\\) joule",
-        "b": "b. E<sub>p</sub> bola B \\(3 \\times 10^{11}\\) joule",
-        "c": "c. E<sub>p</sub> bola A \\(9 \\times 10^{10}\\) joule",
-        "d": "d. E<sub>p</sub> bola A : E<sub>p</sub> bola B = 1:3",
-        "e": "e. E<sub>p</sub> bola B = E<sub>p</sub> bola A",
+        "a": "a. \\(E_p\\) bola B \\(9 \\times 10^{11}\\) joule",
+        "b": "b. \\(E_p\\) bola B \\(3 \\times 10^{11}\\) joule",
+        "c": "c. \\(E_p\\) bola A \\(9 \\times 10^{10}\\) joule",
+        "d": "d. \\(E_p\\) bola A : \\(E_p\\) bola B = 1:3",
+        "e": "e. \\(E_p\\) bola B = \\(E_p\\) bola A",
         "benar": "a"
     }
 },{
     "soal15": {
         "soal": "Tiga kapasitor A, B, dan C masing-masing berkapasitas 4F, 6F, dan 12F disusun seri kemudian dihubungkan dengan tegangan 90V. Apabila muatan listrik masing-masing kapasitor Q<sub>A</sub>, Q<sub>B</sub>, dan Q<sub>C</sub> maka …",
-        "a": "a. Q<sub>C</sub> = 3 × Q<sub>A</sub> ",
-        "b": "b. Q<sub>A</sub> < Q<sub>B</sub> < Q<sub>C</sub>",
-        "c": "c. Q<sub>C</sub> = 1/3 × Q<sub>A</sub>",
-        "d": "d. Q<sub>A</sub> = Q<sub>B</sub> = Q<sub>C</sub>",
-        "e": "e. Q<sub>B</sub> = 0",
+        "a": "a. \\(Q_C\\) = \\(3 \\times Q_A\\) ",
+        "b": "b. \\(Q_A\\) < \\(Q_B\\) < \\(Q_C\\)",
+        "c": "c. \\(Q_C\\) = \\(1/3 \\times Q_A\\)",
+        "d": "d. \\(Q_A\\) = \\(Q_B\\) = \\(Q_C\\)",
+        "e": "e. \\(Q_B\\) = 0",
         "benar": "d"
     }
 },{
