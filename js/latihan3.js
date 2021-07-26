@@ -115,6 +115,7 @@ selanjutnya.addEventListener('click', function () {
         alert("Data masih kosong, Lengkapi dulu data anda")
     }
 
+    MathJax.typeset();
 });
 
 // -----------------------------------------------------------------------------------------

@@ -114,7 +114,8 @@ selanjutnya.addEventListener('click', function () {
     } else if (cek1 == 0 && cek2 == 0 && cek3 == 0){
         alert("Data masih kosong, Lengkapi dulu data anda")
     }
-
+    
+    MathJax.typeset();
 });
 
 // -----------------------------------------------------------------------------------------
